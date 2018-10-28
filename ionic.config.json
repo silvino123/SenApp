@@ -1,0 +1,7 @@
+{
+  "name": "senapp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
