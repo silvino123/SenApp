@@ -1,6 +1,6 @@
 import { Component ,NgZone,Injectable} from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-//import fire from 'firebase';
+
 import { Letras } from '../../app/models/Letras';
 import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument } from '@angular/fire/firestore';
 
@@ -21,22 +21,16 @@ import { map } from 'rxjs/operators';
   templateUrl: 'abc.html',
 })
 export class AbcPage {
-  //letra = {} as Letras;
-  //letras = [];
-  productsCollection: AngularFirestoreCollection<Letras>;
-  products: Observable<Letras[]>;
-  productDoc: AngularFirestoreDocument<Letras>;
   
- // firestone= fire.storage();
-  //imagesource : any;
+  LetrasCollection: AngularFirestoreCollection<Letras>;
+  LetrasArray: Observable<Letras[]>;
+  productDoc: AngularFirestoreDocument<Letras>;
+ 
+ 
   constructor(public navCtrl: NavController, public navParams: NavParams,public zone:NgZone,public db: AngularFirestore) {
-  /*   this.firestone.ref().child('Abecedario').getDownloadURL().then((url)=>{
-      this.zone.run(()=>{
-        this.imagesource=url;
-      })
-    }); */
-    this.productsCollection = this.db.collection('abc');
-    this.products = this.productsCollection.snapshotChanges().pipe(map(actions => {
+ 
+    this.LetrasCollection = this.db.collection('abc');
+    this.LetrasArray = this.LetrasCollection.snapshotChanges().pipe(map(actions => {
       return actions.map(a => {
         const data = a.payload.doc.data() as Letras;
         data.id = a.payload.doc.id;
@@ -45,8 +39,5 @@ export class AbcPage {
     }));
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad AbcPage');
-  }
-
+  
 }

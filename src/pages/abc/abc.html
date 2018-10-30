@@ -17,21 +17,21 @@
 
 <br>
 <ion-content padding>
-  <ion-slides effect="cube" pager>
+  <ion-slides effect="cube" >
    
-    <ion-slide *ngFor="let p of products| async">
+    <ion-slide *ngFor="let p of LetrasArray| async">
       <ion-card >
         
-        <ion-card-content>
-          <ion-card-title style="background-color:#90caf9">
-           <h1>{{ p.letra }}</h1>
-            </ion-card-title>
-            {{ p.imagen }}
+        <ion-card-content >
+            <img  src="https://firebasestorage.googleapis.com/v0/b/senapp-d0e0f.appspot.com/o/Abecedario%2F{{p.imagen}}?alt=media&token=c021dfb0-59ea-45a1-8025-ab22000a7131"/> 
+          
         </ion-card-content>
+        <ion-card-title style="background-color:#90caf9">
+            <h1>{{ p.letra }}</h1>
+             </ion-card-title>
       </ion-card>
     </ion-slide>
    
-  
   </ion-slides> 
-  
+  <br>
 </ion-content>
