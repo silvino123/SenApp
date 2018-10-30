@@ -15,33 +15,22 @@
 
 </ion-header>
 
-
+<br>
 <ion-content padding>
   <ion-slides effect="cube" pager>
    
-    <ion-slide >
-      <ion-card>
-        <img src="assets/imgs/a.gif"/>
+    <ion-slide *ngFor="let p of products| async">
+      <ion-card >
+        
         <ion-card-content>
           <ion-card-title style="background-color:#90caf9">
-           <h1>A</h1>
+           <h1>{{ p.letra }}</h1>
             </ion-card-title>
-           
+            {{ p.imagen }}
         </ion-card-content>
       </ion-card>
     </ion-slide>
    
-    <ion-slide >
-       <ion-card>
-      <img src="assets/imgs/b.gif"/>
-      <ion-card-content>
-        <ion-card-title style="background-color:#90caf9">
-          B
-          </ion-card-title>
-        
-      </ion-card-content>
-    </ion-card>
-    </ion-slide>
   
   </ion-slides> 
   
