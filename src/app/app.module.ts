@@ -2,15 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 // FIRESTORE
-import { AngularFireModule ,FirebaseStorage} from '@angular/fire';
+import { AngularFireModule} from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import{AbcPage}from '../pages/abc/abc';
 import{NumerosPage} from '../pages/numeros/numeros';
+import {ExamenPage} from '../pages/examen/examen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+//import { from } from 'rxjs';
 var config = {
   apiKey: "AIzaSyCfu5Zuq8Ut87PtyP-lHwp1eTwC3NfbpWM",
   authDomain: "senapp-d0e0f.firebaseapp.com",
@@ -25,7 +27,8 @@ var config = {
     HomePage,
     ListPage,
     AbcPage,
-    NumerosPage
+    NumerosPage,
+    ExamenPage
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,8 @@ var config = {
     HomePage,
     ListPage,
     AbcPage,
-    NumerosPage
+    NumerosPage,
+    ExamenPage
   ],
   providers: [
     StatusBar,

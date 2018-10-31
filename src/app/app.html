@@ -6,10 +6,24 @@
   </ion-header>
 
   <ion-content>
-    <ion-list>
+  <!--   <ion-list>
       <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
         {{p.title}}
       </button>
+    </ion-list> -->
+    <ion-list>
+      <button menuClose ion-item  (click)="openPage()">
+        <ion-icon name="home"></ion-icon>
+        Home
+      </button>
+      <button menuClose ion-item  (click)="openPageList()">
+        <ion-icon name="game-controller-a"></ion-icon>
+        Juegos
+      </button>
+      <button menuClose ion-item  (click)="openPagexamen()">
+          <ion-icon name="paper"></ion-icon>
+          Examen
+        </button>
     </ion-list>
   </ion-content>
 
