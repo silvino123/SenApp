@@ -4,3 +4,10 @@ export interface Letras {
     imagen?: string;
     
   }
+
+  export interface Numeros {
+    id?: string;
+    numero?: string;
+    imagen?: string;
+    
+  }
