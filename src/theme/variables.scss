@@ -59,7 +59,10 @@ $colors: (
   height:100px;
   width: 200px;
 }
-
+.my-checkbox {
+  display: flex;
+  align-items: center;
+}
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
