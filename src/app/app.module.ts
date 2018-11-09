@@ -19,7 +19,8 @@ var config = {
   authDomain: "senapp-d0e0f.firebaseapp.com",
   databaseURL: "https://senapp-d0e0f.firebaseio.com",
   projectId: "senapp-d0e0f",
-  storageBucket: "senapp-d0e0f.appspot.com",
+ // storageBucket: "senapp-d0e0f.appspot.com",
+ storageBucket: "senapp2-611c8.appspot.com",
   messagingSenderId: "285210696870"
 };
 @NgModule({

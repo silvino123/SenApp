@@ -23,9 +23,10 @@ export class JuegoAbcPage {
   }
   showToast(position: string) {
     let toast = this.toastCtrl.create({
-      message: 'Respuesta Correcta',
-      duration: 2000,
+      message: 'Respuesta correcta !!',
+      duration: 1000,
       position: position
+      
     });
 
     toast.present(toast);
