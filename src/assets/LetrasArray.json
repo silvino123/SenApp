@@ -1,0 +1,152 @@
+{
+
+"LetrasArray":[
+{
+    "letra":"A",
+    "imagen":"a.gif"
+    
+},
+
+{
+    "letra":"B",
+    "imagen":"b.gif"
+    
+},
+{
+    "letra":"C",
+    "imagen":"c.gif"
+    
+},
+{
+    "letra":"D",
+    "imagen":"d.gif"
+    
+},
+{
+    "letra":"E",
+    "imagen":"e.gif"
+    
+},
+{
+    "letra":"F",
+    "imagen":"f.gif"
+    
+},
+{
+    "letra":"G",
+    "imagen":"g.gif"
+    
+},
+{
+    "letra":"H",
+    "imagen":"h.gif"
+    
+},
+{
+    "letra":"I",
+    "imagen":"i.gif"
+    
+},
+{
+    "letra":"J",
+    "imagen":"j.gif"
+    
+},
+{
+    "letra":"K",
+    "imagen":"k.gif"
+    
+},
+{
+    "letra":"L",
+    "imagen":"l.gif"
+    
+},
+{
+    "letra":"LL",
+    "imagen":"ll.gif"
+    
+},
+{
+    "letra":"M",
+    "imagen":"m.gif"
+    
+},
+{
+    "letra":"N",
+    "imagen":"n.gif"
+    
+},
+{
+    "letra":"Ñ",
+    "imagen":"ñ.gif"
+    
+},
+{
+    "letra":"O",
+    "imagen":"o.gif"
+    
+},
+{
+    "letra":"P",
+    "imagen":"p.gif"
+    
+},
+{
+    "letra":"Q",
+    "imagen":"q.gif"
+    
+},
+{
+    "letra":"R",
+    "imagen":"r.gif"
+    
+},
+{
+    "letra":"RR",
+    "imagen":"rr.gif"
+    
+},
+{
+    "letra":"S",
+    "imagen":"s.gif"
+    
+},
+{
+    "letra":"T",
+    "imagen":"t.gif"
+    
+},
+{
+    "letra":"U",
+    "imagen":"u.gif"
+    
+},
+{
+    "letra":"V",
+    "imagen":"v.gif"
+    
+},
+{
+    "letra":"W",
+    "imagen":"w.gif"
+    
+},
+{
+    "letra":"X",
+    "imagen":"x.gif"
+    
+},
+{
+    "letra":"Y",
+    "imagen":"y.gif"
+    
+},
+{
+    "letra":"Z",
+    "imagen":"z.gif"
+    
+}
+]
+
+}

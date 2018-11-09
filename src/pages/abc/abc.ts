@@ -1,11 +1,14 @@
-import { Component ,NgZone,Injectable} from '@angular/core';
+import { Component ,NgZone,Injectable, Inject,OnInit} from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { HttpClient} from '@angular/common/http';
 import { Letras } from '../../app/models/Letras';
-import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument } from '@angular/fire/firestore';
+import {DOCUMENT}from '@angular/common';
 
-import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+//import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument } from '@angular/fire/firestore';
+//import { from } from 'rxjs';
+
+//import { Observable } from 'rxjs';
+//import { map } from 'rxjs/operators';
 /**
  * Generated class for the AbcPage page.
  *
@@ -20,24 +23,28 @@ import { map } from 'rxjs/operators';
   selector: 'page-abc',
   templateUrl: 'abc.html',
 })
-export class AbcPage {
+export class AbcPage implements OnInit {
   
-  LetrasCollection: AngularFirestoreCollection<Letras>;
+  /* LetrasCollection: AngularFirestoreCollection<Letras>;
   LetrasArray: Observable<Letras[]>;
-  productDoc: AngularFirestoreDocument<Letras>;
+  productDoc: AngularFirestoreDocument<Letras>; */
+  LetrasArray:Letras[]=[];
  
- 
-  constructor(public navCtrl: NavController, public navParams: NavParams,public zone:NgZone,public db: AngularFirestore) {
- 
-    this.LetrasCollection = this.db.collection('abc');
+  constructor(public navCtrl: NavController, public navParams: NavParams,public zone:NgZone,private http:HttpClient,@Inject(DOCUMENT) private document) {
+    
+    /* this.LetrasCollection = this.db.collection('abc');
     this.LetrasArray = this.LetrasCollection.snapshotChanges().pipe(map(actions => {
       return actions.map(a => {
         const data = a.payload.doc.data() as Letras;
         data.id = a.payload.doc.id;
          return data;
       });
-    }));
+    })); */
   }
 
-  
+  ngOnInit(){
+    this.http.get('assets/LetrasArray.json').subscribe((res:any)=>{
+      this.LetrasArray=res.LetrasArray
+    });
+  }
 }
