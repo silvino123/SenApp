@@ -16,16 +16,16 @@
   </ion-header>
   
   <br>
-  <ion-content padding>
-    <ion-slides effect="cube" >
+  <ion-content padding style="height: 90%">
+    <ion-slides effect="slide" >
      
       <ion-slide *ngFor="let item of NumerosArray">
-        <ion-card >
+        <ion-card style="align-items: center" >
           
           <ion-card-content >
             
           <!-- <img style="height: 400px" src="https://firebasestorage.googleapis.com/v0/b/senapp-d0e0f.appspot.com/o/Numeros%2F{{item.imagen}}?alt=media&token=d5de352f-6856-4a50-af33-36534aead711"> -->
-          <img style="height: 400px" src="assets/Numeros/{{item.imagen}}">
+          <img style="height: 500px; width: 390px" src="assets/Numeros/{{item.imagen}}">
           </ion-card-content>
           <ion-card-title style="background-color:#90caf9">
               <h1>{{ item.numero }}</h1>
