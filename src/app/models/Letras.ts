@@ -11,3 +11,13 @@ export interface Letras {
     imagen?: string;
     
   }
+
+  export interface JuegoLetras {
+   
+    letra?: string;
+    imagen?: string;
+    respuesta1?:string;
+    respuesta2?:string;
+    respuesta3?:string;
+    
+  }

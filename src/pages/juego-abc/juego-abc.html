@@ -14,8 +14,8 @@
 </ion-header>
 
 
-<ion-content padding>
-  <ion-card >
+<ion-content>
+  <ion-card padding >
      <ion-list>
        <ion-item color="azul">
         <ion-col text-center>
@@ -35,7 +35,7 @@
        </ion-item>
      </ion-list>
      
-    <img src="assets/imgs/a.gif" style="height: 300px"/>
+    <img src="assets/Abecedario/{{activarLetras.imagen}}" style="height: 300px"/>
 
     <ion-card-content>
       <ion-card-title>
@@ -45,19 +45,19 @@
             <ion-col>
               <button ion-button clear small color="danger" icon-start>
                 <ion-radio  value="A" color="secondary"></ion-radio>&nbsp;
-              &nbsp; <h1 style="color:#488aff">A</h1> 
+              &nbsp; <h1 style="color:#488aff">{{activarLetras.respuesta1}}</h1> 
               </button>
             </ion-col>
             <ion-col text-center>
               <button ion-button clear small color="danger" icon-start>
                 <ion-radio  value="M" color="secondary"></ion-radio>&nbsp;
-                  &nbsp; <h1 style="color:#488aff">M</h1>
+                  &nbsp; <h1 style="color:#488aff">{{activarLetras.respuesta2}}</h1>
               </button>
             </ion-col>
             <ion-col text-right>
               <button ion-button clear small color="danger" icon-start>
                 <ion-radio  value="E" color="secondary"></ion-radio>&nbsp;
-                  &nbsp; <h1 style="color:#488aff">E</h1>
+                  &nbsp; <h1 style="color:#488aff">{{activarLetras.respuesta3}}</h1>
               </button>
             </ion-col>
             </ion-list>
@@ -69,6 +69,6 @@
     </ion-card-content>
   
   </ion-card>
-   <button ion-button color="danger" outline block (click)="showToast('top')">Siguiente >></button>
+   <button ion-button color="danger" outline block (click)="siguiente()">Siguiente >></button>
   
 </ion-content>

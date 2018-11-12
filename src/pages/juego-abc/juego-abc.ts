@@ -1,6 +1,9 @@
-import { Component } from '@angular/core';
+import { Component ,Inject,OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams,ToastController } from 'ionic-angular';
-
+import { HttpClient} from '@angular/common/http';
+import { JuegoLetras } from '../../app/models/Letras';
+import {DOCUMENT}from '@angular/common';
+import{DomController  } from'@ionic/angular'
 /**
  * Generated class for the JuegoAbcPage page.
  *
@@ -13,23 +16,29 @@ import { IonicPage, NavController, NavParams,ToastController } from 'ionic-angul
   selector: 'page-juego-abc',
   templateUrl: 'juego-abc.html',
 })
-export class JuegoAbcPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams,public toastCtrl: ToastController) {
+export class JuegoAbcPage implements OnInit {
+public  LetrasArray:JuegoLetras[]=[];
+ public activarLetras:JuegoLetras;
+  
+  constructor(private domCtrl:DomController, public navCtrl: NavController, public navParams: NavParams,public toastCtrl: ToastController,private http:HttpClient,@Inject(DOCUMENT) private document) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad JuegoAbcPage');
-  }
-  showToast(position: string) {
-    let toast = this.toastCtrl.create({
-      message: 'Respuesta correcta !!',
-      duration: 1000,
-      position: position
-      
+  
+  ngOnInit(){
+    this.http.get('assets/JuegoLetras.json').subscribe((res:any)=>{
+      this.LetrasArray=res.LetrasArray;
+      this.siguiente();
     });
+  }
+  siguiente() {
+    if(this.LetrasArray.length>0){
 
-    toast.present(toast);
+      let selectLetra= Math.floor(Math.random()* this.LetrasArray.length);
+      this.activarLetras= this.LetrasArray[selectLetra];
+     
+    
+    }
+   
   }
 
 }

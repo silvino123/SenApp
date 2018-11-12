@@ -1,0 +1,237 @@
+{
+
+    "LetrasArray":[
+    {
+        "letra":"A",
+        "imagen":"a.gif",
+        "respuesta1":"M",
+        "respuesta2":"V",
+        "respuesta3":"A"
+    },
+    
+    {
+        "letra":"B",
+        "imagen":"b.gif",
+        "respuesta1":"B",
+        "respuesta2":"D",
+        "respuesta3":"H"
+    },
+    {
+        "letra":"C",
+        "imagen":"c.gif",
+        "respuesta1":"N",
+        "respuesta2":"V",
+        "respuesta3":"C"
+        
+    },
+    {
+        "letra":"D",
+        "imagen":"d.gif",
+        "respuesta1":"D",
+        "respuesta2":"U",
+        "respuesta3":"W"
+        
+    },
+    {
+        "letra":"E",
+        "imagen":"e.gif",
+        "respuesta1":"S",
+        "respuesta2":"E",
+        "respuesta3":"A"
+        
+    },
+    {
+        "letra":"F",
+        "imagen":"f.gif",
+        "respuesta1":"F",
+        "respuesta2":"C",
+        "respuesta3":"Y"
+        
+    },
+    {
+        "letra":"G",
+        "imagen":"g.gif",
+        "respuesta1":"Z",
+        "respuesta2":"L",
+        "respuesta3":"G"
+        
+    },
+    {
+        "letra":"H",
+        "imagen":"h.gif",
+        "respuesta1":"O",
+        "respuesta2":"H",
+        "respuesta3":"P"
+        
+    },
+    {
+        "letra":"I",
+        "imagen":"i.gif",
+        "respuesta1":"I",
+        "respuesta2":"F",
+        "respuesta3":"Q"
+        
+    },
+    {
+        "letra":"J",
+        "imagen":"j.gif",
+        "respuesta1":"LL",
+        "respuesta2":"Ñ",
+        "respuesta3":"J"
+        
+    },
+    {
+        "letra":"K",
+        "imagen":"k.gif",
+        "respuesta1":"I",
+        "respuesta2":"Y",
+        "respuesta3":"K"
+        
+    },
+    {
+        "letra":"L",
+        "imagen":"l.gif",
+        "respuesta1":"P",
+        "respuesta2":"L",
+        "respuesta3":"T"
+        
+    },
+    {
+        "letra":"LL",
+        "imagen":"ll.gif",
+        "respuesta1":"E",
+        "respuesta2":"LL",
+        "respuesta3":"M"
+        
+    },
+    {
+        "letra":"M",
+        "imagen":"m.gif",
+        "respuesta1":"K",
+        "respuesta2":"O",
+        "respuesta3":"M"
+        
+    },
+    {
+        "letra":"N",
+        "imagen":"n.gif",
+        "respuesta1":"Ñ",
+        "respuesta2":"M",
+        "respuesta3":"N"
+        
+    },
+    {
+        "letra":"Ñ",
+        "imagen":"ñ.gif",
+        "respuesta1":"L",
+        "respuesta2":"Ñ",
+        "respuesta3":"E"
+        
+    },
+    {
+        "letra":"O",
+        "imagen":"o.gif",
+        "respuesta1":"Z",
+        "respuesta2":"P",
+        "respuesta3":"O"
+        
+    },
+    {
+        "letra":"P",
+        "imagen":"p.gif",
+        "respuesta1":"P",
+        "respuesta2":"V",
+        "respuesta3":"A"
+        
+    },
+    {
+        "letra":"Q",
+        "imagen":"q.gif",
+        "respuesta1":"C",
+        "respuesta2":"D",
+        "respuesta3":"Q"
+        
+    },
+    {
+        "letra":"R",
+        "imagen":"r.gif",
+        "respuesta1":"R",
+        "respuesta2":"RR",
+        "respuesta3":"R"
+        
+    },
+    {
+        "letra":"RR",
+        "imagen":"rr.gif",
+        "respuesta1":"Ñ",
+        "respuesta2":"P",
+        "respuesta3":"RR"
+        
+    },
+    {
+        "letra":"S",
+        "imagen":"s.gif",
+        "respuesta1":"O",
+        "respuesta2":"D",
+        "respuesta3":"S"
+        
+    },
+    {
+        "letra":"T",
+        "imagen":"t.gif",
+        "respuesta1":"V",
+        "respuesta2":"E",
+        "respuesta3":"T"
+        
+    },
+    {
+        "letra":"U",
+        "imagen":"u.gif",
+        "respuesta1":"M",
+        "respuesta2":"V",
+        "respuesta3":"U"
+        
+    },
+    {
+        "letra":"V",
+        "imagen":"v.gif",
+        "respuesta1":"Ñ",
+        "respuesta2":"V",
+        "respuesta3":"Y"
+        
+    },
+    {
+        "letra":"W",
+        "imagen":"w.gif",
+        "respuesta1":"H",
+        "respuesta2":"A",
+        "respuesta3":"W"
+        
+    },
+    {
+        "letra":"X",
+        "imagen":"x.gif",
+        "respuesta1":"P",
+        "respuesta2":"L",
+        "respuesta3":"X"
+        
+    },
+    {
+        "letra":"Y",
+        "imagen":"y.gif",
+        "respuesta1":"O",
+        "respuesta2":"Y",
+        "respuesta3":"E"
+        
+    },
+    {
+        "letra":"Z",
+        "imagen":"z.gif",
+        "respuesta1":"Z",
+        "respuesta2":"W",
+        "respuesta3":"U"
+        
+    }
+    ]
+    
+    }
