@@ -3,7 +3,7 @@ import { IonicPage, NavController, NavParams,ToastController } from 'ionic-angul
 import { HttpClient} from '@angular/common/http';
 import { JuegoLetras } from '../../app/models/Letras';
 import {DOCUMENT}from '@angular/common';
-import{DomController  } from'@ionic/angular'
+
 /**
  * Generated class for the JuegoAbcPage page.
  *
@@ -20,7 +20,7 @@ export class JuegoAbcPage implements OnInit {
 public  LetrasArray:JuegoLetras[]=[];
  public activarLetras:JuegoLetras;
   
-  constructor(private domCtrl:DomController, public navCtrl: NavController, public navParams: NavParams,public toastCtrl: ToastController,private http:HttpClient,@Inject(DOCUMENT) private document) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,public toastCtrl: ToastController,private http:HttpClient,@Inject(DOCUMENT) private document) {
   }
 
   
