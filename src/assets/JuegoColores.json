@@ -1,0 +1,144 @@
+{
+
+    "ColoresArray":[
+    {
+        "Color":"Amarillo",
+        "imagen":"Amarillo.gif",
+        "respuesta1":"Azul",
+        "respuesta2":"Rojo",
+        "respuesta3":"Amarillo"
+        
+    },
+    
+    {
+        "Color":"Azul",
+        "imagen":"Azul.gif",
+        "respuesta1":"Verde",
+        "respuesta2":"Azul",
+        "respuesta3":"Plata"
+        
+    },
+    {
+        "Color":"Blanco",
+        "imagen":"Blanco.gif",
+        "respuesta1":"Rosa",
+        "respuesta2":"Verde",
+        "respuesta3":"Blanco"
+        
+    },
+    {
+        "Color":"Cafe",
+        "imagen":"Cafe.gif",
+        "respuesta1":"Cafe",
+        "respuesta2":"Claro",
+        "respuesta3":"Gris"
+        
+    },
+    {
+        "Color":"Claro",
+        "imagen":"Claro.gif",
+        "respuesta1":"Claro",
+        "respuesta2":"Negro",
+        "respuesta3":"Azul"
+        
+    },
+    {
+        "Color":"Color",
+        "imagen":"Color.gif",
+        "respuesta1":"Verde",
+        "respuesta2":"Rojo",
+        "respuesta3":"Color"
+        
+    },
+    {
+        "Color":"Dorado",
+        "imagen":"Dorado.gif",
+        "respuesta1":"Dorado",
+        "respuesta2":"Naranja",
+        "respuesta3":"Oro"
+        
+    },
+    {
+        "Color":"Gris",
+        "imagen":"Gris.gif",
+        "respuesta1":"Azul",
+        "respuesta2":"Negro",
+        "respuesta3":"Gris"
+        
+    },
+    {
+        "Color":"Morado",
+        "imagen":"Morado.gif",
+        "respuesta1":"Verde",
+        "respuesta2":"Morado",
+        "respuesta3":"Rojo"
+        
+    },
+    {
+        "Color":"Naranja",
+        "imagen":"Naranja.gif",
+        "respuesta1":"Color",
+        "respuesta2":"Cafe",
+        "respuesta3":"Naranja"
+        
+    },
+    {
+        "Color":"Negro",
+        "imagen":"Negro.gif",
+        "respuesta1":"Negro",
+        "respuesta2":"Amarillo",
+        "respuesta3":"Cafe"
+        
+    },
+    {
+        "Color":"Oro",
+        "imagen":"Oro.gif",
+        "respuesta1":"Oscuro",
+        "respuesta2":"Oro",
+        "respuesta3":"Blanco"
+        
+    },
+    {
+        "Color":"Oscuro",
+        "imagen":"Oscuro.gif",
+        "respuesta1":"Amarillo",
+        "respuesta2":"Rojo",
+        "respuesta3":"Oscuro"
+        
+    },
+    {
+        "Color":"Plata",
+        "imagen":"Plata.gif",
+        "respuesta1":"Azul",
+        "respuesta2":"Plata",
+        "respuesta3":"Verde"
+        
+    },
+    {
+        "Color":"Rojo",
+        "imagen":"Rojo.gif",
+        "respuesta1":"Rosa",
+        "respuesta2":"Plata",
+        "respuesta3":"Rojo"
+        
+    },
+    {
+        "Color":"Rosa",
+        "imagen":"Rosa.gif",
+        "respuesta1":"Azul",
+        "respuesta2":"Rosa",
+        "respuesta3":"Blanco"
+        
+    },
+    {
+        "Color":"Verde",
+        "imagen":"Verde.gif",
+        "respuesta1":"Verde",
+        "respuesta2":"Rojo",
+        "respuesta3":"Morado"
+        
+    }
+    
+    ]
+    
+    }
