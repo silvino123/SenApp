@@ -24,6 +24,7 @@ public  LetrasArray:JuegoLetras[]=[];
  public n: number = 0;
  public vidas:number=3;
   respuesta:any;
+
  
   constructor(public  alertCtrl:AlertController, public navCtrl: NavController, public navParams: NavParams,public toastCtrl: ToastController,private http:HttpClient,@Inject(DOCUMENT) private document) {
   
@@ -43,8 +44,8 @@ public  LetrasArray:JuegoLetras[]=[];
   ngOnInit(){
     this.http.get('assets/JuegoLetras.json').subscribe((res:any)=>{
       this.LetrasArray=res.LetrasArray;
-
-     this.load();
+      this.load();
+    
      
     });
  
@@ -53,7 +54,7 @@ public  LetrasArray:JuegoLetras[]=[];
    if(this.LetrasArray.length>0){
       
     
-     let  selectLetra= Math.floor(Math.random()* this.LetrasArray.length);
+       let selectLetra= Math.floor(Math.random()* this.LetrasArray.length);
       
       this.activarLetras= this.LetrasArray[selectLetra];
       this.n  = this.n + 1;
@@ -75,19 +76,21 @@ public  LetrasArray:JuegoLetras[]=[];
     else{
     if(this.LetrasArray.length>0){
       
-     let selectLetra= Math.floor(Math.random()* this.LetrasArray.length);
-        
-      this.activarLetras= this.LetrasArray[selectLetra];
-      this.n  = this.n + 1;
+   
+     
       this.vidas  = this.vidas;
-      if(this.respuesta==this.activarLetras.letra ){
+      if(this.respuesta==this.activarLetras.letra){
         const toast = this.toastCtrl.create({
           message: 'Respuesta Correcta'+ this.respuesta+ this.activarLetras.letra,
           duration: 600,
           position:'top'
         });
         toast.present();
+        let selectLetra= Math.floor(Math.random()* this.LetrasArray.length);
         
+        this.activarLetras= this.LetrasArray[selectLetra];
+        this.respuesta= false;
+        this.n  = this.n + 1;
       }
       else{
         const toast = this.toastCtrl.create({
@@ -96,8 +99,12 @@ public  LetrasArray:JuegoLetras[]=[];
           position:'top'
         });
         toast.present();
+        
         this.vidas  = this.vidas-1;
         this.respuesta= false;
+        let selectLetra= Math.floor(Math.random()* this.LetrasArray.length);
+        
+        this.activarLetras= this.LetrasArray[selectLetra];
       }
       if(this.n>10 && this.vidas!=0){
         const alert = this.alertCtrl.create({
