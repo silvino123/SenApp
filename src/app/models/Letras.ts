@@ -12,6 +12,12 @@ export interface Letras {
     
   }
 
+  export interface Colores {
+    id?: string;
+    Color?: string;
+    imagen?: string;
+    
+  }
   export interface JuegoLetras {
    
     letra?: string;
