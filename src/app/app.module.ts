@@ -13,6 +13,7 @@ import{NumerosPage} from '../pages/numeros/numeros';
 import {ExamenPage} from '../pages/examen/examen';
 import{ JuegoAbcPage }from '../pages/juego-abc/juego-abc';
 import {JuegonumerosPage} from '../pages/juegonumeros/juegonumeros';
+import {JuegoColoresPage} from '../pages/juego-colores/juego-colores';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { from } from 'rxjs';
@@ -36,7 +37,8 @@ import { from } from 'rxjs';
     NumerosPage,
     ExamenPage,
     JuegoAbcPage,
-    JuegonumerosPage
+    JuegonumerosPage,
+    JuegoColoresPage
   ],
   imports: [
     BrowserModule,
@@ -54,7 +56,8 @@ import { from } from 'rxjs';
     NumerosPage,
     ExamenPage,
     JuegoAbcPage,
-    JuegonumerosPage
+    JuegonumerosPage,
+    JuegoColoresPage
   ],
   providers: [
     StatusBar,

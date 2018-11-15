@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import {JuegoAbcPage} from '../../pages/juego-abc/juego-abc';
 import {JuegonumerosPage} from '../../pages/juegonumeros/juegonumeros';
+import {JuegoColoresPage} from '../../pages/juego-colores/juego-colores';
 import { from } from 'rxjs';
 import { NumerosPage } from '../numeros/numeros';
 @Component({
@@ -26,5 +27,8 @@ this.navCtrl.setRoot(JuegoAbcPage);
   }
   redirectJuegoNumeros(){
     this.navCtrl.setRoot(JuegonumerosPage);
+      }
+      redirectJuegoColores(){
+        this.navCtrl.setRoot(JuegoColoresPage);
       }
 }
