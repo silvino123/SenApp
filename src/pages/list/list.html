@@ -90,9 +90,9 @@
       </ion-thumbnail>
     <ion-item color="azul2">
       <h2>Abecedario</h2>
-      <button ion-button item-end clear small color="secondary" icon-start>
+      <button ion-button item-end clear small color="danger" icon-start>
         <ion-icon name='star'></ion-icon>
-        10/10
+        0/10
       </button>
     </ion-item>
     </ion-item>
@@ -102,7 +102,7 @@
 </ion-card>
 <ion-card>
   <ion-list>
-    <ion-item>
+    <ion-item (click)="redirectJuegoNumeros()">
       <ion-thumbnail item-start>
         <img src="assets/imgs/123.jpg">
       </ion-thumbnail>

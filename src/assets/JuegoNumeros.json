@@ -1,0 +1,229 @@
+{
+
+    "NumerosArray":[
+    {
+        "numero":"1",
+        "imagen":"1.gif",
+        "respuesta1":"2",
+        "respuesta2":"6",
+        "respuesta3":"1"
+    },
+    
+    {
+        "numero":"2",
+        "imagen":"2.gif",
+        "respuesta1":"2",
+        "respuesta2":"9",
+        "respuesta3":"14"
+    },
+    {
+        "numero":"3",
+        "imagen":"3.gif",
+        "respuesta1":"12",
+        "respuesta2":"9",
+        "respuesta3":"3"
+        
+    },
+    {
+        "numero":"4",
+        "imagen":"4.gif",
+        "respuesta1":"7",
+        "respuesta2":"4",
+        "respuesta3":"9"
+        
+    },
+    {
+        "numero":"5",
+        "imagen":"5.gif",
+        "respuesta1":"3",
+        "respuesta2":"5",
+        "respuesta3":"18"
+        
+    },
+    {
+        "numero":"6",
+        "imagen":"6.gif",
+        "respuesta1":"18",
+        "respuesta2":"20",
+        "respuesta3":"6"
+        
+    },
+    {
+        "numero":"7",
+        "imagen":"7.gif",
+        "respuesta1":"30",
+        "respuesta2":"7",
+        "respuesta3":"8"
+        
+    },
+    {
+        "numero":"8",
+        "imagen":"8.gif",
+        "respuesta1":"13",
+        "respuesta2":"60",
+        "respuesta3":"8"
+        
+    },
+    {
+        "numero":"9",
+        "imagen":"9.gif",
+        "respuesta1":"9",
+        "respuesta2":"17",
+        "respuesta3":"4"
+        
+    },
+    {
+        "numero":"10",
+        "imagen":"10.gif",
+        "respuesta1":"19",
+        "respuesta2":"10",
+        "respuesta3":"17"
+        
+    },
+    {
+        "numero":"11",
+        "imagen":"11.gif",
+        "respuesta1":"16",
+        "respuesta2":"80",
+        "respuesta3":"11"
+        
+    },
+    {
+        "numero":"12",
+        "imagen":"12.gif",
+        "respuesta1":"17",
+        "respuesta2":"90",
+        "respuesta3":"12"
+        
+    },
+    {
+        "numero":"13",
+        "imagen":"l3.gif",
+        "respuesta1":"23",
+        "respuesta2":"2",
+        "respuesta3":"13"
+        
+    },
+    {
+        "numero":"14",
+        "imagen":"14.gif",
+        "respuesta1":"5",
+        "respuesta2":"14",
+        "respuesta3":"1"
+        
+    },
+    {
+        "numero":"15",
+        "imagen":"15.gif",
+        "respuesta1":"10",
+        "respuesta2":"40",
+        "respuesta3":"15"
+        
+    },
+    {
+        "numero":"16",
+        "imagen":"16.gif",
+        "respuesta1":"9",
+        "respuesta2":"16",
+        "respuesta3":"30"
+        
+    },
+    {
+        "numero":"17",
+        "imagen":"17.gif",
+        "respuesta1":"100",
+        "respuesta2":"17",
+        "respuesta3":"14"
+        
+    },
+    {
+        "numero":"18",
+        "imagen":"18.gif",
+        "respuesta1":"10",
+        "respuesta2":"11",
+        "respuesta3":"18"
+        
+    },
+    {
+        "numero":"19",
+        "imagen":"19.gif",
+        "respuesta1":"30",
+        "respuesta2":"14",
+        "respuesta3":"19"
+        
+    },
+    {
+        "numero":"20",
+        "imagen":"20.gif",
+        "respuesta1":"30",
+        "respuesta2":"20",
+        "respuesta3":"10"
+        
+    },
+    {
+        "numero":"30",
+        "imagen":"30.gif",
+        "respuesta1":"3",
+        "respuesta2":"6",
+        "respuesta3":"30"
+        
+    },
+    {
+        "numero":"40",
+        "imagen":"40.gif",
+        "respuesta1":"14",
+        "respuesta2":"40",
+        "respuesta3":"11"
+        
+    },
+    {
+        "numero":"50",
+        "imagen":"50.gif",
+        "respuesta1":"30",
+        "respuesta2":"7",
+        "respuesta3":"50"
+        
+    },
+    {
+        "numero":"60",
+        "imagen":"60.gif",
+        "respuesta1":"60",
+        "respuesta2":"10",
+        "respuesta3":"100"
+        
+    },
+    {
+        "numero":"70",
+        "imagen":"70.gif",
+        "respuesta1":"18",
+        "respuesta2":"70",
+        "respuesta3":"13"
+        
+    },
+    {
+        "numero":"80",
+        "imagen":"80.gif",
+        "respuesta1":"90",
+        "respuesta2":"3",
+        "respuesta3":"2"
+        
+    },
+    {
+        "numero":"90",
+        "imagen":"90.gif",
+        "respuesta1":"7",
+        "respuesta2":"30",
+        "respuesta3":"90"
+        
+    },
+    {
+        "numero":"100",
+        "imagen":"100.gif",
+        "respuesta1":"100",
+        "respuesta2":"8",
+        "respuesta3":"2"
+        
+    }
+    ]
+    
+    }

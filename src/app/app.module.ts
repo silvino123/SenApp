@@ -11,7 +11,8 @@ import { ListPage } from '../pages/list/list';
 import{AbcPage}from '../pages/abc/abc';
 import{NumerosPage} from '../pages/numeros/numeros';
 import {ExamenPage} from '../pages/examen/examen';
-import{ JuegoAbcPage }from '../pages/juego-abc/juego-abc'
+import{ JuegoAbcPage }from '../pages/juego-abc/juego-abc';
+import {JuegonumerosPage} from '../pages/juegonumeros/juegonumeros';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -33,7 +34,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AbcPage,
     NumerosPage,
     ExamenPage,
-    JuegoAbcPage
+    JuegoAbcPage,
+    JuegonumerosPage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +52,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AbcPage,
     NumerosPage,
     ExamenPage,
-    JuegoAbcPage
+    JuegoAbcPage,
+    JuegonumerosPage
   ],
   providers: [
     StatusBar,

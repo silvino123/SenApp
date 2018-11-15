@@ -81,7 +81,7 @@ public  LetrasArray:JuegoLetras[]=[];
       this.vidas  = this.vidas;
       if(this.respuesta==this.activarLetras.letra){
         const toast = this.toastCtrl.create({
-          message: 'Respuesta Correcta'+ this.respuesta+ this.activarLetras.letra,
+          message: 'Respuesta Correcta',
           duration: 600,
           position:'top'
         });
@@ -94,7 +94,7 @@ public  LetrasArray:JuegoLetras[]=[];
       }
       else{
         const toast = this.toastCtrl.create({
-          message: 'Respuesta Incorrecta' + this.respuesta+ this.activarLetras.letra,
+          message: 'Respuesta Incorrecta',
           duration: 600,
           position:'top'
         });
