@@ -17,7 +17,7 @@ import {JuegoColoresPage} from '../pages/juego-colores/juego-colores';
 import{ColoresPage}from '../pages/colores/colores';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { from } from 'rxjs';
+//import { from } from 'rxjs';
 
 //import { from } from 'rxjs';
 /* var config = {
