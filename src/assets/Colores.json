@@ -1,0 +1,93 @@
+{
+
+    "ColoresArray":[
+    {
+        "Color":"Amarillo",
+        "imagen":"Amarillo.gif"
+        
+    },
+    
+    {
+        "Color":"Azul",
+        "imagen":"Azul.gif"
+        
+    },
+    {
+        "Color":"Blanco",
+        "imagen":"Blanco.gif"
+        
+    },
+    {
+        "Color":"Cafe",
+        "imagen":"Cafe.gif"
+        
+    },
+    {
+        "Color":"Claro",
+        "imagen":"Claro.gif"
+        
+    },
+    {
+        "Color":"Color",
+        "imagen":"Color.gif"
+        
+    },
+    {
+        "Color":"Dorado",
+        "imagen":"Dorado.gif"
+        
+    },
+    {
+        "Color":"Gris",
+        "imagen":"Gris.gif"
+        
+    },
+    {
+        "Color":"Morado",
+        "imagen":"Morado.gif"
+        
+    },
+    {
+        "Color":"Naranja",
+        "imagen":"Naranja.gif"
+        
+    },
+    {
+        "Color":"Negro",
+        "imagen":"Negro.gif"
+        
+    },
+    {
+        "Color":"Oro",
+        "imagen":"Oro.gif"
+        
+    },
+    {
+        "Color":"Oscuro",
+        "imagen":"Oscuro.gif"
+        
+    },
+    {
+        "Color":"Plata",
+        "imagen":"Plata.gif"
+        
+    },
+    {
+        "Color":"Rojo",
+        "imagen":"Rojo.gif"
+        
+    },
+    {
+        "Color":"Rosa",
+        "imagen":"Rosa.gif"
+        
+    },
+    {
+        "Color":"Verde",
+        "imagen":"Verde.gif"
+        
+    }
+    
+    ]
+    
+    }

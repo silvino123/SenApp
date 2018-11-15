@@ -1,0 +1,38 @@
+<!--
+  Generated template for the AbcPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="azul">
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Colores</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<br>
+<ion-content padding >
+  <ion-slides effect="slide" >
+   
+    <ion-slide *ngFor="let item of ColoresArray">
+      <ion-card style="align-items: center" >
+        
+        <ion-card-content >
+            <!-- <img style="height: 400px"  src="https://firebasestorage.googleapis.com/v0/b/senapp-d0e0f.appspot.com/o/Abecedario%2F{{item.imagen}}?alt=media&token=c021dfb0-59ea-45a1-8025-ab22000a7131"/>  -->
+            <img   style="height: 500px; width: 390px" src="assets/Colores/{{item.imagen}}" /> 
+          </ion-card-content>
+          <ion-card-title style="background-color:#90caf9">
+            <h1>{{ item.Color }}</h1>
+             </ion-card-title>
+      </ion-card>
+      
+    </ion-slide>
+   
+  </ion-slides> 
+  <br>
+</ion-content>
