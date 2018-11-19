@@ -10,10 +10,10 @@ import { NumerosPage } from '../numeros/numeros';
   templateUrl: 'list.html'
 })
 export class ListPage {
-  
+  public n: number=0;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    
+    this.n = navParams.get('n');
   }
 
   itemTapped(event, item) {

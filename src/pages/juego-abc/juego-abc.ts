@@ -113,7 +113,7 @@ public  LetrasArray:JuegoLetras[]=[];
           buttons: ['OK']
         });
         alert.present();
-        this.navCtrl.setRoot(ListPage);
+        this.navCtrl.setRoot(ListPage,{n:this.n});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
@@ -122,7 +122,7 @@ public  LetrasArray:JuegoLetras[]=[];
           buttons: ['OK']
         });
         alert.present();
-        this.navCtrl.setRoot(ListPage);
+        this.navCtrl.setRoot(ListPage,{n:this.n});
       }
     }
   }
