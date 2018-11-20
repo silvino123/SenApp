@@ -1,8 +1,8 @@
-import { Component ,Inject,OnInit } from '@angular/core';
+import { Component ,OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams,ToastController } from 'ionic-angular';
 import { HttpClient} from '@angular/common/http';
 import { JuegoLetras } from '../../app/models/Letras';
-import {DOCUMENT}from '@angular/common';
+//import {DOCUMENT}from '@angular/common';
 import { AlertController } from 'ionic-angular';
 import{ListPage} from '../../pages/list/list';
 //import { Observable } from 'rxjs';
@@ -26,7 +26,7 @@ public  LetrasArray:JuegoLetras[]=[];
   respuesta:any;
 
  
-  constructor(public  alertCtrl:AlertController, public navCtrl: NavController, public navParams: NavParams,public toastCtrl: ToastController,private http:HttpClient,@Inject(DOCUMENT) private document) {
+  constructor(public  alertCtrl:AlertController, public navCtrl: NavController, public navParams: NavParams,public toastCtrl: ToastController,private http:HttpClient) {
   
     this.respuesta= false;
     

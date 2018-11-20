@@ -1,8 +1,8 @@
-import { Component ,NgZone,Injectable, Inject,OnInit} from '@angular/core';
+import { Component ,NgZone,Injectable,OnInit} from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HttpClient} from '@angular/common/http';
 import { Letras } from '../../app/models/Letras';
-import {DOCUMENT}from '@angular/common';
+//import {DOCUMENT}from '@angular/common';
 
 //import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument } from '@angular/fire/firestore';
 //import { from } from 'rxjs';
@@ -30,7 +30,7 @@ export class AbcPage implements OnInit {
   productDoc: AngularFirestoreDocument<Letras>; */
   LetrasArray:Letras[]=[];
  
-  constructor(public navCtrl: NavController, public navParams: NavParams,public zone:NgZone,private http:HttpClient,@Inject(DOCUMENT) private document) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,public zone:NgZone,private http:HttpClient) {
     
     /* this.LetrasCollection = this.db.collection('abc');
     this.LetrasArray = this.LetrasCollection.snapshotChanges().pipe(map(actions => {

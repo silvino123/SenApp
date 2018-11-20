@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
 import { HttpClient} from '@angular/common/http';
 import { JuegoColores } from '../../app/models/Letras';
-import {DOCUMENT}from '@angular/common';
+//import {DOCUMENT}from '@angular/common';
 import { AlertController } from 'ionic-angular';
 import{ListPage} from '../../pages/list/list';
 /**

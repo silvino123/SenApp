@@ -1,8 +1,8 @@
-import { Component,Injectable,Inject,OnInit } from '@angular/core';
+import { Component,Injectable,OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {  Numeros } from '../../app/models/Letras';
 import { HttpClient} from '@angular/common/http';
-import {DOCUMENT}from '@angular/common';
+//import {DOCUMENT}from '@angular/common';
 
 //import { AngularFirestore, AngularFirestoreCollection, AngularFirestoreDocument } from '@angular/fire/firestore';
 
@@ -28,7 +28,7 @@ export class NumerosPage implements OnInit {
   NumerosArray: Observable<Numeros[]>;
   productDoc: AngularFirestoreDocument<Numeros>; */
   NumerosArray:Numeros[]=[];
-  constructor(public navCtrl: NavController, public navParams: NavParams,private http:HttpClient,@Inject(DOCUMENT) private document) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,private http:HttpClient) {
    /*  this.NumerosCollection = this.db.collection('numero');
     this.NumerosArray = this.NumerosCollection.snapshotChanges().pipe(map(actions => {
       return actions.map(a => {
