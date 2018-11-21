@@ -76,7 +76,7 @@ export class JuegoColoresPage  implements OnInit{
       if(this.respuesta==this.activarColor.Color){
         const toast = this.toastCtrl.create({
           message: 'Respuesta Correcta',
-          duration: 600,
+          duration: 800,
           position:'top'
         });
         toast.present();
@@ -89,7 +89,7 @@ export class JuegoColoresPage  implements OnInit{
       else{
         const toast = this.toastCtrl.create({
           message: 'Respuesta Incorrecta' ,
-          duration: 600,
+          duration: 800,
           position:'top'
         });
         toast.present();

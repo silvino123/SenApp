@@ -76,7 +76,7 @@ siguiente() {
     if(this.respuesta==this.activarNumeros.numero){
       const toast = this.toastCtrl.create({
         message: 'Respuesta Correcta',
-        duration: 600,
+        duration: 800,
         position:'top'
       });
       toast.present();
@@ -89,7 +89,7 @@ siguiente() {
     else{
       const toast = this.toastCtrl.create({
         message: 'Respuesta Incorrecta',
-        duration: 600,
+        duration: 800,
         position:'top'
       });
       toast.present();
