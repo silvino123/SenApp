@@ -34,22 +34,7 @@
         "respuesta3":"Gris"
         
     },
-    {
-        "Color":"Claro",
-        "imagen":"Claro.gif",
-        "respuesta1":"Claro",
-        "respuesta2":"Negro",
-        "respuesta3":"Azul"
-        
-    },
-    {
-        "Color":"Color",
-        "imagen":"Color.gif",
-        "respuesta1":"Verde",
-        "respuesta2":"Rojo",
-        "respuesta3":"Color"
-        
-    },
+    
     {
         "Color":"Dorado",
         "imagen":"Dorado.gif",
@@ -98,14 +83,7 @@
         "respuesta3":"Blanco"
         
     },
-    {
-        "Color":"Oscuro",
-        "imagen":"Oscuro.gif",
-        "respuesta1":"Amarillo",
-        "respuesta2":"Rojo",
-        "respuesta3":"Oscuro"
-        
-    },
+    
     {
         "Color":"Plata",
         "imagen":"Plata.gif",

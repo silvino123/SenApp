@@ -22,16 +22,8 @@
         "imagen":"Cafe.gif"
         
     },
-    {
-        "Color":"Claro",
-        "imagen":"Claro.gif"
-        
-    },
-    {
-        "Color":"Color",
-        "imagen":"Color.gif"
-        
-    },
+   
+    
     {
         "Color":"Dorado",
         "imagen":"Dorado.gif"
@@ -62,11 +54,7 @@
         "imagen":"Oro.gif"
         
     },
-    {
-        "Color":"Oscuro",
-        "imagen":"Oscuro.gif"
-        
-    },
+    
     {
         "Color":"Plata",
         "imagen":"Plata.gif"
