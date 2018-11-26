@@ -16,6 +16,7 @@ export interface Letras {
     id?: string;
     Color?: string;
     imagen?: string;
+    background?: string;
     
   }
   export interface JuegoLetras {

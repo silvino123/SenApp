@@ -3,76 +3,89 @@
     "ColoresArray":[
     {
         "Color":"Amarillo",
-        "imagen":"Amarillo.gif"
+        "imagen":"Amarillo.gif",
+        "background":"#FFF333"
         
     },
     
     {
         "Color":"Azul",
-        "imagen":"Azul.gif"
-        
+        "imagen":"Azul.gif",
+        "background":"#0000FF"
     },
     {
         "Color":"Blanco",
-        "imagen":"Blanco.gif"
+        "imagen":"Blanco.gif",
+        "background":"#ffffff"
         
     },
     {
         "Color":"Cafe",
-        "imagen":"Cafe.gif"
+        "imagen":"Cafe.gif",
+        "background":"#4b3621"
         
     },
    
     
     {
         "Color":"Dorado",
-        "imagen":"Dorado.gif"
+        "imagen":"Dorado.gif",
+        "background":"#efb810"
         
     },
     {
         "Color":"Gris",
-        "imagen":"Gris.gif"
+        "imagen":"Gris.gif",
+        "background":"#808080"
         
     },
     {
         "Color":"Morado",
-        "imagen":"Morado.gif"
+        "imagen":"Morado.gif",
+        "background":"#572364"
         
     },
     {
         "Color":"Naranja",
-        "imagen":"Naranja.gif"
+        "imagen":"Naranja.gif",
+        "background":"#ff8000"
         
     },
     {
         "Color":"Negro",
-        "imagen":"Negro.gif"
+        "imagen":"Negro.gif",
+        "background":"#000000"
         
     },
     {
         "Color":"Oro",
-        "imagen":"Oro.gif"
+        "imagen":"Oro.gif",
+        "background":"#ffbf00"
         
     },
     
     {
         "Color":"Plata",
-        "imagen":"Plata.gif"
+        "imagen":"Plata.gif",
+        "background":"#C0C0C0"
         
     },
     {
         "Color":"Rojo",
-        "imagen":"Rojo.gif"
+        "imagen":"Rojo.gif",
+        "background":""
         
     },
     {
         "Color":"Rosa",
-        "imagen":"Rosa.gif"
+        "imagen":"Rosa.gif",
+        "background":""
         
     },
     {
         "Color":"Verde",
-        "imagen":"Verde.gif"
+        "imagen":"Verde.gif",
+        "background":"#008000"
         
     }
     

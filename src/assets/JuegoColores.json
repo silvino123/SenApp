@@ -30,7 +30,7 @@
         "Color":"Cafe",
         "imagen":"Cafe.gif",
         "respuesta1":"Cafe",
-        "respuesta2":"Claro",
+        "respuesta2":"Verde",
         "respuesta3":"Gris"
         
     },
@@ -62,7 +62,7 @@
     {
         "Color":"Naranja",
         "imagen":"Naranja.gif",
-        "respuesta1":"Color",
+        "respuesta1":"Amarillo",
         "respuesta2":"Cafe",
         "respuesta3":"Naranja"
         
@@ -78,7 +78,7 @@
     {
         "Color":"Oro",
         "imagen":"Oro.gif",
-        "respuesta1":"Oscuro",
+        "respuesta1":"Verde",
         "respuesta2":"Oro",
         "respuesta3":"Blanco"
         

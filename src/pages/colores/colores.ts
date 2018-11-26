@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams,DomController } from 'ionic-angular';
 import { HttpClient} from '@angular/common/http';
 import { Colores } from '../../app/models/Letras';
 
@@ -17,12 +17,18 @@ import { Colores } from '../../app/models/Letras';
 })
 export class ColoresPage {
   ColoresArray:Colores[]=[];
-  constructor(public navCtrl: NavController, public navParams: NavParams,public http:HttpClient) {
+  ActivarColor:Colores;
+  constructor(public navCtrl: NavController, public navParams: NavParams,public http:HttpClient,private domCtrl:DomController) {
   }
 
   ngOnInit(){
     this.http.get('assets/Colores.json').subscribe((res:any)=>{
       this.ColoresArray=res.ColoresArray
+      this.ActivarColor= this.ColoresArray[length];
+      this.domCtrl.write(()=>{
+        document.documentElement.style.setProperty('--card-title-md-background-color',this.ActivarColor.background);
+      }
+      )
     });
   }
 
