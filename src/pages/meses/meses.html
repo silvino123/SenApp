@@ -1,0 +1,55 @@
+<!--
+  Generated template for the MesesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar no-border-bottom color="azul">
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title text-center>
+      Meses
+    </ion-title>
+    <ion-toolbar no-border-top>
+        <ion-segment >
+            <ion-segment-button style="color:white"(click)="redirecDias()" >
+              Dias
+            </ion-segment-button>
+            <ion-segment-button style="color:white"(click)="redirecEstaciones()"  >
+              Estaciones
+            </ion-segment-button>
+            <ion-segment-button style="color:white">
+              Meses
+            </ion-segment-button>
+            <ion-segment-button style="color:white" (click)="redirecHoras()">
+              Tiempo/Horas
+            </ion-segment-button>
+          </ion-segment>
+    </ion-toolbar>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-slides effect="slide" >
+   
+    <ion-slide *ngFor="let item of MesArray">
+      <ion-card style="align-items: center" >
+        
+        <ion-card-content >
+            <!-- <img style="height: 400px"  src="https://firebasestorage.googleapis.com/v0/b/senapp-d0e0f.appspot.com/o/Abecedario%2F{{item.imagen}}?alt=media&token=c021dfb0-59ea-45a1-8025-ab22000a7131"/>  -->
+            <img  style="height:350px;width: 900px"  src="assets/Tiempo/{{item.imagen}}" /> 
+          </ion-card-content>
+          <ion-card-title style="background-color:#90caf9">
+            <h1>{{ item.Mes }}</h1>
+             </ion-card-title>
+      </ion-card>
+      
+    </ion-slide>
+   
+  </ion-slides> 
+  <br>
+</ion-content>

@@ -19,6 +19,34 @@ export interface Letras {
     background?: string;
     
   }
+  export interface Dias {
+    id?: string;
+    Dia?: string;
+    imagen?: string;
+   
+    
+  }
+  export interface Estaciones {
+    id?: string;
+    Es?: string;
+    imagen?: string;
+   
+    
+  }
+  export interface Mes {
+    id?: string;
+    Mes?: string;
+    imagen?: string;
+   
+    
+  }
+  export interface Hora {
+    id?: string;
+    Hora?: string;
+    imagen?: string;
+   
+    
+  }
   export interface JuegoLetras {
    
     letra?: string;

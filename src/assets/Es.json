@@ -1,0 +1,29 @@
+{
+
+    "EsArray":[
+    {
+        "Es":"Primavera",
+        "imagen":"Primavera.gif"
+       
+        
+    },
+    
+    {
+        "Es":"Verano",
+        "imagen":"Verano.gif"
+    },
+    {
+        "Es":"Otoño",
+        "imagen":"Otoño.gif"
+        
+    },
+    {
+        "Es":"Invierno",
+        "imagen":"Invierno.gif"
+        
+    }
+   
+   
+    ]
+    
+    }

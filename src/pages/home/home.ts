@@ -3,6 +3,9 @@ import { NavController } from 'ionic-angular';
 import {AbcPage}from '../../pages/abc/abc';
 import {NumerosPage}from '../../pages/numeros/numeros';
 import{ColoresPage}from '../../pages/colores/colores';
+import { TiempoPage } from '../../pages/tiempo/tiempo';
+import {ProfesionesPage} from '../../pages/profesiones/profesiones';
+//import { from } from 'rxjs';
 //import { from } from 'rxjs';
 @Component({
   selector: 'page-home',
@@ -22,5 +25,11 @@ export class HomePage {
    redirecColores()
    {
     this.navCtrl.setRoot(ColoresPage);
+   }
+   redirecTiempo(){
+    this.navCtrl.setRoot(TiempoPage);
+   }
+   redirecProfesion(){
+    this.navCtrl.setRoot(ProfesionesPage);
    }
 }

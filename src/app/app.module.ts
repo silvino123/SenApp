@@ -14,7 +14,12 @@ import {ExamenPage} from '../pages/examen/examen';
 import{ JuegoAbcPage }from '../pages/juego-abc/juego-abc';
 import {JuegonumerosPage} from '../pages/juegonumeros/juegonumeros';
 import {JuegoColoresPage} from '../pages/juego-colores/juego-colores';
+import {TiempoPage} from '../pages/tiempo/tiempo';
 import{ColoresPage}from '../pages/colores/colores';
+import {EstacionesPage} from '../pages/estaciones/estaciones';
+import {MesesPage} from '../pages/meses/meses';
+import {ProfesionesPage} from '../pages/profesiones/profesiones';
+import {HoraPage} from '../pages/hora/hora';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 //import { from } from 'rxjs';
@@ -40,7 +45,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     JuegoAbcPage,
     JuegonumerosPage,
     JuegoColoresPage,
-    ColoresPage
+    ColoresPage,
+    TiempoPage,
+    EstacionesPage,
+    MesesPage,
+    HoraPage,
+    ProfesionesPage
   ],
   imports: [
     BrowserModule,
@@ -60,7 +70,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     JuegoAbcPage,
     JuegonumerosPage,
     JuegoColoresPage,
-    ColoresPage
+    ColoresPage,
+    TiempoPage,
+    EstacionesPage,
+    MesesPage,
+    HoraPage,
+    ProfesionesPage
   ],
   providers: [
     StatusBar,

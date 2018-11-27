@@ -1,0 +1,37 @@
+<!--
+  Generated template for the ProfesionesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar color="azul">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+          </button>
+      <ion-title>Profesiones</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-slides effect="slide" >
+     
+        <ion-slide *ngFor="let item of ProfesionesArray">
+          <ion-card style="align-items: center" >
+            
+            <ion-card-content >
+              
+            <!-- <img style="height: 400px" src="https://firebasestorage.googleapis.com/v0/b/senapp-d0e0f.appspot.com/o/Numeros%2F{{item.imagen}}?alt=media&token=d5de352f-6856-4a50-af33-36534aead711"> -->
+            <img style="height:350px;width: 900px" src="assets/Profesiones/{{item.imagen}}">
+            </ion-card-content>
+            <ion-card-title style="background-color:#90caf9">
+                <h1>{{ item.Profesion }}</h1>
+                 </ion-card-title>
+          </ion-card>
+        </ion-slide>
+       
+      </ion-slides> 
+      <br>
+</ion-content>

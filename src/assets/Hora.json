@@ -1,0 +1,59 @@
+{
+
+    "HoraArray":[
+    {
+        "Hora":"Ayer",
+        "imagen":"Ayer.gif"
+       
+        
+    },
+    
+    {
+        "Hora":"Dia",
+        "imagen":"Dia.gif"
+    },
+    {
+        "Hora":"Mañana",
+        "imagen":"Mañana.gif"
+        
+    },
+    {
+        "Hora":"Noche",
+        "imagen":"Noche.gif"
+        
+    }
+    ,
+    {
+        "Hora":"Tarde",
+        "imagen":"Tarde.gif"
+        
+    }
+    ,
+    {
+        "Hora":"Tiempo",
+        "imagen":"Tiempo.gif"
+        
+    }
+    ,
+    {
+        "Hora":"Hora",
+        "imagen":"Hora.gif"
+        
+    }
+    ,
+    {
+        "Hora":"Minuto",
+        "imagen":"Minuto.gif"
+        
+    }
+    ,
+    {
+        "Hora":"Segundo",
+        "imagen":"Segundo.gif"
+        
+    }
+   
+   
+    ]
+    
+    }

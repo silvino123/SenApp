@@ -1,0 +1,44 @@
+{
+
+    "DiasArray":[
+    {
+        "Dia":"Lunes",
+        "imagen":"Lunes.gif"
+       
+        
+    },
+    
+    {
+        "Dia":"Martes",
+        "imagen":"Martes.gif"
+    },
+    {
+        "Dia":"Miercoles",
+        "imagen":"Miercoles.gif"
+        
+    },
+    {
+        "Dia":"Jueves",
+        "imagen":"Jueves.gif"
+        
+    },
+   
+    
+    {
+        "Dia":"Viernes",
+        "imagen":"Viernes.gif"
+        
+    },
+    {
+        "Dia":"Sabado",
+        "imagen":"Sabado.gif"
+        
+    },
+    {
+        "Dia":"Domingo",
+        "imagen":"Domingo.gif"
+        
+    }
+    ]
+    
+    }
