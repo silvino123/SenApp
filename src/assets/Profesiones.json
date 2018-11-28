@@ -69,6 +69,111 @@
         "imagen":"Ing Aeronautica.gif"
         
     }
+    ,
+    {
+        "Profesion":"Ing Biomedica",
+        "imagen":"Ing Biomedica.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Ing Electrico",
+        "imagen":"Ing Electrico.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Ing Industrial",
+        "imagen":"Ing Industrial.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Ing Informatica",
+        "imagen":"Ing Informatica.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Ing Mecanica",
+        "imagen":"Ing Mecanica.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Ing Robotica",
+        "imagen":"Ing Robotica.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Ingenieria",
+        "imagen":"Ingenieria.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Ingeniero",
+        "imagen":"Ingeniero.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Interprete",
+        "imagen":"Interprete.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Jardinero",
+        "imagen":"Jardinero.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Jefe",
+        "imagen":"Jefe.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Maestro",
+        "imagen":"Maestro.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Mecanico",
+        "imagen":"Mecanico.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Militar",
+        "imagen":"Militar.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Policia",
+        "imagen":"Policia.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Secretaria",
+        "imagen":"Secretaria.gif"
+        
+    }
+    ,
+    {
+        "Profesion":"Vendedor",
+        "imagen":"Vendedor.gif"
+        
+    }
+   
+   
+   
    
    
     ]
