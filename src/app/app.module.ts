@@ -20,6 +20,8 @@ import {EstacionesPage} from '../pages/estaciones/estaciones';
 import {MesesPage} from '../pages/meses/meses';
 import {ProfesionesPage} from '../pages/profesiones/profesiones';
 import {HoraPage} from '../pages/hora/hora';
+import {JuegotiempoPage} from '../pages/juegotiempo/juegotiempo';
+import {JuegoprofesionesPage} from'../pages/juegoprofesiones/juegoprofesiones';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 //import { from } from 'rxjs';
@@ -50,7 +52,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EstacionesPage,
     MesesPage,
     HoraPage,
-    ProfesionesPage
+    ProfesionesPage,
+    JuegotiempoPage,
+    JuegoprofesionesPage
   ],
   imports: [
     BrowserModule,
@@ -75,7 +79,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EstacionesPage,
     MesesPage,
     HoraPage,
-    ProfesionesPage
+    ProfesionesPage,
+    JuegotiempoPage,
+    JuegoprofesionesPage
   ],
   providers: [
     StatusBar,

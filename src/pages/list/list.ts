@@ -3,6 +3,8 @@ import { NavController, NavParams } from 'ionic-angular';
 import {JuegoAbcPage} from '../../pages/juego-abc/juego-abc';
 import {JuegonumerosPage} from '../../pages/juegonumeros/juegonumeros';
 import {JuegoColoresPage} from '../../pages/juego-colores/juego-colores';
+import {JuegotiempoPage} from '../../pages/juegotiempo/juegotiempo';
+import{JuegoprofesionesPage} from '../../pages/juegoprofesiones/juegoprofesiones';
 //import { from } from 'rxjs';
 //import { NumerosPage } from '../numeros/numeros';
 @Component({
@@ -30,5 +32,11 @@ this.navCtrl.setRoot(JuegoAbcPage);
       }
       redirectJuegoColores(){
         this.navCtrl.setRoot(JuegoColoresPage);
+      }
+      redirectJuegoTiempo(){
+        this.navCtrl.setRoot(JuegotiempoPage);
+      }
+      redirectJuegoProfesiones(){
+        this.navCtrl.setRoot(JuegoprofesionesPage);
       }
 }
