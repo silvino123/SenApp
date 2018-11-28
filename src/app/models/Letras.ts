@@ -47,6 +47,13 @@ export interface Letras {
    
     
   }
+  export interface Profesiones {
+    id?: string;
+    Profesion?: string;
+    imagen?: string;
+   
+    
+  }
   export interface JuegoLetras {
    
     letra?: string;

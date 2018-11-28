@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component ,OnInit} from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import {  Profesiones } from '../../app/models/Letras';
+import { HttpClient} from '@angular/common/http';
 /**
  * Generated class for the ProfesionesPage page.
  *
@@ -13,13 +14,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-profesiones',
   templateUrl: 'profesiones.html',
 })
-export class ProfesionesPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+export class ProfesionesPage implements OnInit {
+  ProfesionesArray:Profesiones[]=[];
+  constructor(public navCtrl: NavController, public navParams: NavParams,private http:HttpClient) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ProfesionesPage');
+  ngOnInit(){
+    this.http.get('assets/Profesiones.json').subscribe((res:any)=>{
+      this.ProfesionesArray=res.ProfesionesArray;
+    });
   }
 
 }
