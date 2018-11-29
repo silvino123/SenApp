@@ -99,3 +99,12 @@ export interface Letras {
     respuesta3?:string;
     
   }
+  export interface Examen {
+   
+    palabra?: string;
+    imagen?: string;
+    respuesta1?:string;
+    respuesta2?:string;
+    respuesta3?:string;
+    
+  }
