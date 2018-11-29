@@ -9,14 +9,14 @@
         <button ion-button menuToggle>
           <ion-icon name="menu"></ion-icon>
         </button>
-        <ion-title>Juego Tiempo</ion-title>
+        <ion-title>Juego Tiempos</ion-title>
       </ion-navbar>
 
 </ion-header>
 
 
 <ion-content>
-    <!-- <ion-card padding >
+    <ion-card padding >
         <ion-list>
           <ion-item color="azul">
            <ion-col text-center>
@@ -36,7 +36,7 @@
           </ion-item>
         </ion-list>
         
-        <img src="assets/Abecedario/{{activarLetras.imagen}}" style="height: 240px"/>
+        <img src="assets/Tiempo/{{activartiempo.imagen}}" style="height: 240px"/>
    
        <ion-card-content>
          <ion-card-title>
@@ -45,20 +45,20 @@
                <ion-list radio-group [(ngModel)]="respuesta">
                <ion-col>
                  <button ion-button clear small color="danger" icon-start>
-                   <ion-radio value="{{activarLetras.respuesta1}}"  color="secondary"></ion-radio>&nbsp;
-                 &nbsp; <h1 style="color:#488aff">{{activarLetras.respuesta1}}</h1> 
+                   <ion-radio value="{{activartiempo.respuesta1}}"  color="secondary"></ion-radio>&nbsp;
+                 &nbsp; <h1 style="color:#488aff">{{activartiempo.respuesta1}}</h1> 
                  </button>
                </ion-col>
                <ion-col text-center>
                  <button ion-button clear small color="danger" icon-start>
-                   <ion-radio value="{{activarLetras.respuesta2}}"   color="secondary"></ion-radio>&nbsp;
-                     &nbsp; <h1 style="color:#488aff">{{activarLetras.respuesta2}}</h1>
+                   <ion-radio value="{{activartiempo.respuesta2}}"   color="secondary"></ion-radio>&nbsp;
+                     &nbsp; <h1 style="color:#488aff">{{activartiempo.respuesta2}}</h1>
                  </button>
                </ion-col>
                <ion-col text-right>
                  <button ion-button clear small color="danger" icon-start>
-                   <ion-radio value="{{activarLetras.respuesta3}}"  color="secondary"></ion-radio>&nbsp;
-                     &nbsp; <h1 style="color:#488aff">{{activarLetras.respuesta3}}</h1>
+                   <ion-radio value="{{activartiempo.respuesta3}}"  color="secondary"></ion-radio>&nbsp;
+                     &nbsp; <h1 style="color:#488aff">{{activartiempo.respuesta3}}</h1>
                  </button>
                </ion-col>
                </ion-list>
@@ -70,6 +70,6 @@
        </ion-card-content>
        <button ion-button color="Primary" round block (click)="siguiente()" type="submit" >Siguiente <ion-icon name='next'></ion-icon> </button>
      </ion-card>
-     -->
+    
      
 </ion-content>
