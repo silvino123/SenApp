@@ -1,0 +1,222 @@
+{
+
+    "SaludArray":[
+    {
+        "salud":"Alcohol",
+        "imagen":"Alcohol.gif"
+        
+    },
+    {
+        "salud":"Alergia",
+        "imagen":"Alergia.gif"
+        
+    },
+    {
+        "salud":"Ambulancia",
+        "imagen":"Ambulancia.gif"
+        
+    },
+    {
+        "salud":"Botiquin",
+        "imagen":"Botiquin.gif"
+        
+    },
+    {
+        "salud":"BuenaAlimentacion",
+        "imagen":"BuenaAlimentacion.gif"
+        
+    },
+    {
+        "salud":"Calentura",
+        "imagen":"Calentura.gif"
+        
+    },
+    {
+        "salud":"Camilla",
+        "imagen":"Camilla.gif"
+        
+    },
+    {
+        "salud":"Caries",
+        "imagen":"Caries.gif"
+        
+    },
+    {
+        "salud":"Comezon",
+        "imagen":"Comezon.gif"
+        
+    },
+    {
+        "salud":"Cubrebocas",
+        "imagen":"Cubrebocas.gif"
+        
+    },
+    {
+        "salud":"Curitas",
+        "imagen":"Curitas.gif"
+        
+    },
+    {
+        "salud":"Dentista",
+        "imagen":"Dentista.gif"
+        
+    },
+    {
+        "salud":"Diarrea",
+        "imagen":"Diarrea.gif"
+        
+    },
+    {
+        "salud":"Dieta",
+        "imagen":"Dieta.gif"
+        
+    },
+    {
+        "salud":"Doctor",
+        "imagen":"Doctor.gif"
+        
+    },
+    {
+        "salud":"Dolor",
+        "imagen":"Dolor.gif"
+        
+    },
+    {
+        "salud":"DolorDeCabeza",
+        "imagen":"DolorDeCabeza.gif"
+        
+    },
+    {
+        "salud":"DolorDeEstomago",
+        "imagen":"DolorDeEstomago.gif"
+        
+    },
+    {
+        "salud":"Ejercicio",
+        "imagen":"Ejercicio.gif"
+        
+    },
+    {
+        "salud":"Enfermero",
+        "imagen":"Enfermero.gif"
+        
+    },
+    {
+        "salud":"Estetoscopio",
+        "imagen":"Estetoscopio.gif"
+        
+    },
+    {
+        "salud":"Fractura",
+        "imagen":"Fractura.gif"
+        
+    },
+    {
+        "salud":"Gastritis",
+        "imagen":"Gastritis.gif"
+        
+    },
+    {
+        "salud":"Guantes",
+        "imagen":"Guantes.gif"
+        
+    },
+    {
+        "salud":"Hospital",
+        "imagen":"Hospital.gif"
+        
+    },
+    {
+        "salud":"Inflamacion",
+        "imagen":"Inflamacion.gif"
+        
+    },
+    {
+        "salud":"Insomio",
+        "imagen":"Insomio.gif"
+        
+    },
+    {
+        "salud":"Jeringa",
+        "imagen":"Jeringa.gif"
+        
+    },
+    {
+        "salud":"Mareo",
+        "imagen":"Jeringa.gif"
+        
+    },
+    {
+        "salud":"Muletas",
+        "imagen":"Muletas.gif"
+        
+    },
+    {
+        "salud":"Nauseas",
+        "imagen":"Nauseas.gif"
+        
+    },
+    {
+        "salud":"Paciente",
+        "imagen":"Paciente.gif"
+        
+    },
+    {
+        "salud":"Palidez",
+        "imagen":"Palidez.gif"
+        
+    },
+    {
+        "salud":"Pastilla",
+        "imagen":"Pastilla.gif"
+        
+    },
+    {
+        "salud":"Peligro",
+        "imagen":"Peligro.gif"
+        
+    },
+    {
+        "salud":"Resfriado",
+        "imagen":"Resfriado.gif"
+        
+    },
+    {
+        "salud":"Sangre",
+        "imagen":"Sangre.gif"
+        
+    },
+    {
+        "salud":"SillaDeRuedafas",
+        "imagen":"SillaDeRuedafas.gif"
+        
+    },
+    {
+        "salud":"Sudoracion",
+        "imagen":"Sudoracion.gif"
+        
+    },
+    {
+        "salud":"Suero",
+        "imagen":"Suero.gif"
+        
+    },
+    {
+        "salud":"Termometro",
+        "imagen":"Termometro.gif"
+        
+    },
+    {
+        "salud":"Tos",
+        "imagen":"Tos.gif"
+        
+    },
+    {
+        "salud":"Vendas",
+        "imagen":"Vendas.gif"
+        
+    }
+    
+    ]
+    
+    }

@@ -1,0 +1,128 @@
+{
+
+    "SentimientosArray":[
+    {
+        "sentimiento":"Alegre",
+        "imagen":"Alegre.gif"
+        
+    },
+    
+    {
+        "sentimiento":"Arrepentido",
+        "imagen":"Arrepentido.gif"
+        
+    },
+    {
+        "sentimiento":"Bueno",
+        "imagen":"Bueno.gif"
+        
+    },
+    {
+        "sentimiento":"Cansado",
+        "imagen":"Cansado.gif"
+        
+    },
+    {
+        "sentimiento":"Confianza",
+        "imagen":"Confianza.gif"
+        
+    },
+    {
+        "sentimiento":"Confundido",
+        "imagen":"Confundido.gif"
+        
+    },
+    {
+        "sentimiento":"Enamorado",
+        "imagen":"Enamorado.gif"
+        
+    },
+    {
+        "sentimiento":"Enojado",
+        "imagen":"Enojado.gif"
+        
+    },
+    {
+        "sentimiento":"Feliz",
+        "imagen":"Feliz.gif"
+        
+    },
+    {
+        "sentimiento":"Libre",
+        "imagen":"Libre.gif"
+        
+    },
+    {
+        "sentimiento":"Lleno",
+        "imagen":"Lleno.gif"
+        
+    },
+    {
+        "sentimiento":"Llorar",
+        "imagen":"Llorar.gif"
+        
+    },
+    {
+        "sentimiento":"Malo",
+        "imagen":"Malo.gif"
+        
+    },
+    {
+        "sentimiento":"Miedo",
+        "imagen":"Miedo.gif"
+        
+    },
+    {
+        "sentimiento":"Nervioso",
+        "imagen":"Nervioso.gif"
+        
+    },
+    {
+        "sentimiento":"Orgulloso",
+        "imagen":"Orgulloso.gif"
+        
+    },
+    {
+        "sentimiento":"Preocupado",
+        "imagen":"Preocupado.gif"
+        
+    },
+    {
+        "sentimiento":"Presion-Estresado",
+        "imagen":"Presion-Estresado.gif"
+        
+    },
+    {
+        "sentimiento":"Raro",
+        "imagen":"Raro.gif"
+        
+    },
+    {
+        "sentimiento":"Rencor",
+        "imagen":"Rencor.gif"
+        
+    },
+    {
+        "sentimiento":"Serio",
+        "imagen":"Serio.gif"
+        
+    },
+    {
+        "sentimiento":"Sonreir",
+        "imagen":"Sonreir.gif"
+        
+    },
+    {
+        "sentimiento":"Triste",
+        "imagen":"Triste.gif"
+        
+    },
+    {
+        "sentimiento":"Verguenza",
+        "imagen":"Verguenza.gif"
+        
+    }
+    
+    ]
+    
+    }

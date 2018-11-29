@@ -1,0 +1,208 @@
+{
+
+    "VerbosArray":[
+    {
+        "verbo":"Bailar",
+        "imagen":"Bailar.gif"
+        
+    },
+    
+    {
+        "verbo":"Bañarse",
+        "imagen":"Bañarse.gif"
+        
+    },
+    {
+        "verbo":"Besar",
+        "imagen":"Besar.gif"
+        
+    },
+    {
+        "verbo":"Caminar",
+        "imagen":"Caminar.gif"
+        
+    },
+    {
+        "verbo":"Cantar",
+        "imagen":"Cantar.gif"
+        
+    },
+    {
+        "verbo":"Correr",
+        "imagen":"Correr.gif"
+        
+    },
+    {
+        "verbo":"Cortar",
+        "imagen":"Cortar.gif"
+        
+    },
+    {
+        "verbo":"Dar",
+        "imagen":"Dar.gif"
+        
+    },
+    {
+        "verbo":"Descansar",
+        "imagen":"Descansar.gif"
+        
+    },
+    {
+        "verbo":"Dibujar",
+        "imagen":"Dibujar.gif"
+        
+    },
+    {
+        "verbo":"Dormir",
+        "imagen":"Dormir.gif"
+        
+    },
+    {
+        "verbo":"Entender",
+        "imagen":"Entender.gif"
+        
+    },
+    {
+        "verbo":"Escribir",
+        "imagen":"Escribir.gif"
+        
+    },
+    {
+        "verbo":"Estudiar",
+        "imagen":"Estudiar.gif"
+        
+    },
+    {
+        "verbo":"Hablar",
+        "imagen":"Hablar.gif"
+        
+    },
+    {
+        "verbo":"Hacer",
+        "imagen":"Hacer.gif"
+        
+    },
+    {
+        "verbo":"Jugar",
+        "imagen":"Jugar.gif"
+        
+    },
+    {
+        "verbo":"Leer",
+        "imagen":"Leer.gif"
+        
+    },
+    {
+        "verbo":"Limpiar",
+        "imagen":"Limpiar.gif"
+        
+    },
+    {
+        "verbo":"Nadar",
+        "imagen":"Nadar.gif"
+        
+    },
+    {
+        "verbo":"NoPuedo",
+        "imagen":"NoPuedo.gif"
+        
+    },
+    {
+        "verbo":"NoQuiero",
+        "imagen":"NoQuiero.gif"
+        
+    },
+    {
+        "verbo":"NoSe",
+        "imagen":"NoSe.gif"
+        
+    },
+    {
+        "verbo":"NoTengo",
+        "imagen":"NoTengo.gif"
+        
+    }
+    {
+        "verbo":"Olvidar",
+        "imagen":"Olvidar.gif"
+        
+    }
+    {
+        "verbo":"Pelear",
+        "imagen":"Pelear.gif"
+        
+    }
+    {
+        "verbo":"Pensar",
+        "imagen":"Pensar.gif"
+        
+    }
+    {
+        "verbo":"Perdon",
+        "imagen":"Perdon.gif"
+        
+    }
+    {
+        "verbo":"Pintar",
+        "imagen":"Pintar.gif"
+        
+    }
+    {
+        "verbo":"Platicar",
+        "imagen":"Platicar.gif"
+        
+    }
+    {
+        "verbo":"Poder",
+        "imagen":"Poder.gif"
+        
+    }
+    {
+        "verbo":"Querer",
+        "imagen":"Querer.gif"
+        
+    }
+    {
+        "verbo":"Saber",
+        "imagen":"Saber.gif"
+        
+    }
+    {
+        "verbo":"Sentir",
+        "imagen":"Sentir.gif"
+        
+    }
+    {
+        "verbo":"Soñar",
+        "imagen":"Soñar.gif"
+        
+    }
+    {
+        "verbo":"Sucio-basura",
+        "imagen":"Sucio-basura.gif"
+        
+    }
+    {
+        "verbo":"Tener",
+        "imagen":"Tener.gif"
+        
+    }
+    {
+        "verbo":"Trabajar",
+        "imagen":"Trabajar.gif"
+        
+    }
+    {
+        "verbo":"Vacio",
+        "imagen":"Vacio.gif"
+        
+    }
+    {
+        "verbo":"Ver",
+        "imagen":"Ver.gif"
+        
+    }
+    
+    ]
+    
+    }
