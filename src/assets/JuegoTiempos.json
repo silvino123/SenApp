@@ -1,0 +1,284 @@
+{
+
+    "tiemposArray":[
+    {
+        "tiempo":"Lunes",
+        "imagen":"Lunes.gif",
+        "respuesta1":"Martes",
+        "respuesta2":"Jueves",
+        "respuesta3":"Lunes"
+        
+    },
+    
+    {
+        "tiempo":"Martes",
+        "imagen":"Martes.gif",
+        "respuesta1":"Martes",
+        "respuesta2":"Viernes",
+        "respuesta3":"Miercoles"
+        
+    },
+    {
+        "tiempo":"Miercoles",
+        "imagen":"Miercoles.gif",
+        "respuesta1":"Lunes",
+        "respuesta2":"Miercoles",
+        "respuesta3":"Domingo"
+        
+    },
+    {
+        "tiempo":"Jueves",
+        "imagen":"Jueves.gif",
+        "respuesta1":"Sabado",
+        "respuesta2":"Domingo",
+        "respuesta3":"Jueves"
+        
+    },
+    
+    {
+        "tiempo":"Vienes",
+        "imagen":"Viernes.gif",
+        "respuesta1":"Lunes",
+        "respuesta2":"Viernes",
+        "respuesta3":"Sabado"
+        
+    },
+    {
+        "tiempo":"Sabado",
+        "imagen":"Sabado.gif",
+        "respuesta1":"Martes",
+        "respuesta2":"Lunes",
+        "respuesta3":"Sabado"
+        
+    },
+    {
+        "tiempo":"Domingo",
+        "imagen":"Domingo.gif",
+        "respuesta1":"Domingo",
+        "respuesta2":"Martes",
+        "respuesta3":"Jueves"
+        
+    },
+    {
+        "tiempo":"Primavera",
+        "imagen":"Primavera.gif",
+        "respuesta1":"Verano",
+        "respuesta2":"Invierno",
+        "respuesta3":"Primavera"
+        
+    },
+    {
+        "tiempo":"Verano",
+        "imagen":"Verano.gif",
+        "respuesta1":"Primavera",
+        "respuesta2":"Verano",
+        "respuesta3":"Otoño"
+        
+    },
+    {
+        "tiempo":"Otoño",
+        "imagen":"Otoño.gif",
+        "respuesta1":"Verano",
+        "respuesta2":"Primavera",
+        "respuesta3":"Otoño"
+        
+    },
+    
+    {
+        "tiempo":"Invierno",
+        "imagen":"Invierno.gif",
+        "respuesta1":"Primavera",
+        "respuesta2":"Verano",
+        "respuesta3":"Invierno"
+        
+    },
+    {
+        "tiempo":"Enero",
+        "imagen":"Enero.gif",
+        "respuesta1":"Enero",
+        "respuesta2":"Abril",
+        "respuesta3":"Junio"
+        
+    },
+    {
+        "tiempo":"Febrero",
+        "imagen":"Febrero.gif",
+        "respuesta1":"Febrero",
+        "respuesta2":"Julio",
+        "respuesta3":"Diciembre"
+        
+    },
+    {
+        "tiempo":"Marzo",
+        "imagen":"Marzo.gif",
+        "respuesta1":"Enero",
+        "respuesta2":"Octubre",
+        "respuesta3":"Marzo"
+        
+    }
+    ,
+    {
+        "tiempo":"Marzo",
+        "imagen":"Marzo.gif",
+        "respuesta1":"Enero",
+        "respuesta2":"Octubre",
+        "respuesta3":"Marzo"
+        
+    }
+    ,
+    {
+        "tiempo":"Abril",
+        "imagen":"Abril.gif",
+        "respuesta1":"Enero",
+        "respuesta2":"Abril",
+        "respuesta3":"Marzo"
+        
+    }
+    ,
+    {
+        "tiempo":"Mayo",
+        "imagen":"Mayo.gif",
+        "respuesta1":"Junio",
+        "respuesta2":"Octubre",
+        "respuesta3":"Mayo"
+        
+    }
+    ,
+    {
+        "tiempo":"Junio",
+        "imagen":"Junio.gif",
+        "respuesta1":"Junio",
+        "respuesta2":"Enero",
+        "respuesta3":"Marzo"
+        
+    }
+    ,
+    {
+        "tiempo":"Julio",
+        "imagen":"Julio.gif",
+        "respuesta1":"Julio",
+        "respuesta2":"Enero",
+        "respuesta3":"Noviembre"
+        
+    }
+    ,
+    {
+        "tiempo":"Agosto",
+        "imagen":"Agosto.gif",
+        "respuesta1":"Agosto",
+        "respuesta2":"Enero",
+        "respuesta3":"Marzo"
+        
+    }
+    ,
+    {
+        "tiempo":"Septiembre",
+        "imagen":"Septiembre.gif",
+        "respuesta1":"Octubre",
+        "respuesta2":"Septiembre",
+        "respuesta3":"Marzo"
+        
+    }
+    ,
+    {
+        "tiempo":"Octubre",
+        "imagen":"Octubre.gif",
+        "respuesta1":"Octubre",
+        "respuesta2":"Enero",
+        "respuesta3":"Mayo"
+        
+    }
+    ,
+    {
+        "tiempo":"Noviembre",
+        "imagen":"Noviembre.gif",
+        "respuesta1":"Noviembre",
+        "respuesta2":"Enero",
+        "respuesta3":"Marzo"
+        
+    }
+    ,
+    {
+        "tiempo":"Diciembre",
+        "imagen":"Diciembre.gif",
+        "respuesta1":"Junio",
+        "respuesta2":"Diciembre",
+        "respuesta3":"Marzo"
+        
+    }
+    ,
+    {
+        "tiempo":"Ayer",
+        "imagen":"Ayer.gif",
+        "respuesta1":"Dia",
+        "respuesta2":"Mañana",
+        "respuesta3":"Ayer"
+        
+    }
+    ,
+    {
+        "tiempo":"Dia",
+        "imagen":"Dia.gif",
+        "respuesta1":"Minuto",
+        "respuesta2":"Dia",
+        "respuesta3":"Hora"
+        
+    }
+    ,
+    {
+        "tiempo":"Mañana",
+        "imagen":"Mañana.gif",
+        "respuesta1":"Mañana",
+        "respuesta2":"Dia",
+        "respuesta3":"Ayer"
+        
+    }
+    ,
+    {
+        "tiempo":"Noche",
+        "imagen":"Noche.gif",
+        "respuesta1":"Tarde",
+        "respuesta2":"Noche",
+        "respuesta3":"Dia"
+        
+    }
+    ,
+    {
+        "tiempo":"Tarde",
+        "imagen":"Tarde.gif",
+        "respuesta1":"Tarde",
+        "respuesta2":"Dia",
+        "respuesta3":"Hora"
+        
+    }
+    ,
+    {
+        "tiempo":"Hora",
+        "imagen":"Hora.gif",
+        "respuesta1":"Hora",
+        "respuesta2":"Minuto",
+        "respuesta3":"Segundo"
+        
+    }
+    ,
+    {
+        "tiempo":"Minuto",
+        "imagen":"Minuto.gif",
+        "respuesta1":"Noche",
+        "respuesta2":"Hora",
+        "respuesta3":"Segundo"
+        
+    }
+    ,
+    {
+        "tiempo":"Segundo",
+        "imagen":"Segundo.gif",
+        "respuesta1":"Segundo",
+        "respuesta2":"Hora",
+        "respuesta3":"Minuto"
+        
+    }
+    
+    ]
+    
+    }

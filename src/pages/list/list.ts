@@ -5,6 +5,7 @@ import {JuegonumerosPage} from '../../pages/juegonumeros/juegonumeros';
 import {JuegoColoresPage} from '../../pages/juego-colores/juego-colores';
 import {JuegotiempoPage} from '../../pages/juegotiempo/juegotiempo';
 import{JuegoprofesionesPage} from '../../pages/juegoprofesiones/juegoprofesiones';
+import {ExamenPage} from '../../pages/examen/examen';
 //import { from } from 'rxjs';
 //import { NumerosPage } from '../numeros/numeros';
 @Component({
@@ -38,5 +39,8 @@ this.navCtrl.setRoot(JuegoAbcPage);
       }
       redirectJuegoProfesiones(){
         this.navCtrl.setRoot(JuegoprofesionesPage);
+      }
+      redirectJuegoExamen(){
+        this.navCtrl.setRoot(ExamenPage);
       }
 }

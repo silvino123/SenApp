@@ -1,0 +1,186 @@
+{
+
+    "ProfesionArray":[
+    {
+        "profesion":"Abogado",
+        "imagen":"Abogado.gif",
+        "respuesta1":"Carpintero",
+        "respuesta2":"Chef",
+        "respuesta3":"Abogado"
+        
+    },
+    
+    {
+        "profesion":"Administracion",
+        "imagen":"Administracion.gif",
+        "respuesta1":"Jardinero",
+        "respuesta2":"Doctor",
+        "respuesta3":"Administracion"
+        
+    },
+    {
+        "profesion":"Alumno",
+        "imagen":"Alumno.gif",
+        "respuesta1":"Bombero",
+        "respuesta2":"Abogado",
+        "respuesta3":"Alumno"
+        
+    },
+    {
+        "profesion":"Bombero",
+        "imagen":"Bombero.gif",
+        "respuesta1":"Bombero",
+        "respuesta2":"Chef",
+        "respuesta3":"Carpintero"
+        
+    },
+    
+    {
+        "profesion":"Chef",
+        "imagen":"Chef.gif",
+        "respuesta1":"Cocinero",
+        "respuesta2":"Alumno",
+        "respuesta3":"Doctor"
+        
+    },
+    {
+        "profesion":"Cocinero",
+        "imagen":"Cocinero.gif",
+        "respuesta1":"Abogado",
+        "respuesta2":"Cocinero",
+        "respuesta3":"Maestro"
+        
+    },
+    {
+        "profesion":"Director",
+        "imagen":"Director.gif",
+        "respuesta1":"Doctor",
+        "respuesta2":"Gerente",
+        "respuesta3":"Director"
+        
+    },
+    {
+        "profesion":"Doctor",
+        "imagen":"Doctor.gif",
+        "respuesta1":"Alumno",
+        "respuesta2":"Cocinero",
+        "respuesta3":"Doctor"
+        
+    },
+    {
+        "profesion":"Enfermero",
+        "imagen":"Enfermero.gif",
+        "respuesta1":"Enfermero",
+        "respuesta2":"Cocinero",
+        "respuesta3":"Ingeniero"
+        
+    },
+    {
+        "profesion":"Gerente",
+        "imagen":"Gerente.gif",
+        "respuesta1":"Abogado",
+        "respuesta2":"Gerente",
+        "respuesta3":"Maestro"
+        
+    },
+    
+    {
+        "profesion":"Ing Aeronautica",
+        "imagen":"Ing Aeronautica.gif",
+        "respuesta1":"Chef",
+        "respuesta2":"Cocinero",
+        "respuesta3":"Ing Aeronautica"
+        
+    },
+    {
+        "profesion":"Ing Biomedica",
+        "imagen":"Ing Biomedica.gif",
+        "respuesta1":"Ing Biomedica",
+        "respuesta2":"Alumno",
+        "respuesta3":"Ing Aeronautica"
+        
+    },
+    {
+        "profesion":"Ing Electrico",
+        "imagen":"Ing Electrico.gif",
+        "respuesta1":"Doctor",
+        "respuesta2":"Cocinero",
+        "respuesta3":"Ing Electrico"
+        
+    },
+    {
+        "profesion":"Ing Industrial",
+        "imagen":"Ing Industrial.gif",
+        "respuesta1":"Ing Industrial",
+        "respuesta2":"Gerente",
+        "respuesta3":"Cocinero"
+        
+    }
+    ,
+    {
+        "profesion":"Interprete",
+        "imagen":"Interprete.gif",
+        "respuesta1":"Interprete",
+        "respuesta2":"Chef",
+        "respuesta3":"Jardinero"
+        
+    }
+    ,
+    {
+        "profesion":"Jardinero",
+        "imagen":"Jardinero.gif",
+        "respuesta1":"Jardinero",
+        "respuesta2":"Interprete",
+        "respuesta3":"Doctor"
+        
+    }
+    ,
+    {
+        "profesion":"Jefe",
+        "imagen":"Jefe.gif",
+        "respuesta1":"Jardinero",
+        "respuesta2":"Jefe",
+        "respuesta3":"Alumno"
+        
+    }
+    ,
+    {
+        "profesion":"Maestro",
+        "imagen":"Maestro.gif",
+        "respuesta1":"Maestro",
+        "respuesta2":"Chef",
+        "respuesta3":"Cocinero"
+        
+    }
+    ,
+    {
+        "profesion":"Mecanico",
+        "imagen":"Mecanico.gif",
+        "respuesta1":"Mecanico",
+        "respuesta2":"Jefe",
+        "respuesta3":"Militar"
+        
+    }
+    ,
+    {
+        "profesion":"Militar",
+        "imagen":"Militar.gif",
+        "respuesta1":"Alumno",
+        "respuesta2":"Mecanico",
+        "respuesta3":"Militar"
+        
+    }
+    ,
+    {
+        "tiempo":"Policia",
+        "imagen":"Policia.gif",
+        "respuesta1":"Jefe",
+        "respuesta2":"Policia",
+        "respuesta3":"Jardinero"
+        
+    }
+   
+    
+    ]
+    
+    }

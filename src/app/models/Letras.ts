@@ -81,3 +81,21 @@ export interface Letras {
     respuesta3?:string;
     
   }
+  export interface JuegoTiempo {
+   
+    tiempo?: string;
+    imagen?: string;
+    respuesta1?:string;
+    respuesta2?:string;
+    respuesta3?:string;
+    
+  }
+  export interface JuegoProfesion {
+   
+    profesion?: string;
+    imagen?: string;
+    respuesta1?:string;
+    respuesta2?:string;
+    respuesta3?:string;
+    
+  }

@@ -9,79 +9,7 @@
 
 <ion-content>
   <h2 text-center style="color:#bdbdbd">Categorias</h2>
-<!-- <ion-item>
-  <ion-row align-item-center>
-    <ion-col  col-6 col-md align-self-center class="animated slideInUp">
-      
-      <button class="boton_personalizado" (click)="redirectabc()">   
-        <img src="assets/imgs/abc.png"class="imagen"  /> 
-          <h3 style="color:#00c853">Abecedario</h3>
-          <button ion-button clear small color="danger" icon-start>
-            <ion-icon name='star'></ion-icon>
-            10/10
-          </button>
-        </button>
-        &nbsp;
-        <button class="boton_personalizado" (click)="redirectnumeros()">  
-          <img src="assets/imgs/signo.png"class="imagen" /> 
-           <h3 style="color:#00c853">Numeros</h3>
-           <button ion-button clear small color="danger" icon-start>
-            <ion-icon name='star'></ion-icon>
-            10/10
-          </button>
-          </button>
-    </ion-col>
-</ion-row>
 
-</ion-item>
-<ion-item>
-  <ion-row align-item-center>
-    <ion-col  col-6 col-md align-self-center class="animated slideInUp">
-      
-      <button class="boton_personalizado" >   
-        <img src="assets/imgs/signo.png" class="imagen"/> 
-          <h3 style="color:#00c853">Familia</h3>
-          <button ion-button clear small color="danger" icon-start>
-            <ion-icon name='star'></ion-icon>
-            10/10
-          </button>
-        </button>
-        &nbsp;
-        <button class="boton_personalizado" >  
-          <img src="assets/imgs/signo.png" class="imagen" /> 
-           <h3 style="color:#00c853">Colores</h3>
-           <button ion-button clear small color="danger" icon-start>
-            <ion-icon name='star'></ion-icon>
-            10/10
-          </button>
-          </button>
-    </ion-col>
-</ion-row>
-</ion-item>
-<ion-item>
-  <ion-row align-item-center>
-    <ion-col  col-6 col-md align-self-center class="animated slideInUp">
-      
-      <button class="boton_personalizado" >   
-        <img src="assets/imgs/signo.png" class="imagen" /> 
-          <h3 style="color:#00c853">Sentimientos</h3>
-          <button ion-button clear small color="danger" icon-start>
-            <ion-icon name='star'></ion-icon>
-            10/10
-          </button>
-        </button>
-        &nbsp;
-        <button class="boton_personalizado" >  
-          <img src="assets/imgs/signo.png" class="imagen"/> 
-           <h3 style="color:#00c853">Animales</h3>
-           <button ion-button clear small color="danger" icon-start>
-            <ion-icon name='star'></ion-icon>
-            10/10
-          </button>
-          </button>
-    </ion-col>
-</ion-row>
-</ion-item> -->
 <ion-card >
   
     <ion-item (click)="redirectJuegoAbc()">
@@ -254,6 +182,24 @@
       </ion-thumbnail>
       <ion-item color="azul2">
       <h2>Salud</h2>
+      <button ion-button item-end clear small color="danger" icon-start>
+        <ion-icon name='star'></ion-icon>
+        0/10
+      </button>
+      </ion-item>
+    </ion-item>
+   
+  </ion-list>
+  
+</ion-card>
+<ion-card>
+  <ion-list>
+    <ion-item (click)="redirectJuegoExamen()">
+      <ion-thumbnail item-start>
+        <img src="assets/imgs/examen.png">
+      </ion-thumbnail>
+      <ion-item color="azul2">
+      <h2>Examen</h2>
       <button ion-button item-end clear small color="danger" icon-start>
         <ion-icon name='star'></ion-icon>
         0/10
