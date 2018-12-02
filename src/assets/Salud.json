@@ -143,7 +143,7 @@
     },
     {
         "salud":"Mareo",
-        "imagen":"Jeringa.gif"
+        "imagen":"Mareo.gif"
         
     },
     {
@@ -187,8 +187,8 @@
         
     },
     {
-        "salud":"SillaDeRuedafas",
-        "imagen":"SillaDeRuedafas.gif"
+        "salud":"SillaDeRuedas",
+        "imagen":"SillaDeRuedas.gif"
         
     },
     {

@@ -28,6 +28,9 @@ import {SaludosPage} from '../pages/saludos/saludos';
 import {JuegosaludosPage}from '../pages/juegosaludos/juegosaludos';
 import {FamiliaPage} from '../pages/familia/familia';
 import {JuegoFamiliaPage} from '../pages/juego-familia/juego-familia';
+import {SentimientosPage} from '../pages/sentimientos/sentimientos';
+import {VerbosPage} from '../pages/verbos/verbos';
+import {SaludPage} from '../pages/salud/salud';
 
 
  
@@ -64,7 +67,10 @@ import {JuegoFamiliaPage} from '../pages/juego-familia/juego-familia';
     SaludosPage,
     JuegosaludosPage,
     FamiliaPage,
-    JuegoFamiliaPage
+    JuegoFamiliaPage,
+    SentimientosPage,
+    VerbosPage,
+    SaludPage
   ],
   imports: [
     BrowserModule,
@@ -95,7 +101,10 @@ import {JuegoFamiliaPage} from '../pages/juego-familia/juego-familia';
     SaludosPage,
     JuegosaludosPage, 
     FamiliaPage,
-    JuegoFamiliaPage
+    JuegoFamiliaPage,
+    SentimientosPage,
+    VerbosPage,
+    SaludPage
   ],
   providers: [
     StatusBar,

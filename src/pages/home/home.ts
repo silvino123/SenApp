@@ -7,6 +7,9 @@ import { TiempoPage } from '../../pages/tiempo/tiempo';
 import {ProfesionesPage} from '../../pages/profesiones/profesiones';
 import { SaludosPage } from '../saludos/saludos';
 import { FamiliaPage } from '../familia/familia';
+import { SentimientosPage } from '../sentimientos/sentimientos';
+import { VerbosPage } from '../verbos/verbos';
+import { SaludPage } from '../salud/salud';
 //import { from } from 'rxjs';
 //import { from } from 'rxjs';
 @Component({
@@ -39,5 +42,14 @@ export class HomePage {
    }
    redirecFamilia(){
     this.navCtrl.setRoot(FamiliaPage);
+   }
+   redirecSentimientos(){
+    this.navCtrl.setRoot(SentimientosPage);
+   }
+   redirecVerbos(){
+    this.navCtrl.setRoot(VerbosPage);
+   }
+   redirecSalud(){
+    this.navCtrl.setRoot(SaludPage);
    }
 }

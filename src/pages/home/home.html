@@ -66,7 +66,7 @@
           <h3 style="color:#00c853">Profesiones</h3>
         </button>
         &nbsp;
-        <button class="boton_personalizado" >  
+        <button class="boton_personalizado" (click)="redirecSentimientos()" >  
           <img src="assets/imgs/sen.png" class="imagen"/> 
            <h3 style="color:#00c853">Sentimientos</h3>
           </button>
@@ -77,12 +77,12 @@
   <ion-row align-item-center>
     <ion-col  col-6 col-md align-self-center class="animated slideInUp">
       
-      <button class="boton_personalizado" >   
+      <button class="boton_personalizado" (click)="redirecVerbos()" >   
         <img src="assets/imgs/verbos.png" class="imagen" /> 
           <h3 style="color:#00c853">Verbos</h3>
         </button>
         &nbsp;
-        <button class="boton_personalizado" >  
+        <button class="boton_personalizado" (click)="redirecSalud()" >  
           <img src="assets/imgs/salud.png" class="imagen"/> 
            <h3 style="color:#00c853">Salud</h3>
           </button>

@@ -69,6 +69,21 @@ export interface Letras {
    
     
   }
+  export interface Sentimientos {
+    id?: string;
+    sentimiento?: string;
+    imagen?: string;    
+  }
+  export interface Verbos {
+    id?: string;
+    verbo?: string;
+    imagen?: string;
+  }
+  export interface Salud {
+    id?: string;
+    salud?: string;
+    imagen?: string;  
+  }
   export interface JuegoLetras {
    
     letra?: string;
