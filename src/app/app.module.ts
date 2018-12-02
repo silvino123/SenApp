@@ -30,6 +30,9 @@ import {FamiliaPage} from '../pages/familia/familia';
 import {JuegoFamiliaPage} from '../pages/juego-familia/juego-familia';
 
 
+ 
+
+
 /* var config = {
   apiKey: "AIzaSyCfu5Zuq8Ut87PtyP-lHwp1eTwC3NfbpWM",
   authDomain: "senapp-d0e0f.firebaseapp.com",

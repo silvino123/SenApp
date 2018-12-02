@@ -7,6 +7,8 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import {ExamenPage} from '../pages/examen/examen';
 
+ 
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -32,6 +34,9 @@ export class MyApp {
      
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+      this.platform.registerBackButtonAction(() => {
+        this.nav.setRoot(HomePage);
+});
     });
   }
 
@@ -47,4 +52,6 @@ export class MyApp {
   
     this.nav.setRoot(ExamenPage);
   }
+ 
 }
+
