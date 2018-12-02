@@ -5,6 +5,8 @@ import {NumerosPage}from '../../pages/numeros/numeros';
 import{ColoresPage}from '../../pages/colores/colores';
 import { TiempoPage } from '../../pages/tiempo/tiempo';
 import {ProfesionesPage} from '../../pages/profesiones/profesiones';
+import { SaludosPage } from '../saludos/saludos';
+import { FamiliaPage } from '../familia/familia';
 //import { from } from 'rxjs';
 //import { from } from 'rxjs';
 @Component({
@@ -31,5 +33,11 @@ export class HomePage {
    }
    redirecProfesion(){
     this.navCtrl.setRoot(ProfesionesPage);
+   }
+   redirecSaludos(){
+    this.navCtrl.setRoot(SaludosPage);
+   }
+   redirecFamilia(){
+    this.navCtrl.setRoot(FamiliaPage);
    }
 }

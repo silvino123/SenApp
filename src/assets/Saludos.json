@@ -1,0 +1,105 @@
+{
+
+    "SaludosArray":[
+    {
+        "Saludo":"Adios",
+        "imagen":"Adios.gif"
+       
+        
+    },
+    
+    {
+        "Saludo":"Bien",
+        "imagen":"Bien.gif"
+    },
+    {
+        "Saludo":"Buenas Noches",
+        "imagen":"Buenas Noches.gif"
+        
+    },
+    {
+        "Saludo":"Buenas Tardes",
+        "imagen":"Buenas Tardes.gif"
+        
+    }
+    ,
+    {
+        "Saludo":"Buenos Diás",
+        "imagen":"Buenos Dias.gif"
+    }
+    ,
+    {
+        "Saludo":"¿Como Estas?",
+        "imagen":"Como estas.gif"
+        
+    }
+    ,
+    {
+        "Saludo":"Cuidate",
+        "imagen":"Cuidate.gif"
+        
+    }
+    ,
+    {
+        "Saludo":"Gracias",
+        "imagen":"Gracias.gif"
+        
+    }
+    ,
+    {
+        "Saludo":"Hasta Luego",
+        "imagen":"Hasta Luego.gif"
+        
+    }
+    ,
+    {
+        "Saludo":"Hasta Mañana",
+        "imagen":"Hasta Mañana.gif"
+        
+    }
+    ,
+    {
+        "Saludo":"Hola",
+        "imagen":"Hola.gif"
+        
+    }
+    ,
+    {
+        "Saludo":"Mal",
+        "imagen":"Mal.gif"
+        
+    }
+    ,
+    {
+        "Saludo":"Mas O Menos",
+        "imagen":"Mas o menos.gif"
+        
+    }
+    ,
+    {
+        "Saludo":"Nos Vemos",
+        "imagen":"Nos vemos.gif"
+        
+    }
+    ,
+    {
+        "Saludo":"Perdón",
+        "imagen":"Perdon.gif"
+        
+    }
+    ,
+    {
+        "Saludo":"Por Favor",
+        "imagen":"Por favor.gif"
+        
+    }
+    ,
+    {
+        "Saludo":"¿Que Significa?",
+        "imagen":"Que significa.gif"
+        
+    }
+    
+    ]
+    
+    }

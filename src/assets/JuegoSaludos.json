@@ -1,0 +1,142 @@
+{
+
+    "SaludosArray":[
+    {
+        "Saludo":"Adios",
+        "imagen":"Adios.gif",
+        "respuesta1":"Adios",
+        "respuesta2":"Hola",
+        "respuesta3":"Bien"
+    },
+    
+    {
+        "Saludo":"Bien",
+        "imagen":"Bien.gif",
+        "respuesta1":"Buenas Noches",
+        "respuesta2":"Mas o Menos",
+        "respuesta3":"Bien"
+    },
+    {
+        "Saludo":"Buenas Noches",
+        "imagen":"Buenas Noches.gif",
+        "respuesta1":"Buenas Noches",
+        "respuesta2":"Mal",
+        "respuesta3":"Hasta Luego"
+        
+    },
+    {
+        "Saludo":"Buenas Trades",
+        "imagen":"Buenas Tardes.gif",
+        "respuesta1":"Mal",
+        "respuesta2":"Nos Vemos",
+        "respuesta3":"Buenas Tardes"
+        
+    },
+    {
+        "Saludo":"Buenos Días",
+        "imagen":"Buenos Dias.gif",
+        "respuesta1":"Buenos Días",
+        "respuesta2":"¿Que Significa?",
+        "respuesta3":"Perdon"
+        
+    },
+    {
+        "Saludo":"¿Como Estas?",
+        "imagen":"Como estas.gif",
+        "respuesta1":"Por Favor",
+        "respuesta2":"Nos Vemos",
+        "respuesta3":"¿Como Estas?"
+        
+    },
+    {
+        "Saludo":"Cuidate",
+        "imagen":"Cuidate.gif",
+        "respuesta1":"Cuidate",
+        "respuesta2":"Hola",
+        "respuesta3":"Gracias"
+        
+    },
+    {
+        "Saludo":"Gracias",
+        "imagen":"Gracias.gif",
+        "respuesta1":"Bien",
+        "respuesta2":"Adios",
+        "respuesta3":"Gracias"
+        
+    },
+    {
+        "Saludo":"Hasta Luego",
+        "imagen":"Hasta Luego.gif",
+        "respuesta1":"Perdon",
+        "respuesta2":"Hasta Luego",
+        "respuesta3":"Cuidate"
+        
+    },
+    {
+        "Saludo":"Hasta Mañana",
+        "imagen":"Hasta Mañana.gif",
+        "respuesta1":"Mas o Menos",
+        "respuesta2":"Hasta Mañana",
+        "respuesta3":"Buenos Días"
+        
+    },
+    {
+        "Saludo":"Hola",
+        "imagen":"Hola.gif",
+        "respuesta1":"Hola",
+        "respuesta2":"Perdon",
+        "respuesta3":"Cuidate"
+        
+    },
+    {
+        "Saludo":"Mal",
+        "imagen":"Mal.gif",
+        "respuesta1":"Bien",
+        "respuesta2":"Adios",
+        "respuesta3":"Mal"
+        
+    },
+    {
+        "Saludo":"Mas o Menos",
+        "imagen":"Mas o Menos.gif",
+        "respuesta1":"Nos Vemos",
+        "respuesta2":"Mas o Menos",
+        "respuesta3":"¿Que Signidica?"
+        
+    },
+    {
+        "Saludo":"Nos Vemos",
+        "imagen":"Nos Vemos.gif",
+        "respuesta1":"Perdon",
+        "respuesta2":"Adios",
+        "respuesta3":"Nos Vemos"
+        
+    },
+    {
+        "Saludo":"Perdon",
+        "imagen":"Perdon.gif",
+        "respuesta1":"Por Favor",
+        "respuesta2":"Perdon",
+        "respuesta3":"Adios"
+        
+    },
+    {
+        "Saludo":"Por Favor",
+        "imagen":"Por Favor.gif",
+        "respuesta1":"Hasta Luego",
+        "respuesta2":"Buenos Días",
+        "respuesta3":"Por Favor"
+        
+    },
+    {
+        "Saludo":"¿Que Significa?",
+        "imagen":"Que significa.gif",
+        "respuesta1":"Perdon",
+        "respuesta2":"¿Que Significa?",
+        "respuesta3":"¿Como Estas?"
+        
+    }
+
+    ]
+    
+    }

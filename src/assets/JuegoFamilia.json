@@ -1,0 +1,218 @@
+{
+
+    "FamiliaArray":[
+    {
+        "Familiar":"Abuelo",
+        "imagen":"Abuelo.gif",
+        "respuesta1":"Bisabuelo",
+        "respuesta2":"Amigo",
+        "respuesta3":"Abuelo"
+        
+    },
+    
+    {
+        "Familiar":"Amigo",
+        "imagen":"Amigo.gif",
+        "respuesta1":"Familia",
+        "respuesta2":"Hermanastro",
+        "respuesta3":"Amigo"
+        
+    },
+    {
+        "Familiar":"Bisabuelo",
+        "imagen":"Bisabuelo.gif",
+        "respuesta1":"Tío",
+        "respuesta2":"Abuelo",
+        "respuesta3":"Bisabuelo"
+        
+    },
+    {
+        "Familiar":"Comadre",
+        "imagen":"Comadre.gif",
+        "respuesta1":"Comadre",
+        "respuesta2":"Esposo",
+        "respuesta3":"Hijastro"
+        
+    },
+    
+    {
+        "Familiar":"Compadre",
+        "imagen":"Compadre.gif",
+        "respuesta1":"Compadre",
+        "respuesta2":"Bisabuelo",
+        "respuesta3":"Hombre"
+        
+    },
+    {
+        "Familiar":"Cuñado",
+        "imagen":"Cuñado.gif",
+        "respuesta1":"Abuelo",
+        "respuesta2":"Cuñado",
+        "respuesta3":"Hermano"
+        
+    },
+    {
+        "Familiar":"Esposo",
+        "imagen":"Esposo.gif",
+        "respuesta1":"Mamá",
+        "respuesta2":"Hijo",
+        "respuesta3":"Esposo"
+        
+    },
+    {
+        "Familiar":"Familia",
+        "imagen":"Familia.gif",
+        "respuesta1":"Bisabuelo",
+        "respuesta2":"Cuñado",
+        "respuesta3":"Familia"
+        
+    },
+    {
+        "Familiar":"Gemelo",
+        "imagen":"Gemelo.gif",
+        "respuesta1":"Gemelo",
+        "respuesta2":"Cuñado",
+        "respuesta3":"Novio"
+        
+    },
+    {
+        "Familiar":"Hermanastro",
+        "imagen":"Hermanastro.gif",
+        "respuesta1":"Abuelo",
+        "respuesta2":"Hermanastro",
+        "respuesta3":"`Sobrino`"
+        
+    },
+    
+    {
+        "Familiar":"Hermano",
+        "imagen":"Hermano.gif",
+        "respuesta1":"Compadre",
+        "respuesta2":"Cuñado",
+        "respuesta3":"Hermano"
+        
+    },
+    {
+        "Familiar":"Hijastro",
+        "imagen":"Hijastro.gif",
+        "respuesta1":"Hijastro",
+        "respuesta2":"Bisabuelo",
+        "respuesta3":"Hermano"
+        
+    },
+    {
+        "Familiar":"Hijo",
+        "imagen":"Hijo.gif",
+        "respuesta1":"Familia",
+        "respuesta2":"Cuñado",
+        "respuesta3":"Hijo"
+        
+    },
+    {
+        "Familiar":"Hombre",
+        "imagen":"Hombre.gif",
+        "respuesta1":"Hombre",
+        "respuesta2":"Hermanastro",
+        "respuesta3":"Cuñado"
+        
+    }
+    ,
+    {
+        "Familiar":"Madrastra",
+        "imagen":"Madrastra.gif",
+        "respuesta1":"Madrastra",
+        "respuesta2":"Compadre",
+        "respuesta3":"Mamá"
+        
+    }
+    ,
+    {
+        "Familiar":"Mamá",
+        "imagen":"Mama.gif",
+        "respuesta1":"Mamá",
+        "respuesta2":"Madrastra",
+        "respuesta3":"Familia"
+        
+    }
+    ,
+    {
+        "Familiar":"Mujer",
+        "imagen":"Mujer.gif",
+        "respuesta1":"Mamá",
+        "respuesta2":"Mujer",
+        "respuesta3":"Bisabuelo"
+        
+    }
+    ,
+    {
+        "Familiar":"Nieto",
+        "imagen":"Nieto.gif",
+        "respuesta1":"Nieto",
+        "respuesta2":"Compadre",
+        "respuesta3":"Cuñado"
+        
+    }
+    ,
+    {
+        "Familiar":"Novio",
+        "imagen":"Novio.gif",
+        "respuesta1":"Novio",
+        "respuesta2":"Mujer",
+        "respuesta3":"Primo"
+        
+    }
+    ,
+    {
+        "Familiar":"Padrastro",
+        "imagen":"Padrastro.gif",
+        "respuesta1":"Bisabuelo",
+        "respuesta2":"Novio",
+        "respuesta3":"Padrastro"
+        
+    }
+    ,
+    {
+        "tiempo":"Primo",
+        "imagen":"Papa.gif",
+        "respuesta1":"Mujer",
+        "respuesta2":"Primo",
+        "respuesta3":"Mamá"
+        
+    },
+    {
+        "tiempo":"Primo",
+        "imagen":"Primo.gif",
+        "respuesta1":"Primo",
+        "respuesta2":"Sobrino",
+        "respuesta3":"Mamá"
+        
+    },
+    {
+        "tiempo":"Sobrino",
+        "imagen":"Sobrino.gif",
+        "respuesta1":"Nieto",
+        "respuesta2":"Cuñado",
+        "respuesta3":"Sobrino"
+        
+    },
+    {
+        "tiempo":"Suegro",
+        "imagen":"Suegro.gif",
+        "respuesta1":"Amigo",
+        "respuesta2":"Papá",
+        "respuesta3":"Suegro"
+        
+    },
+    {
+        "tiempo":"Tío",
+        "imagen":"Tio.gif",
+        "respuesta1":"Amigo",
+        "respuesta2":"Papá",
+        "respuesta3":"Tío"
+        
+    }
+   
+    
+    ]
+    
+    }

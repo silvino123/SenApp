@@ -24,9 +24,15 @@ import {JuegotiempoPage} from '../pages/juegotiempo/juegotiempo';
 import {JuegoprofesionesPage} from'../pages/juegoprofesiones/juegoprofesiones';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-//import { from } from 'rxjs';
+import {SaludosPage} from '../pages/saludos/saludos';
+import {JuegosaludosPage}from '../pages/juegosaludos/juegosaludos';
+import {FamiliaPage} from '../pages/familia/familia';
+import {JuegoFamiliaPage} from '../pages/juego-familia/juego-familia';
 
-//import { from } from 'rxjs';
+
+ 
+
+
 /* var config = {
   apiKey: "AIzaSyCfu5Zuq8Ut87PtyP-lHwp1eTwC3NfbpWM",
   authDomain: "senapp-d0e0f.firebaseapp.com",
@@ -54,7 +60,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HoraPage,
     ProfesionesPage,
     JuegotiempoPage,
-    JuegoprofesionesPage
+    JuegoprofesionesPage,
+    SaludosPage,
+    JuegosaludosPage,
+    FamiliaPage,
+    JuegoFamiliaPage
   ],
   imports: [
     BrowserModule,
@@ -81,7 +91,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HoraPage,
     ProfesionesPage,
     JuegotiempoPage,
-    JuegoprofesionesPage
+    JuegoprofesionesPage,
+    SaludosPage,
+    JuegosaludosPage, 
+    FamiliaPage,
+    JuegoFamiliaPage
   ],
   providers: [
     StatusBar,

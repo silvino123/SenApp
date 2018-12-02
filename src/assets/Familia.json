@@ -1,0 +1,154 @@
+{
+
+    "FamiliaresArray":[
+    {
+        "familiar":"Abuelo",
+        "imagen":"Abuelo.gif"
+       
+        
+    },
+    
+    {
+        "familiar":"Amigo",
+        "imagen":"Amigo.gif"
+    },
+    {
+        "familiar":"Bisabuelo",
+        "imagen":"Bisabuelo.gif"
+        
+    },
+    {
+        "familiar":"Comadre",
+        "imagen":"Comadre.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Compadre",
+        "imagen":"Compadre.gif"
+    }
+    ,
+    {
+        "familiar":"Cuñado",
+        "imagen":"Cuñado.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Esposo",
+        "imagen":"Esposo.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Familia",
+        "imagen":"Familia.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Gemelo",
+        "imagen":"Gemelo.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Hermanastro",
+        "imagen":"Hermanastro.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Hermano",
+        "imagen":"Hermano.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Hijastro",
+        "imagen":"Hijastro.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Hijo",
+        "imagen":"Hijo.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Hombre",
+        "imagen":"Hombre.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Madrastra",
+        "imagen":"Madrastra.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Mamá",
+        "imagen":"Mama.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Mujer",
+        "imagen":"Mujer.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Nieto",
+        "imagen":"Nieto.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Novio",
+        "imagen":"Novio.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Padrastro",
+        "imagen":"Padrastro.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Papá",
+        "imagen":"Papa.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Primo",
+        "imagen":"Primo.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Sobrino",
+        "imagen":"Sobrino.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Suegro",
+        "imagen":"Suegro.gif"
+        
+    }
+    ,
+    {
+        "familiar":"Tío",
+        "imagen":"Tio.gif"
+        
+    }
+    
+   
+    ]
+    
+    }
