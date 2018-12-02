@@ -54,6 +54,21 @@ export interface Letras {
    
     
   }
+
+  export interface Saludos {
+    id?: string;
+    Saludo?: string;
+    imagen?: string;
+   
+    
+  }
+  export interface Familia {
+    id?: string;
+    Familar?: string;
+    imagen?: string;
+   
+    
+  }
   export interface JuegoLetras {
    
     letra?: string;
@@ -81,6 +96,15 @@ export interface Letras {
     respuesta3?:string;
     
   }
+  export interface JuegoSaludos {
+   
+    Saludo?: string;
+    imagen?: string;
+    respuesta1?:string;
+    respuesta2?:string;
+    respuesta3?:string;
+    
+  }
   export interface JuegoTiempo {
    
     tiempo?: string;
@@ -93,6 +117,15 @@ export interface Letras {
   export interface JuegoProfesion {
    
     profesion?: string;
+    imagen?: string;
+    respuesta1?:string;
+    respuesta2?:string;
+    respuesta3?:string;
+    
+  }
+  export interface JuegoFamilia {
+   
+    familiar?: string;
     imagen?: string;
     respuesta1?:string;
     respuesta2?:string;

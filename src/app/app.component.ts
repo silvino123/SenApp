@@ -19,7 +19,11 @@ export class MyApp {
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
-
+    platform.ready().then(() => {
+      statusBar.styleLightContent();
+      statusBar.backgroundColorByHexString("#90CAF9");
+      
+    });
    
   } 
 

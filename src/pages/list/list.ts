@@ -6,6 +6,8 @@ import {JuegoColoresPage} from '../../pages/juego-colores/juego-colores';
 import {JuegotiempoPage} from '../../pages/juegotiempo/juegotiempo';
 import{JuegoprofesionesPage} from '../../pages/juegoprofesiones/juegoprofesiones';
 import {ExamenPage} from '../../pages/examen/examen';
+import { JuegosaludosPage } from '../juegosaludos/juegosaludos';
+import { JuegoFamiliaPage } from '../juego-familia/juego-familia';
 //import { from } from 'rxjs';
 //import { NumerosPage } from '../numeros/numeros';
 @Component({
@@ -42,5 +44,11 @@ this.navCtrl.setRoot(JuegoAbcPage);
       }
       redirectJuegoExamen(){
         this.navCtrl.setRoot(ExamenPage);
+      }
+      redirectJuegosaludos(){
+        this.navCtrl.setRoot(JuegosaludosPage);
+      }
+      redirectJuegofamilia(){
+        this.navCtrl.setRoot(JuegoFamiliaPage);
       }
 }
