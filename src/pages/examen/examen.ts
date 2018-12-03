@@ -104,7 +104,7 @@ export class ExamenPage implements OnInit {
       }
       if(this.n>10 && this.vidas!=0){
         const alert = this.alertCtrl.create({
-          title: 'Categoria Completada!',
+          title: 'Examen Completado!',
           subTitle: '',
           buttons: ['OK']
         });
@@ -114,7 +114,7 @@ export class ExamenPage implements OnInit {
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
           title: 'Se terminaron los intentos!',
-          subTitle: 'Categoria no completada',
+          subTitle: 'Examen no Completado',
           buttons: ['OK']
         });
         alert.present();

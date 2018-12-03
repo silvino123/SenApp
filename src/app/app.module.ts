@@ -34,7 +34,7 @@ import {SaludPage} from '../pages/salud/salud';
 import {JuegoSentimientosPage} from '../pages/juegosentimientos/juegosentimientos';
 import {JuegoVerbosPage} from '../pages/juegoverbos/juegoverbos';
 import {JuegoSaludPage} from '../pages/juegosalud/juegosalud';
-
+import {AcercaPage} from '../pages/acerca/acerca';
 
  
 
@@ -76,7 +76,8 @@ import {JuegoSaludPage} from '../pages/juegosalud/juegosalud';
     SaludPage,
     JuegoSentimientosPage,
     JuegoVerbosPage,
-    JuegoSaludPage
+    JuegoSaludPage,
+    AcercaPage
   ],
   imports: [
     BrowserModule,
@@ -113,7 +114,8 @@ import {JuegoSaludPage} from '../pages/juegosalud/juegosalud';
     SaludPage,
     JuegoSentimientosPage,
     JuegoVerbosPage,
-    JuegoSaludPage
+    JuegoSaludPage,
+    AcercaPage
   ],
   providers: [
     StatusBar,

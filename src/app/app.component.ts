@@ -6,6 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import {ExamenPage} from '../pages/examen/examen';
+import {AcercaPage} from '../pages/acerca/acerca';
 
  
 
@@ -52,6 +53,8 @@ export class MyApp {
   
     this.nav.setRoot(ExamenPage);
   }
- 
+  openPageacerca(){
+    this.nav.push(AcercaPage);
+  }
 }
 

@@ -134,7 +134,7 @@
         "palabra":"Amigo",
         "imagen":"Amigo.gif",
         "respuesta1":"Amigo",
-        "respuesta2":"Comadre",
+        "respuesta2":"Sobrino",
         "respuesta3":"Hermano",
         "categoria":"Familia"
         
@@ -149,7 +149,345 @@
         "categoria":"Familia"
         
     }
-    
+    ,
+    {
+        "palabra":"Mamá",
+        "imagen":"Mama.gif",
+        "respuesta1":"Primo",
+        "respuesta2":"Hermano",
+        "respuesta3":"Mamá",
+        "categoria":"Familia"
+        
+    }
+    ,
+    {
+        "palabra":"Nieto",
+        "imagen":"Nieto.gif",
+        "respuesta1":"Primo",
+        "respuesta2":"Nieto",
+        "respuesta3":"Hijo",
+        "categoria":"Familia"
+        
+    }
+    ,
+    {
+        "palabra":"Papá",
+        "imagen":"Papa.gif",
+        "respuesta1":"Mama",
+        "respuesta2":"Papá",
+        "respuesta3":"Hijo",
+        "categoria":"Familia"
+        
+    }
+    ,
+    {
+        "palabra":"Adios",
+        "imagen":"Adios.gif",
+        "respuesta1":"Adios",
+        "respuesta2":"Bien",
+        "respuesta3":"Cuidate",
+        "categoria":"Saludos"
+        
+    }
+    ,
+    {
+        "palabra":"Cuidate",
+        "imagen":"Cuidate.gif",
+        "respuesta1":"Cuidate",
+        "respuesta2":"Bien",
+        "respuesta3":"Gracias",
+        "categoria":"Saludos"
+        
+    }
+    ,
+    {
+        "palabra":"Gracias",
+        "imagen":"Gracias.gif",
+        "respuesta1":"Gracias",
+        "respuesta2":"Bien",
+        "respuesta3":"Hasta Luego",
+        "categoria":"Saludos"
+        
+    }
+    ,
+    {
+        "palabra":"Hola",
+        "imagen":"Hola.gif",
+        "respuesta1":"Hola",
+        "respuesta2":"Mal",
+        "respuesta3":"Hasta Luego",
+        "categoria":"Saludos"
+        
+    }
+    ,
+    {
+        "palabra":"Mal",
+        "imagen":"Mal.gif",
+        "respuesta1":"Mal",
+        "respuesta2":"Hola",
+        "respuesta3":"Hasta Luego",
+        "categoria":"Saludos"
+        
+    }
+    ,
+    {
+        "palabra":"Lunes",
+        "imagen":"Lunes.gif",
+        "respuesta1":"Jueves",
+        "respuesta2":"Lunes",
+        "respuesta3":"Viernes",
+        "categoria":"Tiempo"
+        
+    }
+    ,
+    {
+        "palabra":"Viernes",
+        "imagen":"Viernes.gif",
+        "respuesta1":"Martes",
+        "respuesta2":"Lunes",
+        "respuesta3":"Viernes",
+        "categoria":"Tiempo"
+        
+    }
+    ,
+    {
+        "palabra":"Primavera",
+        "imagen":"Primavera.gif",
+        "respuesta1":"Invierno",
+        "respuesta2":"Verano",
+        "respuesta3":"Primavera",
+        "categoria":"Tiempo"
+        
+    }
+    ,
+    {
+        "palabra":"Verano",
+        "imagen":"Verano.gif",
+        "respuesta1":"Verano",
+        "respuesta2":"Otoño",
+        "respuesta3":"Primavera",
+        "categoria":"Tiempo"
+        
+    }
+    ,
+    {
+        "palabra":"Dia",
+        "imagen":"Dia.gif",
+        "respuesta1":"Dia",
+        "respuesta2":"Mañana",
+        "respuesta3":"Noche",
+        "categoria":"Tiempo"
+        
+    }
+    ,
+    {
+        "palabra":"Hora",
+        "imagen":"Hora.gif",
+        "respuesta1":"Hora",
+        "respuesta2":"Segundo",
+        "respuesta3":"Noche",
+        "categoria":"Tiempo"
+        
+    }
+    ,
+    {
+        "palabra":"Abogado",
+        "imagen":"Abogado.gif",
+        "respuesta1":"Abogado",
+        "respuesta2":"Chef",
+        "respuesta3":"Cocinero",
+        "categoria":"Profesiones"
+        
+    }
+    ,
+    {
+        "palabra":"Bombero",
+        "imagen":"Bombero.gif",
+        "respuesta1":"Alumno",
+        "respuesta2":"Chef",
+        "respuesta3":"Bombero",
+        "categoria":"Profesiones"
+        
+    }
+    ,
+    {
+        "palabra":"Chef",
+        "imagen":"Chef.gif",
+        "respuesta1":"Alumno",
+        "respuesta2":"Chef",
+        "respuesta3":"Jefe",
+        "categoria":"Profesiones"
+        
+    }
+    ,
+    {
+        "palabra":"Doctor",
+        "imagen":"Doctor.gif",
+        "respuesta1":"Doctor",
+        "respuesta2":"Chef",
+        "respuesta3":"Enfermero",
+        "categoria":"Profesiones"
+        
+    }
+    ,
+    {
+        "palabra":"Alegre",
+        "imagen":"Alegre.gif",
+        "respuesta1":"Alegre",
+        "respuesta2":"Cansado",
+        "respuesta3":"Arrepentido",
+        "categoria":"Sentimientos"
+        
+    }
+    ,
+    {
+        "palabra":"Bueno",
+        "imagen":"Bueno.gif",
+        "respuesta1":"Feliz",
+        "respuesta2":"Enojado",
+        "respuesta3":"Bueno",
+        "categoria":"Sentimientos"
+        
+    }
+    ,
+    {
+        "palabra":"Feliz",
+        "imagen":"Feliz.gif",
+        "respuesta1":"Feliz",
+        "respuesta2":"Enojado",
+        "respuesta3":"Enamorado",
+        "categoria":"Sentimientos"
+        
+    }
+    ,
+    {
+        "palabra":"Nervioso",
+        "imagen":"Nervioso.gif",
+        "respuesta1":"Enamorado",
+        "respuesta2":"Orgulloso",
+        "respuesta3":"Nervioso",
+        "categoria":"Sentimientos"
+        
+    }
+    ,
+    {
+        "palabra":"Preocupado",
+        "imagen":"Preocupado.gif",
+        "respuesta1":"Preocupado",
+        "respuesta2":"Orgulloso",
+        "respuesta3":"Miedo",
+        "categoria":"Sentimientos"
+        
+    }
+    ,
+    {
+        "palabra":"Caminar",
+        "imagen":"Caminar.gif",
+        "respuesta1":"Besar",
+        "respuesta2":"Bañarse",
+        "respuesta3":"Caminar",
+        "categoria":"Verbos"
+        
+    }
+    ,
+    {
+        "palabra":"Dibujar",
+        "imagen":"Dibujar.gif",
+        "respuesta1":"Dibujar",
+        "respuesta2":"Descansar",
+        "respuesta3":"Dar",
+        "categoria":"Verbos"
+        
+    }
+    ,
+    {
+        "palabra":"Dormir",
+        "imagen":"Dormir.gif",
+        "respuesta1":"Hacer",
+        "respuesta2":"Estudiar",
+        "respuesta3":"Dormir",
+        "categoria":"Verbos"
+        
+    }
+    ,
+    {
+        "palabra":"Estudiar",
+        "imagen":"Estudiar.gif",
+        "respuesta1":"Estudiar",
+        "respuesta2":"Hablar",
+        "respuesta3":"Jugar",
+        "categoria":"Verbos"
+        
+    }
+    ,
+    {
+        "palabra":"Leer",
+        "imagen":"Leer.gif",
+        "respuesta1":"Leer",
+        "respuesta2":"Hablar",
+        "respuesta3":"Nadar",
+        "categoria":"Verbos"
+        
+    },
+    {
+        "palabra":"Pelear",
+        "imagen":"Pelear.gif",
+        "respuesta1":"Pelear",
+        "respuesta2":"Hablar",
+        "respuesta3":"Perdon",
+        "categoria":"Verbos"
+        
+    }
+    ,
+    {
+        "palabra":"Ambulancia",
+        "imagen":"Ambulancia.gif",
+        "respuesta1":"Alergia",
+        "respuesta2":"Botiquin",
+        "respuesta3":"Ambulancia",
+        "categoria":"Salud"
+        
+    }
+    ,
+    {
+        "palabra":"Hospital",
+        "imagen":"Hospital.gif",
+        "respuesta1":"Guantes",
+        "respuesta2":"Hospital",
+        "respuesta3":"Insomio",
+        "categoria":"Salud"
+        
+    }
+    ,
+    {
+        "palabra":"Pastilla",
+        "imagen":"Pastilla.gif",
+        "respuesta1":"Pastilla",
+        "respuesta2":"Hospital",
+        "respuesta3":"Paciente",
+        "categoria":"Salud"
+        
+    }
+    ,
+    {
+        "palabra":"Resfriado",
+        "imagen":"Resfriado.gif",
+        "respuesta1":"Resfriado",
+        "respuesta2":"Peligro",
+        "respuesta3":"Suero",
+        "categoria":"Salud"
+        
+    }
+    ,
+    {
+        "palabra":"Tos",
+        "imagen":"Tos.gif",
+        "respuesta1":"Tos",
+        "respuesta2":"Termometro",
+        "respuesta3":"Suero",
+        "categoria":"Salud"
+        
+    }
     ]
     
     }
