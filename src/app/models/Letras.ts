@@ -147,6 +147,33 @@ export interface Letras {
     respuesta3?:string;
     
   }
+  export interface JuegoSentimientos {
+   
+    sentimiento?: string;
+    imagen?: string;
+    respuesta1?:string;
+    respuesta2?:string;
+    respuesta3?:string;
+    
+  }
+  export interface JuegoVerbos {
+   
+    verbo?: string;
+    imagen?: string;
+    respuesta1?:string;
+    respuesta2?:string;
+    respuesta3?:string;
+    
+  }
+  export interface JuegoSalud {
+   
+    salud?: string;
+    imagen?: string;
+    respuesta1?:string;
+    respuesta2?:string;
+    respuesta3?:string;
+    
+  }
   export interface Examen {
    
     palabra?: string;

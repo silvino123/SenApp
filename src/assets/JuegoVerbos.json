@@ -1,0 +1,327 @@
+{
+
+    "VerbosArray":[
+    {
+        "verbo":"Bailar",
+        "imagen":"Bailar.gif",
+        "respuesta1":"Trabajar",
+        "respuesta2":"Bailar",
+        "respuesta3":"Dar"
+    },
+    
+    {
+        "verbo":"Bañarse",
+        "imagen":"Bañarse.gif",
+        "respuesta1":"Descansar",
+        "respuesta2":"Entender",
+        "respuesta3":"Bañarse"
+        
+    },
+    {
+        "verbo":"Besar",
+        "imagen":"Besar.gif",
+        "respuesta1":"Ver",
+        "respuesta2":"Besar",
+        "respuesta3":"Tener"
+        
+    },
+    {
+        "verbo":"Caminar",
+        "imagen":"Caminar.gif",
+        "respuesta1":"Caminar",
+        "respuesta2":"Limpiar",
+        "respuesta3":"Dar"
+        
+    },
+    {
+        "verbo":"Cantar",
+        "imagen":"Cantar.gif",
+        "respuesta1":"Descansar",
+        "respuesta2":"Tener",
+        "respuesta3":"Cantar"
+        
+    },
+    {
+        "verbo":"Correr",
+        "imagen":"Correr.gif",
+        "respuesta1":"Trabajar",
+        "respuesta2":"Bañarse",
+        "respuesta3":"Correr"
+        
+    },
+    {
+        "verbo":"Cortar",
+        "imagen":"Cortar.gif",
+        "respuesta1":"Ver",
+        "respuesta2":"Cortar",
+        "respuesta3":"Caminar"
+        
+    },
+    {
+        "verbo":"Dar",
+        "imagen":"Dar.gif",
+        "respuesta1":"Escribir",
+        "respuesta2":"Dar",
+        "respuesta3":"Besar"
+        
+    },
+    {
+        "verbo":"Descansar",
+        "imagen":"Descansar.gif",
+        "respuesta1":"Descansar",
+        "respuesta2":"NoSe",
+        "respuesta3":"Sucio-basura"
+        
+    },
+    {
+        "verbo":"Dibujar",
+        "imagen":"Dibujar.gif",
+        "respuesta1":"Limpiar",
+        "respuesta2":"Dibujar",
+        "respuesta3":"Ver"
+        
+    },
+    {
+        "verbo":"Dormir",
+        "imagen":"Dormir.gif",
+        "respuesta1":"Ver",
+        "respuesta2":"NoTengo",
+        "respuesta3":"Dormir"
+        
+    },
+    {
+        "verbo":"Entender",
+        "imagen":"Entender.gif",
+        "respuesta1":"Entender",
+        "respuesta2":"NoSe",
+        "respuesta3":"Tener"
+        
+    },
+    {
+        "verbo":"Escribir",
+        "imagen":"Escribir.gif",
+        "respuesta1":"Escribir",
+        "respuesta2":"Trabajar",
+        "respuesta3":"Vacio"
+        
+    },
+    {
+        "verbo":"Estudiar",
+        "imagen":"Estudiar.gif",
+        "respuesta1":"Descansar",
+        "respuesta2":"Estudiar",
+        "respuesta3":"Limpiar"
+        
+    },
+    {
+        "verbo":"Hablar",
+        "imagen":"Hablar.gif",
+        "respuesta1":"Hablar",
+        "respuesta2":"Bailar",
+        "respuesta3":"Bañarse"
+        
+    },
+    {
+        "verbo":"Hacer",
+        "imagen":"Hacer.gif",
+        "respuesta1":"Tener",
+        "respuesta2":"Besar",
+        "respuesta3":"Hacer"
+        
+    },
+    {
+        "verbo":"Jugar",
+        "imagen":"Jugar.gif",
+        "respuesta1":"Bailar",
+        "respuesta2":"Trabajar",
+        "respuesta3":"Jugar"
+        
+    },
+    {
+        "verbo":"Leer",
+        "imagen":"Leer.gif",
+        "respuesta1":"Ver",
+        "respuesta2":"Dibujar",
+        "respuesta3":"Leer"
+        
+    },
+    {
+        "verbo":"Limpiar",
+        "imagen":"Limpiar.gif",
+        "respuesta1":"NoTengo",
+        "respuesta2":"Tener",
+        "respuesta3":"Limpiar"
+        
+    },
+    {
+        "verbo":"Nadar",
+        "imagen":"Nadar.gif",
+        "respuesta1":"Nadar",
+        "respuesta2":"Limpiar",
+        "respuesta3":"Bañarse"
+        
+    },
+    {
+        "verbo":"NoPuedo",
+        "imagen":"NoPuedo.gif",
+        "respuesta1":"NoPuedo",
+        "respuesta2":"Entender",
+        "respuesta3":"Descansar"
+        
+    },
+    {
+        "verbo":"NoQuiero",
+        "imagen":"NoQuiero.gif",
+        "respuesta1":"Tener",
+        "respuesta2":"Besar",
+        "respuesta3":"NoQuiero"
+        
+    },
+    {
+        "verbo":"NoSe",
+        "imagen":"NoSe.gif",
+        "respuesta1":"NoSe",
+        "respuesta2":"Vacio",
+        "respuesta3":"Besar"
+        
+    },
+    {
+        "verbo":"NoTengo",
+        "imagen":"NoTengo.gif",
+        "respuesta1":"Sucio-basura",
+        "respuesta2":"Trabajar",
+        "respuesta3":"NoTengo"
+        
+    },
+    {
+        "verbo":"Olvidar",
+        "imagen":"Olvidar.gif",
+        "respuesta1":"Tener",
+        "respuesta2":"Ver",
+        "respuesta3":"Olvidar"
+        
+    },
+    {
+        "verbo":"Pelear",
+        "imagen":"Pelear.gif",
+        "respuesta1":"Bailar",
+        "respuesta2":"Pelear",
+        "respuesta3":"Dibujar"
+        
+    },
+    {
+        "verbo":"Pensar",
+        "imagen":"Pensar.gif",
+        "respuesta1":"Bañarse",
+        "respuesta2":"Pensar",
+        "respuesta3":"Vacio"
+        
+    },
+    {
+        "verbo":"Perdon",
+        "imagen":"Perdon.gif",
+        "respuesta1":"Perdon",
+        "respuesta2":"Dar",
+        "respuesta3":"Descansar"
+        
+    },
+    {
+        "verbo":"Pintar",
+        "imagen":"Pintar.gif",
+        "respuesta1":"Dibujar",
+        "respuesta2":"Tener",
+        "respuesta3":"Pintar"
+        
+    },
+    {
+        "verbo":"Platicar",
+        "imagen":"Platicar.gif",
+        "respuesta1":"Platicar",
+        "respuesta2":"Sucio-basura",
+        "respuesta3":"Trabajar"
+        
+    },
+    {
+        "verbo":"Poder",
+        "imagen":"Poder.gif",
+        "respuesta1":"Besar",
+        "respuesta2":"Poder",
+        "respuesta3":"Vacio"
+        
+    },
+    {
+        "verbo":"Querer",
+        "imagen":"Querer.gif",
+        "respuesta1":"Querer",
+        "respuesta2":"Ver",
+        "respuesta3":"Tener"
+        
+    },
+    {
+        "verbo":"Saber",
+        "imagen":"Saber.gif",
+        "respuesta1":"Tener",
+        "respuesta2":"Bailar",
+        "respuesta3":"Saber"
+        
+    },
+    {
+        "verbo":"Sentir",
+        "imagen":"Sentir.gif",
+        "respuesta1":"Descansar",
+        "respuesta2":"Sentir",
+        "respuesta3":"Cantar"
+        
+    },
+    {
+        "verbo":"Soñar",
+        "imagen":"Soñar.gif",
+        "respuesta1":"Soñar",
+        "respuesta2":"Entender",
+        "respuesta3":"Dibujar"
+        
+    },
+    {
+        "verbo":"Sucio-basura",
+        "imagen":"Sucio-basura.gif",
+        "respuesta1":"Tener",
+        "respuesta2":"Sucio-basura",
+        "respuesta3":"Ver"
+        
+    },
+    {
+        "verbo":"Tener",
+        "imagen":"Tener.gif",
+        "respuesta1":"NoTengo",
+        "respuesta2":"Cantar",
+        "respuesta3":"Tener"
+        
+    },
+    {
+        "verbo":"Trabajar",
+        "imagen":"Trabajar.gif",
+        "respuesta1":"Trabajar",
+        "respuesta2":"Sucio-basura",
+        "respuesta3":"Dar"
+        
+    },
+    {
+        "verbo":"Vacio",
+        "imagen":"Vacio.gif",
+        "respuesta1":"Besar",
+        "respuesta2":"Dibujar",
+        "respuesta3":"Vacio"
+        
+    },
+    {
+        "verbo":"Ver",
+        "imagen":"Ver.gif",
+        "respuesta1":"Descansar",
+        "respuesta2":"Bailar",
+        "respuesta3":"Ver"
+        
+    }
+    
+    ]
+    
+    }

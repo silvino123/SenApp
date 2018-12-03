@@ -1,0 +1,199 @@
+{
+
+    "SentimientosArray":[
+    {
+        "sentimiento":"Alegre",
+        "imagen":"Alegre.gif",
+        "respuesta1":"Libre",
+        "respuesta2":"Alegre",
+        "respuesta3":"Raro"
+    },
+    
+    {
+        "sentimiento":"Arrepentido",
+        "imagen":"Arrepentido.gif",
+        "respuesta1":"Arrepentido",
+        "respuesta2":"Malo",
+        "respuesta3":"Feliz"
+        
+    },
+    {
+        "sentimiento":"Bueno",
+        "imagen":"Bueno.gif",
+        "respuesta1":"Presion-Estresado",
+        "respuesta2":"Bueno",
+        "respuesta3":"Orgulloso"
+        
+    },
+    {
+        "sentimiento":"Cansado",
+        "imagen":"Cansado.gif",
+        "respuesta1":"Triste",
+        "respuesta2":"Enamorado",
+        "respuesta3":"Cansado"
+        
+    },
+    {
+        "sentimiento":"Confianza",
+        "imagen":"Confianza.gif",
+        "respuesta1":"Confundido",
+        "respuesta2":"Enamorado",
+        "respuesta3":"Confianza"
+        
+    },
+    {
+        "sentimiento":"Confundido",
+        "imagen":"Confundido.gif",
+        "respuesta1":"Confundido",
+        "respuesta2":"Raro",
+        "respuesta3":"Preocupado"
+        
+    },
+    {
+        "sentimiento":"Enamorado",
+        "imagen":"Enamorado.gif",
+        "respuesta1":"Malo",
+        "respuesta2":"Enamorado",
+        "respuesta3":"Libre"
+        
+    },
+    {
+        "sentimiento":"Enojado",
+        "imagen":"Enojado.gif",
+        "respuesta1":"Presion-Estresado",
+        "respuesta2":"Triste",
+        "respuesta3":"Enojado"
+        
+    },
+    {
+        "sentimiento":"Feliz",
+        "imagen":"Feliz.gif",
+        "respuesta1":"Arrepentido",
+        "respuesta2":"Nervioso",
+        "respuesta3":"Feliz"
+        
+    },
+    {
+        "sentimiento":"Libre",
+        "imagen":"Libre.gif",
+        "respuesta1":"Libre",
+        "respuesta2":"Confundido",
+        "respuesta3":"Arrepentido"
+        
+    },
+    {
+        "sentimiento":"Lleno",
+        "imagen":"Lleno.gif",
+        "respuesta1":"Enamorado",
+        "respuesta2":"Lleno",
+        "respuesta3":"Feliz"
+        
+    },
+    {
+        "sentimiento":"Llorar",
+        "imagen":"Llorar.gif",
+        "respuesta1":"Orgulloso",
+        "respuesta2":"Triste",
+        "respuesta3":"Llorar"
+        
+    },
+    {
+        "sentimiento":"Malo",
+        "imagen":"Malo.gif",
+        "respuesta1":"Bueno",
+        "respuesta2":"Malo",
+        "respuesta3":"Verguenza"
+        
+    },
+    {
+        "sentimiento":"Miedo",
+        "imagen":"Miedo.gif",
+        "respuesta1":"Miedo",
+        "respuesta2":"Llorar",
+        "respuesta3":"Preocupado"
+        
+    },
+    {
+        "sentimiento":"Nervioso",
+        "imagen":"Nervioso.gif",
+        "respuesta1":"Presion-Estresado",
+        "respuesta2":"Arrepentido",
+        "respuesta3":"Nervioso"
+        
+    },
+    {
+        "sentimiento":"Orgulloso",
+        "imagen":"Orgulloso.gif",
+        "respuesta1":"Bueno",
+        "respuesta2":"Orgulloso",
+        "respuesta3":"Confianza"
+        
+    },
+    {
+        "sentimiento":"Preocupado",
+        "imagen":"Preocupado.gif",
+        "respuesta1":"Raro",
+        "respuesta2":"Alegre",
+        "respuesta3":"Preocupado"
+        
+    },
+    {
+        "sentimiento":"Presion-Estresado",
+        "imagen":"Presion-Estresado.gif",
+        "respuesta1":"Presion-Estresado",
+        "respuesta2":"Feliz",
+        "respuesta3":"Arrepentido"
+        
+    },
+    {
+        "sentimiento":"Raro",
+        "imagen":"Raro.gif",
+        "respuesta1":"Alegre",
+        "respuesta2":"Confundido",
+        "respuesta3":"Raro"
+        
+    },
+    {
+        "sentimiento":"Rencor",
+        "imagen":"Rencor.gif",
+        "respuesta1":"Verguenza",
+        "respuesta2":"Rencor",
+        "respuesta3":"Libre"
+        
+    },
+    {
+        "sentimiento":"Serio",
+        "imagen":"Serio.gif",
+        "respuesta1":"Serio",
+        "respuesta2":"Bueno",
+        "respuesta3":"Preocupado"
+        
+    },
+    {
+        "sentimiento":"Sonreir",
+        "imagen":"Sonreir.gif",
+        "respuesta1":"Llorar",
+        "respuesta2":"Confianza",
+        "respuesta3":"Sonreir"
+        
+    },
+    {
+        "sentimiento":"Triste",
+        "imagen":"Triste.gif",
+        "respuesta1":"Arrepentido",
+        "respuesta2":"Presion-Estresado",
+        "respuesta3":"Triste"
+        
+    },
+    {
+        "sentimiento":"Verguenza",
+        "imagen":"Verguenza.gif",
+        "respuesta1":"Malo",
+        "respuesta2":"Verguenza",
+        "respuesta3":"Orgulloso"
+        
+    }
+    
+    ]
+    
+    }

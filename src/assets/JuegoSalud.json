@@ -1,0 +1,351 @@
+{
+
+    "SaludArray":[
+    {
+        "salud":"Alcohol",
+        "imagen":"Alcohol.gif",
+        "respuesta1":"Alcohol",
+        "respuesta2":"Calentura",
+        "respuesta3":"Termometro"
+        
+    },
+    {
+        "salud":"Alergia",
+        "imagen":"Alergia.gif",
+        "respuesta1":"Pastilla",
+        "respuesta2":"Alergia",
+        "respuesta3":"Tos"
+        
+    },
+    {
+        "salud":"Ambulancia",
+        "imagen":"Ambulancia.gif",
+        "respuesta1":"Ambulancia",
+        "respuesta2":"SillaDeRuedas",
+        "respuesta3":"Vendas"
+        
+    },
+    {
+        "salud":"Botiquin",
+        "imagen":"Botiquin.gif",
+        "respuesta1":"Suero",
+        "respuesta2":"Sangre",
+        "respuesta3":"Botiquin"
+        
+    },
+    {
+        "salud":"BuenaAlimentacion",
+        "imagen":"BuenaAlimentacion.gif",
+        "respuesta1":"Pastilla",
+        "respuesta2":"Resfriado",
+        "respuesta3":"BuenaAlimentacion"
+        
+    },
+    {
+        "salud":"Calentura",
+        "imagen":"Calentura.gif",
+        "respuesta1":"Calentura",
+        "respuesta2":"Termometro",
+        "respuesta3":"Tos"
+        
+    },
+    {
+        "salud":"Camilla",
+        "imagen":"Camilla.gif",
+        "respuesta1":"Ambulancia",
+        "respuesta2":"Alcohol",
+        "respuesta3":"Camilla"
+        
+    },
+    {
+        "salud":"Caries",
+        "imagen":"Caries.gif",
+        "respuesta1":"SillaDeRuedas",
+        "respuesta2":"Caries",
+        "respuesta3":"BuenaAlimentacion"
+        
+    },
+    {
+        "salud":"Comezon",
+        "imagen":"Comezon.gif",
+        "respuesta1":"Comezon",
+        "respuesta2":"Botiquin",
+        "respuesta3":"Vendas"
+        
+    },
+    {
+        "salud":"Cubrebocas",
+        "imagen":"Cubrebocas.gif",
+        "respuesta1":"BuenaAlimentacion",
+        "respuesta2":"Tos",
+        "respuesta3":"Cubrebocas"
+        
+    },
+    {
+        "salud":"Curitas",
+        "imagen":"Curitas.gif",
+        "respuesta1":"Curitas",
+        "respuesta2":"Alergia",
+        "respuesta3":"Curitas"
+        
+    },
+    {
+        "salud":"Dentista",
+        "imagen":"Dentista.gif",
+        "respuesta1":"Palidez",
+        "respuesta2":"Dentista",
+        "respuesta3":"Botiquin"
+        
+    },
+    {
+        "salud":"Diarrea",
+        "imagen":"Diarrea.gif",
+        "respuesta1":"Calentura",
+        "respuesta2":"Suero",
+        "respuesta3":"Diarrea"
+        
+    },
+    {
+        "salud":"Dieta",
+        "imagen":"Dieta.gif",
+        "respuesta1":"Termometro",
+        "respuesta2":"Caries",
+        "respuesta3":"Dieta"
+        
+    },
+    {
+        "salud":"Doctor",
+        "imagen":"Doctor.gif",
+        "respuesta1":"Sudoracion",
+        "respuesta2":"Doctor",
+        "respuesta3":"Camilla"
+        
+    },
+    {
+        "salud":"Dolor",
+        "imagen":"Dolor.gif",
+        "respuesta1":"Peligro",
+        "respuesta2":"Vendas",
+        "respuesta3":"Dolor"
+        
+    },
+    {
+        "salud":"DolorDeCabeza",
+        "imagen":"DolorDeCabeza.gif",
+        "respuesta1":"Resfriado",
+        "respuesta2":"DolorDeCabeza",
+        "respuesta3":"Palidez"
+        
+    },
+    {
+        "salud":"DolorDeEstomago",
+        "imagen":"DolorDeEstomago.gif",
+        "respuesta1":"DolorDeEstomago",
+        "respuesta2":"Alcohol",
+        "respuesta3":"Botiquin"
+        
+    },
+    {
+        "salud":"Ejercicio",
+        "imagen":"Ejercicio.gif",
+        "respuesta1":"Alergia",
+        "respuesta2":"Calentura",
+        "respuesta3":"Ejercicio"
+        
+    },
+    {
+        "salud":"Enfermero",
+        "imagen":"Enfermero.gif",
+        "respuesta1":"Enfermero",
+        "respuesta2":"Suero",
+        "respuesta3":"Sudoracion"
+        
+    },
+    {
+        "salud":"Estetoscopio",
+        "imagen":"Estetoscopio.gif",
+        "respuesta1":"SillaDeRuedas",
+        "respuesta2":"Estetoscopio",
+        "respuesta3":"Ambulancia"
+        
+    },
+    {
+        "salud":"Fractura",
+        "imagen":"Fractura.gif",
+        "respuesta1":"Sangre",
+        "respuesta2":"Peligro",
+        "respuesta3":"Fractura"
+        
+    },
+    {
+        "salud":"Gastritis",
+        "imagen":"Gastritis.gif",
+        "respuesta1":"Termometro",
+        "respuesta2":"Gastritis",
+        "respuesta3":"Alergia"
+        
+    },
+    {
+        "salud":"Guantes",
+        "imagen":"Guantes.gif",
+        "respuesta1":"Vendas",
+        "respuesta2":"BuenaAlimentacion",
+        "respuesta3":"Guantes"
+        
+    },
+    {
+        "salud":"Hospital",
+        "imagen":"Hospital.gif",
+        "respuesta1":"Hospital",
+        "respuesta2":"Calentura",
+        "respuesta3":"Pastilla"
+        
+    },
+    {
+        "salud":"Inflamacion",
+        "imagen":"Inflamacion.gif",
+        "respuesta1":"Peligro",
+        "respuesta2":"Inflamacion",
+        "respuesta3":"Camilla"
+        
+    },
+    {
+        "salud":"Insomio",
+        "imagen":"Insomio.gif",
+        "respuesta1":"Insomio",
+        "respuesta2":"Palidez",
+        "respuesta3":"Sudoracion"
+        
+    },
+    {
+        "salud":"Jeringa",
+        "imagen":"Jeringa.gif",
+        "respuesta1":"Jeringa",
+        "respuesta2":"Sangre",
+        "respuesta3":"Alcohol"
+        
+    },
+    {
+        "salud":"Mareo",
+        "imagen":"Mareo.gif",
+        "respuesta1":"Nauseas",
+        "respuesta2":"Mareo",
+        "respuesta3":"Suero"
+        
+    },
+    {
+        "salud":"Muletas",
+        "imagen":"Muletas.gif",
+        "respuesta1":"Muletas",
+        "respuesta2":"SillaDeRuedas",
+        "respuesta3":"Alergia"
+        
+    },
+    {
+        "salud":"Nauseas",
+        "imagen":"Nauseas.gif",
+        "respuesta1":"Calentura",
+        "respuesta2":"Mareo",
+        "respuesta3":"Nauseas"
+        
+    },
+    {
+        "salud":"Paciente",
+        "imagen":"Paciente.gif",
+        "respuesta1":"Paciente",
+        "respuesta2":"Nauseas",
+        "respuesta3":"Ambulancia"
+        
+    },
+    {
+        "salud":"Palidez",
+        "imagen":"Palidez.gif",
+        "respuesta1":"Resfriado",
+        "respuesta2":"Palidez",
+        "respuesta3":"Vendas"
+        
+    },
+    {
+        "salud":"Pastilla",
+        "imagen":"Pastilla.gif",
+        "respuesta1":"Suero",
+        "respuesta2":"Camilla",
+        "respuesta3":"Pastilla"
+        
+    },
+    {
+        "salud":"Peligro",
+        "imagen":"Peligro.gif",
+        "respuesta1":"Sangre",
+        "respuesta2":"Peligro",
+        "respuesta3":"BuenaAlimentacion"
+        
+    },
+    {
+        "salud":"Resfriado",
+        "imagen":"Resfriado.gif",
+        "respuesta1":"Resfriado",
+        "respuesta2":"Ambulancia",
+        "respuesta3":"Pastilla"
+        
+    },
+    {
+        "salud":"Sangre",
+        "imagen":"Sangre.gif",
+        "respuesta1":"Nauseas",
+        "respuesta2":"Pastilla",
+        "respuesta3":"Sangre"
+        
+    },
+    {
+        "salud":"SillaDeRuedas",
+        "imagen":"SillaDeRuedas.gif",
+        "respuesta1":"SillaDeRuedas",
+        "respuesta2":"Termometro",
+        "respuesta3":"Alergia"
+        
+    },
+    {
+        "salud":"Sudoracion",
+        "imagen":"Sudoracion.gif",
+        "respuesta1":"Tos",
+        "respuesta2":"Sudoracion",
+        "respuesta3":"Camilla"
+        
+    },
+    {
+        "salud":"Suero",
+        "imagen":"Suero.gif",
+        "respuesta1":"Sudoracion",
+        "respuesta2":"Alcohol",
+        "respuesta3":"Suero"
+        
+    },
+    {
+        "salud":"Termometro",
+        "imagen":"Termometro.gif",
+        "respuesta1":"Ambulancia",
+        "respuesta2":"Termometro",
+        "respuesta3":"Peligro"
+        
+    },
+    {
+        "salud":"Tos",
+        "imagen":"Tos.gif",
+        "respuesta1":"Nauseas",
+        "respuesta2":"Pastilla",
+        "respuesta3":"Tos"
+        
+    },
+    {
+        "salud":"Vendas",
+        "imagen":"Vendas.gif",
+        "respuesta1":"Vendas",
+        "respuesta2":"Tos",
+        "respuesta3":"Alergia"
+        
+    }
+    
+    ]
+    
+    }

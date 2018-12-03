@@ -8,6 +8,9 @@ import{JuegoprofesionesPage} from '../../pages/juegoprofesiones/juegoprofesiones
 import {ExamenPage} from '../../pages/examen/examen';
 import { JuegosaludosPage } from '../juegosaludos/juegosaludos';
 import { JuegoFamiliaPage } from '../juego-familia/juego-familia';
+import { JuegoSentimientosPage } from '../juegosentimientos/juegosentimientos';
+import { JuegoVerbosPage } from '../juegoverbos/juegoverbos';
+import { JuegoSaludPage } from '../juegosalud/juegosalud';
 //import { from } from 'rxjs';
 //import { NumerosPage } from '../numeros/numeros';
 @Component({
@@ -28,27 +31,36 @@ export class ListPage {
     });
   }
   redirectJuegoAbc(){
-this.navCtrl.setRoot(JuegoAbcPage);
+    this.navCtrl.setRoot(JuegoAbcPage);
   }
   redirectJuegoNumeros(){
     this.navCtrl.setRoot(JuegonumerosPage);
-      }
-      redirectJuegoColores(){
-        this.navCtrl.setRoot(JuegoColoresPage);
-      }
-      redirectJuegoTiempo(){
-        this.navCtrl.setRoot(JuegotiempoPage);
-      }
-      redirectJuegoProfesiones(){
-        this.navCtrl.setRoot(JuegoprofesionesPage);
-      }
-      redirectJuegoExamen(){
-        this.navCtrl.setRoot(ExamenPage);
-      }
-      redirectJuegosaludos(){
-        this.navCtrl.setRoot(JuegosaludosPage);
-      }
-      redirectJuegofamilia(){
-        this.navCtrl.setRoot(JuegoFamiliaPage);
-      }
+  }
+  redirectJuegoColores(){
+    this.navCtrl.setRoot(JuegoColoresPage);
+  }
+  redirectJuegoTiempo(){
+    this.navCtrl.setRoot(JuegotiempoPage);
+  }
+  redirectJuegoProfesiones(){
+    this.navCtrl.setRoot(JuegoprofesionesPage);
+  }
+  redirectJuegoExamen(){
+    this.navCtrl.setRoot(ExamenPage);
+  }
+  redirectJuegosaludos(){
+    this.navCtrl.setRoot(JuegosaludosPage);
+  }
+  redirectJuegofamilia(){
+    this.navCtrl.setRoot(JuegoFamiliaPage);
+  }
+  redirectJuegoSentimientos(){
+    this.navCtrl.setRoot(JuegoSentimientosPage);
+  }
+  redirectJuegoVerbos(){
+    this.navCtrl.setRoot(JuegoVerbosPage);
+  }
+  redirectJuegoSalud(){
+    this.navCtrl.setRoot(JuegoSaludPage);
+  }
 }

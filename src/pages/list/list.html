@@ -140,7 +140,7 @@
 </ion-card>
 <ion-card>
   <ion-list>
-    <ion-item>
+    <ion-item  (click)="redirectJuegoSentimientos()">
       <ion-thumbnail item-start>
         <img src="assets/imgs/sen.png">
       </ion-thumbnail>
@@ -148,7 +148,7 @@
       <h2>Sentimientos</h2>
       <button ion-button item-end clear small color="danger" icon-start>
         <ion-icon name='star'></ion-icon>
-        0/10
+        {{n}}/10
       </button>
       </ion-item>
     </ion-item>
@@ -158,7 +158,7 @@
 </ion-card>
 <ion-card>
   <ion-list>
-    <ion-item>
+    <ion-item (click)="redirectJuegoVerbos()">
       <ion-thumbnail item-start>
         <img src="assets/imgs/verbos.png">
       </ion-thumbnail>
@@ -166,7 +166,7 @@
       <h2>Verbos</h2>
       <button ion-button item-end clear small color="danger" icon-start>
         <ion-icon name='star'></ion-icon>
-        0/10
+        {{n}}/10
       </button>
       </ion-item>
     </ion-item>
@@ -176,7 +176,7 @@
 </ion-card>
 <ion-card>
   <ion-list>
-    <ion-item>
+    <ion-item (click)="redirectJuegoSalud()">
       <ion-thumbnail item-start>
         <img src="assets/imgs/salud.png">
       </ion-thumbnail>
@@ -184,7 +184,7 @@
       <h2>Salud</h2>
       <button ion-button item-end clear small color="danger" icon-start>
         <ion-icon name='star'></ion-icon>
-        0/10
+        {{n}}/10
       </button>
       </ion-item>
     </ion-item>
