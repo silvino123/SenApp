@@ -178,6 +178,7 @@ export interface Letras {
    
     palabra?: string;
     imagen?: string;
+    categoria?:string;
     respuesta1?:string;
     respuesta2?:string;
     respuesta3?:string;

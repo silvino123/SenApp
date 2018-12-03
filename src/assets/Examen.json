@@ -1,0 +1,155 @@
+{
+
+    "ExamenArray":[
+    {
+        "palabra":"A",
+        "imagen":"A.gif",
+        "respuesta1":"A",
+        "respuesta2":"R",
+        "respuesta3":"M",
+        "categoria":"Abecedario"
+        
+    },
+    
+    {
+        "palabra":"L",
+        "imagen":"L.gif",
+        "respuesta1":"V",
+        "respuesta2":"L",
+        "respuesta3":"P",
+        "categoria":"Abecedario"
+    },
+    {
+        "palabra":"B",
+        "imagen":"B.gif",
+        "respuesta1":"R",
+        "respuesta2":"V",
+        "respuesta3":"B",
+        "categoria":"Abecedario"
+        
+    },
+    {
+        "palabra":"M",
+        "imagen":"M.gif",
+        "respuesta1":"C",
+        "respuesta2":"M",
+        "respuesta3":"G",
+        "categoria":"Abecedario"
+        
+    },
+    
+    {
+        "palabra":"D",
+        "imagen":"D.gif",
+        "respuesta1":"D",
+        "respuesta2":"N",
+        "respuesta3":"O",
+        "categoria":"Abecedario"
+        
+    },
+    {
+        "palabra":"1",
+        "imagen":"1.gif",
+        "respuesta1":"1",
+        "respuesta2":"4",
+        "respuesta3":"20",
+        "categoria":"Numeros"
+        
+    },
+    {
+        "palabra":"6",
+        "imagen":"6.gif",
+        "respuesta1":"8",
+        "respuesta2":"10",
+        "respuesta3":"6",
+        "categoria":"Numeros"
+        
+    },
+    {
+        "palabra":"12",
+        "imagen":"12.gif",
+        "respuesta1":"30",
+        "respuesta2":"40",
+        "respuesta3":"12",
+        "categoria":"Numeros"
+        
+    },
+    {
+        "palabra":"Negro",
+        "imagen":"Negro.gif",
+        "respuesta1":"Negro",
+        "respuesta2":"Amarillo",
+        "respuesta3":"Cafe",
+        "categoria":"Colores"
+        
+    },
+    {
+        "palabra":"Oro",
+        "imagen":"Oro.gif",
+        "respuesta1":"Verde",
+        "respuesta2":"Oro",
+        "respuesta3":"Blanco",
+        "categoria":"Colores"
+        
+    },
+    
+    {
+        "palabra":"Plata",
+        "imagen":"Plata.gif",
+        "respuesta1":"Azul",
+        "respuesta2":"Plata",
+        "respuesta3":"Verde",
+        "categoria":"Colores"
+        
+    },
+    {
+        "palabra":"Rojo",
+        "imagen":"Rojo.gif",
+        "respuesta1":"Rosa",
+        "respuesta2":"Plata",
+        "respuesta3":"Rojo",
+        "categoria":"Colores"
+        
+    },
+    {
+        "palabra":"Rosa",
+        "imagen":"Rosa.gif",
+        "respuesta1":"Azul",
+        "respuesta2":"Rosa",
+        "respuesta3":"Blanco",
+        "categoria":"Colores"
+        
+    },
+    {
+        "palabra":"Verde",
+        "imagen":"Verde.gif",
+        "respuesta1":"Verde",
+        "respuesta2":"Rojo",
+        "respuesta3":"Morado",
+        "categoria":"Colores"
+        
+    }
+    ,
+    {
+        "palabra":"Amigo",
+        "imagen":"Amigo.gif",
+        "respuesta1":"Amigo",
+        "respuesta2":"Comadre",
+        "respuesta3":"Hermano",
+        "categoria":"Familia"
+        
+    }
+    ,
+    {
+        "palabra":"Hijo",
+        "imagen":"Hijo.gif",
+        "respuesta1":"Amigo",
+        "respuesta2":"Comadre",
+        "respuesta3":"Hijo",
+        "categoria":"Familia"
+        
+    }
+    
+    ]
+    
+    }
