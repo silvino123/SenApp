@@ -34,11 +34,11 @@
         
     },
     {
-        "salud":"BuenaAlimentacion",
+        "salud":"Buena Alimentación",
         "imagen":"BuenaAlimentacion.gif",
         "respuesta1":"Pastilla",
         "respuesta2":"Resfriado",
-        "respuesta3":"BuenaAlimentacion"
+        "respuesta3":"Buena Alimentación"
         
     },
     {
@@ -76,7 +76,7 @@
     {
         "salud":"Cubrebocas",
         "imagen":"Cubrebocas.gif",
-        "respuesta1":"BuenaAlimentacion",
+        "respuesta1":"Buena Alimentación",
         "respuesta2":"Tos",
         "respuesta3":"Cubrebocas"
         
@@ -130,17 +130,17 @@
         
     },
     {
-        "salud":"DolorDeCabeza",
+        "salud":"Dolor De Cabeza",
         "imagen":"DolorDeCabeza.gif",
         "respuesta1":"Resfriado",
-        "respuesta2":"DolorDeCabeza",
+        "respuesta2":"Dolor De Cabeza",
         "respuesta3":"Palidez"
         
     },
     {
-        "salud":"DolorDeEstomago",
+        "salud":"Dolor De Estomago",
         "imagen":"DolorDeEstomago.gif",
-        "respuesta1":"DolorDeEstomago",
+        "respuesta1":"Dolor De Estomago",
         "respuesta2":"Alcohol",
         "respuesta3":"Botiquin"
         
@@ -164,7 +164,7 @@
     {
         "salud":"Estetoscopio",
         "imagen":"Estetoscopio.gif",
-        "respuesta1":"SillaDeRuedas",
+        "respuesta1":"Silla De Ruedas",
         "respuesta2":"Estetoscopio",
         "respuesta3":"Ambulancia"
         
@@ -189,7 +189,7 @@
         "salud":"Guantes",
         "imagen":"Guantes.gif",
         "respuesta1":"Vendas",
-        "respuesta2":"BuenaAlimentacion",
+        "respuesta2":"Buena Alimentación",
         "respuesta3":"Guantes"
         
     },
@@ -237,7 +237,7 @@
         "salud":"Muletas",
         "imagen":"Muletas.gif",
         "respuesta1":"Muletas",
-        "respuesta2":"SillaDeRuedas",
+        "respuesta2":"Silla De Ruedas",
         "respuesta3":"Alergia"
         
     },
@@ -278,7 +278,7 @@
         "imagen":"Peligro.gif",
         "respuesta1":"Sangre",
         "respuesta2":"Peligro",
-        "respuesta3":"BuenaAlimentacion"
+        "respuesta3":"Buena Alimentación"
         
     },
     {
@@ -298,9 +298,9 @@
         
     },
     {
-        "salud":"SillaDeRuedas",
+        "salud":"Silla De Ruedas",
         "imagen":"SillaDeRuedas.gif",
-        "respuesta1":"SillaDeRuedas",
+        "respuesta1":"Silla De Ruedas",
         "respuesta2":"Termometro",
         "respuesta3":"Alergia"
         

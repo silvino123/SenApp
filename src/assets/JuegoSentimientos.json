@@ -138,9 +138,9 @@
         
     },
     {
-        "sentimiento":"Presion-Estresado",
+        "sentimiento":"Presion Estresado",
         "imagen":"Presion-Estresado.gif",
-        "respuesta1":"Presion-Estresado",
+        "respuesta1":"Presion Estresado",
         "respuesta2":"Feliz",
         "respuesta3":"Arrepentido"
         
@@ -181,7 +181,7 @@
         "sentimiento":"Triste",
         "imagen":"Triste.gif",
         "respuesta1":"Arrepentido",
-        "respuesta2":"Presion-Estresado",
+        "respuesta2":"Presion Estresado",
         "respuesta3":"Triste"
         
     },

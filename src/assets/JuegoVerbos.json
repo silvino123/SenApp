@@ -69,7 +69,7 @@
         "verbo":"Descansar",
         "imagen":"Descansar.gif",
         "respuesta1":"Descansar",
-        "respuesta2":"NoSe",
+        "respuesta2":"No Se",
         "respuesta3":"Sucio-basura"
         
     },
@@ -93,7 +93,7 @@
         "verbo":"Entender",
         "imagen":"Entender.gif",
         "respuesta1":"Entender",
-        "respuesta2":"NoSe",
+        "respuesta2":"No Se",
         "respuesta3":"Tener"
         
     },
@@ -162,35 +162,35 @@
         
     },
     {
-        "verbo":"NoPuedo",
+        "verbo":"No Puedo",
         "imagen":"NoPuedo.gif",
-        "respuesta1":"NoPuedo",
+        "respuesta1":"No Puedo",
         "respuesta2":"Entender",
         "respuesta3":"Descansar"
         
     },
     {
-        "verbo":"NoQuiero",
+        "verbo":"No Quiero",
         "imagen":"NoQuiero.gif",
         "respuesta1":"Tener",
         "respuesta2":"Besar",
-        "respuesta3":"NoQuiero"
+        "respuesta3":"No Quiero"
         
     },
     {
-        "verbo":"NoSe",
+        "verbo":"No Se",
         "imagen":"NoSe.gif",
-        "respuesta1":"NoSe",
+        "respuesta1":"No Se",
         "respuesta2":"Vacio",
         "respuesta3":"Besar"
         
     },
     {
-        "verbo":"NoTengo",
+        "verbo":"No Tengo",
         "imagen":"NoTengo.gif",
-        "respuesta1":"Sucio-basura",
+        "respuesta1":"Sucio basura",
         "respuesta2":"Trabajar",
-        "respuesta3":"NoTengo"
+        "respuesta3":"No Tengo"
         
     },
     {
@@ -237,7 +237,7 @@
         "verbo":"Platicar",
         "imagen":"Platicar.gif",
         "respuesta1":"Platicar",
-        "respuesta2":"Sucio-basura",
+        "respuesta2":"Sucio basura",
         "respuesta3":"Trabajar"
         
     },
@@ -282,17 +282,17 @@
         
     },
     {
-        "verbo":"Sucio-basura",
+        "verbo":"Sucio basura",
         "imagen":"Sucio-basura.gif",
         "respuesta1":"Tener",
-        "respuesta2":"Sucio-basura",
+        "respuesta2":"Sucio basura",
         "respuesta3":"Ver"
         
     },
     {
         "verbo":"Tener",
         "imagen":"Tener.gif",
-        "respuesta1":"NoTengo",
+        "respuesta1":"No Tengo",
         "respuesta2":"Cantar",
         "respuesta3":"Tener"
         
@@ -301,7 +301,7 @@
         "verbo":"Trabajar",
         "imagen":"Trabajar.gif",
         "respuesta1":"Trabajar",
-        "respuesta2":"Sucio-basura",
+        "respuesta2":"Sucio basura",
         "respuesta3":"Dar"
         
     },

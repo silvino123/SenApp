@@ -13,6 +13,7 @@ import { JuegoVerbosPage } from '../juegoverbos/juegoverbos';
 import { JuegoSaludPage } from '../juegosalud/juegosalud';
 import { Storage } from '@ionic/storage';
 import { AlertController } from 'ionic-angular';
+import { ToastController } from 'ionic-angular';
 
 //import { from } from 'rxjs';
 //import { NumerosPage } from '../numeros/numeros';
@@ -24,7 +25,7 @@ export class ListPage {
   public n: number=0;
   ValidacionC: boolean = false; 
   
-  constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage,public  alertCtrl:AlertController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage,public  alertCtrl:AlertController,public toastCtrl: ToastController) {
     this.n = navParams.get('n');
   }
 
@@ -41,204 +42,258 @@ export class ListPage {
   }
 
   redirectJuegoNumeros(){
+
     this.storage.get('ABC').then((val) => {
       this.ValidacionC = val;
+      
+      if(this.ValidacionC == true )
+      {  
+        
+        this.navCtrl.setRoot(JuegonumerosPage);
+      }
+      else 
+      {
+        const toast = this.toastCtrl.create({
+          message: 'Categoria Bloqueada',
+          duration: 2000,
+          
+  
+        });
+        toast.present();
+          
+        
+      }
+
     });
 
-    if(this.ValidacionC == true )
-    {  
-      this.navCtrl.setRoot(JuegonumerosPage);
-    }
-    else 
-    {
-      const alert = this.alertCtrl.create({
-        title: 'Categoria Bloqueada',
-        subTitle: '',
-        buttons: ['OK']
-      }); 
-      alert.present();
-    }
+    
   }
  
 
   redirectJuegoColores(){
     this.storage.get('NUMEROS').then((val) => {
       this.ValidacionC = val;
+      if(this.ValidacionC == true )
+      {  
+        
+        this.navCtrl.setRoot(JuegoColoresPage);
+      }
+      else 
+      {
+        const toast = this.toastCtrl.create({
+          message: 'Categoria Bloqueada',
+          duration: 2000,
+          
+  
+        });
+        toast.present();
+          
+        
+      }
     });
 
-    if(this.ValidacionC == true )
-    {  
-      this.navCtrl.setRoot(JuegoColoresPage);
-    }
-    else 
-    {
-      const alert = this.alertCtrl.create({
-        title: 'Categoria Bloqueada',
-        subTitle: '',
-        buttons: ['OK']
-      }); 
-      alert.present();
-    }
+  
     
   }
   redirectJuegoTiempo(){
     this.storage.get('FAMILIA').then((val) => {
       this.ValidacionC = val;
+      if(this.ValidacionC == true )
+      {  
+        
+        this.navCtrl.setRoot(JuegotiempoPage);
+      }
+      else 
+      {
+        const toast = this.toastCtrl.create({
+          message: 'Categoria Bloqueada',
+          duration: 2000,
+          
+  
+        });
+        toast.present();
+          
+        
+      }
     });
 
-    if(this.ValidacionC == true )
-    {  
-      this.navCtrl.setRoot(JuegotiempoPage);
-    }
-    else 
-    {
-      const alert = this.alertCtrl.create({
-        title: 'Categoria Bloqueada',
-        subTitle: '',
-        buttons: ['OK']
-      }); 
-      alert.present();
-    }
+  
     
   }
   redirectJuegoProfesiones(){
     this.storage.get('TIEMPOS').then((val) => {
       this.ValidacionC = val;
+      if(this.ValidacionC == true )
+      {  
+        
+        this.navCtrl.setRoot(JuegoprofesionesPage);
+      }
+      else 
+      {
+        const toast = this.toastCtrl.create({
+          message: 'Categoria Bloqueada',
+          duration: 2000,
+          
+  
+        });
+        toast.present();
+          
+        
+      }
     });
 
-    if(this.ValidacionC == true )
-    {  
-      this.navCtrl.setRoot(JuegoprofesionesPage);
-    }
-    else 
-    {
-      const alert = this.alertCtrl.create({
-        title: 'Categoria Bloqueada',
-        subTitle: '',
-        buttons: ['OK']
-      }); 
-      alert.present();
-    }
+    
     
   }
   redirectJuegoExamen(){
     this.storage.get('SALUD').then((val) => {
       this.ValidacionC = val;
+      if(this.ValidacionC == true )
+      {  
+        
+        this.navCtrl.setRoot(ExamenPage);
+      }
+      else 
+      {
+        const toast = this.toastCtrl.create({
+          message: 'Categoria Bloqueada',
+          duration: 2000,
+          
+  
+        });
+        toast.present();
+          
+        
+      }
     });
 
-    if(this.ValidacionC == true )
-    {  
-      this.navCtrl.setRoot(ExamenPage);
-    }
-    else 
-    {
-      const alert = this.alertCtrl.create({
-        title: 'Categoria Bloqueada',
-        subTitle: '',
-        buttons: ['OK']
-      }); 
-      alert.present();
-    }
+    
     
   }
   redirectJuegosaludos(){
     this.storage.get('COLORES').then((val) => {
       this.ValidacionC = val;
+      if(this.ValidacionC == true )
+      {  
+        
+        this.navCtrl.setRoot(JuegosaludosPage);
+      }
+      else 
+      {
+        const toast = this.toastCtrl.create({
+          message: 'Categoria Bloqueada',
+          duration: 2000,
+          
+  
+        });
+        toast.present();
+          
+        
+      }
     });
 
-    if(this.ValidacionC == true )
-    {  
-      this.navCtrl.setRoot(JuegosaludosPage);
-    }
-    else 
-    {
-      const alert = this.alertCtrl.create({
-        title: 'Categoria Bloqueada',
-        subTitle: '',
-        buttons: ['OK']
-      }); 
-      alert.present();
-    }
+    
    
   }
   redirectJuegofamilia(){
     this.storage.get('SALUDOS').then((val) => {
       this.ValidacionC = val;
+      if(this.ValidacionC == true )
+      {  
+        
+        this.navCtrl.setRoot(JuegoFamiliaPage);
+      }
+      else 
+      {
+        const toast = this.toastCtrl.create({
+          message: 'Categoria Bloqueada',
+          duration: 2000,
+          
+  
+        });
+        toast.present();
+          
+        
+      }
     });
 
-    if(this.ValidacionC == true )
-    {  
-      this.navCtrl.setRoot(JuegoFamiliaPage);
-    }
-    else 
-    {
-      const alert = this.alertCtrl.create({
-        title: 'Categoria Bloqueada',
-        subTitle: '',
-        buttons: ['OK']
-      }); 
-      alert.present();
-    }
+    
     
   }
   redirectJuegoSentimientos(){
     this.storage.get('PROFESIONES').then((val) => {
       this.ValidacionC = val;
+      if(this.ValidacionC == true )
+      {  
+        
+        this.navCtrl.setRoot(JuegoSentimientosPage);
+      }
+      else 
+      {
+        const toast = this.toastCtrl.create({
+          message: 'Categoria Bloqueada',
+          duration: 2000,
+          
+  
+        });
+        toast.present();
+          
+        
+      }
     });
 
-    if(this.ValidacionC == true )
-    {  
-      this.navCtrl.setRoot(JuegoSentimientosPage);
-    }
-    else 
-    {
-      const alert = this.alertCtrl.create({
-        title: 'Categoria Bloqueada',
-        subTitle: '',
-        buttons: ['OK']
-      }); 
-      alert.present();
-    }
+    
     
   }
   redirectJuegoVerbos(){
     this.storage.get('SENTIMIENTOS').then((val) => {
       this.ValidacionC = val;
+      if(this.ValidacionC == true )
+      {  
+        
+        this.navCtrl.setRoot(JuegoVerbosPage);
+      }
+      else 
+      {
+        const toast = this.toastCtrl.create({
+          message: 'Categoria Bloqueada',
+          duration: 2000,
+          
+  
+        });
+        toast.present();
+          
+        
+      }
     });
 
-    if(this.ValidacionC == true )
-    {  
-      this.navCtrl.setRoot(JuegoVerbosPage);
-    }
-    else 
-    {
-      const alert = this.alertCtrl.create({
-        title: 'Categoria Bloqueada',
-        subTitle: '',
-        buttons: ['OK']
-      }); 
-      alert.present();
-    }
+    
     
   }
   redirectJuegoSalud(){
     this.storage.get('VERBOS').then((val) => {
       this.ValidacionC = val;
+
+      if(this.ValidacionC == true )
+      {  
+        
+        this.navCtrl.setRoot(JuegoSaludPage);
+      }
+      else 
+      {
+        const toast = this.toastCtrl.create({
+          message: 'Categoria Bloqueada',
+          duration: 2000,
+          
+  
+        });
+        toast.present();
+          
+        
+      }
     });
 
-    if(this.ValidacionC == true )
-    {  
-      this.navCtrl.setRoot(JuegoSaludPage);
-    }
-    else 
-    {
-      const alert = this.alertCtrl.create({
-        title: 'Categoria Bloqueada',
-        subTitle: '',
-        buttons: ['OK']
-      }); 
-      alert.present();
-    }
+    
     
   }
   

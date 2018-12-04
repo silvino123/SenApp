@@ -172,7 +172,7 @@
     }
     ,
     {
-        "tiempo":"Primo",
+        "Familiar":"Papá",
         "imagen":"Papa.gif",
         "respuesta1":"Mujer",
         "respuesta2":"Primo",
@@ -180,7 +180,7 @@
         
     },
     {
-        "tiempo":"Primo",
+        "Familiar":"Primo",
         "imagen":"Primo.gif",
         "respuesta1":"Primo",
         "respuesta2":"Sobrino",
@@ -188,7 +188,7 @@
         
     },
     {
-        "tiempo":"Sobrino",
+        "Familiar":"Sobrino",
         "imagen":"Sobrino.gif",
         "respuesta1":"Nieto",
         "respuesta2":"Cuñado",
@@ -196,7 +196,7 @@
         
     },
     {
-        "tiempo":"Suegro",
+        "Familiar":"Suegro",
         "imagen":"Suegro.gif",
         "respuesta1":"Amigo",
         "respuesta2":"Papá",
@@ -204,7 +204,7 @@
         
     },
     {
-        "tiempo":"Tío",
+        "Familiar":"Tío",
         "imagen":"Tio.gif",
         "respuesta1":"Amigo",
         "respuesta2":"Papá",

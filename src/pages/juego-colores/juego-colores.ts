@@ -110,7 +110,7 @@ export class JuegoColoresPage  implements OnInit{
         });
         this.Categoria = true;
         alert.present();
-        this.navCtrl.setRoot(ListPage);
+        this.navCtrl.setRoot(ListPage,{n:this.n-1});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
@@ -119,7 +119,7 @@ export class JuegoColoresPage  implements OnInit{
           buttons: ['OK']
         });
         alert.present();
-        this.navCtrl.setRoot(ListPage);
+        this.navCtrl.setRoot(ListPage,{n:this.n});
       }
     }
   }
