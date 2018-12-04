@@ -4,6 +4,7 @@ import { HttpClient} from '@angular/common/http';
 import { JuegoProfesion } from '../../app/models/Letras';
 import { AlertController } from 'ionic-angular';
 import{ListPage} from '../../pages/list/list';
+import { Storage } from '@ionic/storage';
 /**
  * Generated class for the JuegoprofesionesPage page.
  *
@@ -22,7 +23,9 @@ export class JuegoprofesionesPage implements OnInit {
   public n: number = 0;
   public vidas:number=3;
    respuesta:any;
-  constructor(public navCtrl: NavController, public navParams: NavParams,public http:HttpClient, public alertCtrl:AlertController, public toastCtrl:ToastController) {
+   Categoria: Boolean;
+  constructor(public navCtrl: NavController, public navParams: NavParams,public http:HttpClient, public alertCtrl:AlertController, public toastCtrl:ToastController
+    , private storage: Storage) {
     this.respuesta= false;
     
     this.activarProfesion={
@@ -104,6 +107,7 @@ export class JuegoprofesionesPage implements OnInit {
           subTitle: '',
           buttons: ['OK']
         });
+        this.Categoria = true;
         alert.present();
         this.navCtrl.setRoot(ListPage);
       }
@@ -120,5 +124,10 @@ export class JuegoprofesionesPage implements OnInit {
   }
    
   }
- 
+  saveData()
+  {
+    this.storage.set('PROFESIONES', this.Categoria);
+    
+    
+  }
 }

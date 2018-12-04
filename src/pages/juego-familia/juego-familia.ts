@@ -4,7 +4,7 @@ import { HttpClient} from '@angular/common/http';
 import { JuegoFamilia } from '../../app/models/Letras';
 import { AlertController } from 'ionic-angular';
 import{ListPage} from '../../pages/list/list';
-
+import { Storage } from '@ionic/storage';
 /**
  * Generated class for the JuegoFamiliaPage page.
  *
@@ -23,7 +23,9 @@ export class JuegoFamiliaPage implements OnInit {
   public n: number = 0;
   public vidas:number=3;
    respuesta:any;
-  constructor(public navCtrl: NavController, public navParams: NavParams,public http:HttpClient, public alertCtrl:AlertController, public toastCtrl:ToastController) {
+   
+Categoria: Boolean;
+  constructor(public navCtrl: NavController, public navParams: NavParams,public http:HttpClient, public alertCtrl:AlertController, public toastCtrl:ToastController, private storage: Storage) {
     this.respuesta= false;
     
     this.activarFamilia={
@@ -105,6 +107,8 @@ export class JuegoFamiliaPage implements OnInit {
           subTitle: '',
           buttons: ['OK']
         });
+        
+this.Categoria = true;
         alert.present();
         this.navCtrl.setRoot(ListPage);
       }
@@ -121,7 +125,10 @@ export class JuegoFamiliaPage implements OnInit {
   }
    
   }
- 
+  saveData()
+  {
+    this.storage.set('FAMILIAS', this.Categoria);
+  }
 }
 
 

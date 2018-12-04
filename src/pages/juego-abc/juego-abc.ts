@@ -25,8 +25,8 @@ public  LetrasArray:JuegoLetras[]=[];
  public n: number = 0;
  public vidas:number=3;
   respuesta:any;
-Categoria: string; 
-Puntuacion: number; 
+Categoria: boolean; 
+
 
  
  
@@ -112,8 +112,8 @@ Puntuacion: number;
       }
       if(this.n>10 && this.vidas!=0){
        
-        this.Categoria = 'ABC';
-        this.Puntuacion = this.n; 
+        this.Categoria = true;
+         
 
          const alert = this.alertCtrl.create({
           title: 'Categoria Completada!',
@@ -143,8 +143,6 @@ Puntuacion: number;
   saveData()
   {
     this.storage.set('ABC', this.Categoria);
-    this.storage.set('ABCP', this.Puntuacion);
-    
   }
 
   

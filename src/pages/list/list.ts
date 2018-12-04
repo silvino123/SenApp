@@ -22,8 +22,8 @@ import { AlertController } from 'ionic-angular';
 })
 export class ListPage {
   public n: number=0;
-  ValidacionC: string; 
-  ValidacionP: number;
+  ValidacionC: boolean = false; 
+  
   constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage,public  alertCtrl:AlertController) {
     this.n = navParams.get('n');
   }
@@ -34,19 +34,22 @@ export class ListPage {
       item: item
     });
   }
+  
+
   redirectJuegoAbc(){
     this.navCtrl.setRoot(JuegoAbcPage);
   }
-  redirectJuegoNumeros(){
-    
-    this.loadData(); 
 
-    if(this.ValidacionC == 'ABC' && this.ValidacionP > 10)
-    {
-      
+  redirectJuegoNumeros(){
+    this.storage.get('ABC').then((val) => {
+      this.ValidacionC = val;
+    });
+
+    if(this.ValidacionC == true )
+    {  
       this.navCtrl.setRoot(JuegonumerosPage);
     }
-    else
+    else 
     {
       const alert = this.alertCtrl.create({
         title: 'Categoria Bloqueada',
@@ -55,44 +58,189 @@ export class ListPage {
       }); 
       alert.present();
     }
+  }
+ 
 
-   
-  }
   redirectJuegoColores(){
-    this.navCtrl.setRoot(JuegoColoresPage);
-  }
-  redirectJuegoTiempo(){
-    this.navCtrl.setRoot(JuegotiempoPage);
-  }
-  redirectJuegoProfesiones(){
-    this.navCtrl.setRoot(JuegoprofesionesPage);
-  }
-  redirectJuegoExamen(){
-    this.navCtrl.setRoot(ExamenPage);
-  }
-  redirectJuegosaludos(){
-    this.navCtrl.setRoot(JuegosaludosPage);
-  }
-  redirectJuegofamilia(){
-    this.navCtrl.setRoot(JuegoFamiliaPage);
-  }
-  redirectJuegoSentimientos(){
-    this.navCtrl.setRoot(JuegoSentimientosPage);
-  }
-  redirectJuegoVerbos(){
-    this.navCtrl.setRoot(JuegoVerbosPage);
-  }
-  redirectJuegoSalud(){
-    this.navCtrl.setRoot(JuegoSaludPage);
-  }
-  
-  loadData()
-  {
-    this.storage.get('ABC').then((val) => {
+    this.storage.get('NUMEROS').then((val) => {
       this.ValidacionC = val;
     });
-    this.storage.get('ABCP').then((val) => {
-      this.ValidacionP = val;
-    });
+
+    if(this.ValidacionC == true )
+    {  
+      this.navCtrl.setRoot(JuegoColoresPage);
+    }
+    else 
+    {
+      const alert = this.alertCtrl.create({
+        title: 'Categoria Bloqueada',
+        subTitle: '',
+        buttons: ['OK']
+      }); 
+      alert.present();
+    }
+    
   }
+  redirectJuegoTiempo(){
+    this.storage.get('FAMILIA').then((val) => {
+      this.ValidacionC = val;
+    });
+
+    if(this.ValidacionC == true )
+    {  
+      this.navCtrl.setRoot(JuegotiempoPage);
+    }
+    else 
+    {
+      const alert = this.alertCtrl.create({
+        title: 'Categoria Bloqueada',
+        subTitle: '',
+        buttons: ['OK']
+      }); 
+      alert.present();
+    }
+    
+  }
+  redirectJuegoProfesiones(){
+    this.storage.get('TIEMPOS').then((val) => {
+      this.ValidacionC = val;
+    });
+
+    if(this.ValidacionC == true )
+    {  
+      this.navCtrl.setRoot(JuegoprofesionesPage);
+    }
+    else 
+    {
+      const alert = this.alertCtrl.create({
+        title: 'Categoria Bloqueada',
+        subTitle: '',
+        buttons: ['OK']
+      }); 
+      alert.present();
+    }
+    
+  }
+  redirectJuegoExamen(){
+    this.storage.get('SALUD').then((val) => {
+      this.ValidacionC = val;
+    });
+
+    if(this.ValidacionC == true )
+    {  
+      this.navCtrl.setRoot(ExamenPage);
+    }
+    else 
+    {
+      const alert = this.alertCtrl.create({
+        title: 'Categoria Bloqueada',
+        subTitle: '',
+        buttons: ['OK']
+      }); 
+      alert.present();
+    }
+    
+  }
+  redirectJuegosaludos(){
+    this.storage.get('COLORES').then((val) => {
+      this.ValidacionC = val;
+    });
+
+    if(this.ValidacionC == true )
+    {  
+      this.navCtrl.setRoot(JuegosaludosPage);
+    }
+    else 
+    {
+      const alert = this.alertCtrl.create({
+        title: 'Categoria Bloqueada',
+        subTitle: '',
+        buttons: ['OK']
+      }); 
+      alert.present();
+    }
+   
+  }
+  redirectJuegofamilia(){
+    this.storage.get('SALUDOS').then((val) => {
+      this.ValidacionC = val;
+    });
+
+    if(this.ValidacionC == true )
+    {  
+      this.navCtrl.setRoot(JuegoFamiliaPage);
+    }
+    else 
+    {
+      const alert = this.alertCtrl.create({
+        title: 'Categoria Bloqueada',
+        subTitle: '',
+        buttons: ['OK']
+      }); 
+      alert.present();
+    }
+    
+  }
+  redirectJuegoSentimientos(){
+    this.storage.get('PROFESIONES').then((val) => {
+      this.ValidacionC = val;
+    });
+
+    if(this.ValidacionC == true )
+    {  
+      this.navCtrl.setRoot(JuegoSentimientosPage);
+    }
+    else 
+    {
+      const alert = this.alertCtrl.create({
+        title: 'Categoria Bloqueada',
+        subTitle: '',
+        buttons: ['OK']
+      }); 
+      alert.present();
+    }
+    
+  }
+  redirectJuegoVerbos(){
+    this.storage.get('SENTIMIENTOS').then((val) => {
+      this.ValidacionC = val;
+    });
+
+    if(this.ValidacionC == true )
+    {  
+      this.navCtrl.setRoot(JuegoVerbosPage);
+    }
+    else 
+    {
+      const alert = this.alertCtrl.create({
+        title: 'Categoria Bloqueada',
+        subTitle: '',
+        buttons: ['OK']
+      }); 
+      alert.present();
+    }
+    
+  }
+  redirectJuegoSalud(){
+    this.storage.get('VERBOS').then((val) => {
+      this.ValidacionC = val;
+    });
+
+    if(this.ValidacionC == true )
+    {  
+      this.navCtrl.setRoot(JuegoSaludPage);
+    }
+    else 
+    {
+      const alert = this.alertCtrl.create({
+        title: 'Categoria Bloqueada',
+        subTitle: '',
+        buttons: ['OK']
+      }); 
+      alert.present();
+    }
+    
+  }
+  
+ 
 }

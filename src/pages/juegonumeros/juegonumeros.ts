@@ -27,8 +27,8 @@ export class JuegonumerosPage implements OnInit {
    respuesta:any;
   
 
-  Categoria: string; 
-  Puntuacion: number; 
+  Categoria: Boolean; 
+  
 
   constructor(public  alertCtrl:AlertController,public navCtrl: NavController, public navParams: NavParams,public toastCtrl: ToastController,private http:HttpClient, private storage: Storage) {
     this.respuesta= false;
@@ -113,8 +113,8 @@ siguiente() {
         subTitle: '',
         buttons: ['OK']
       });
-      this.Categoria = 'NUMEROS';
-      this.Puntuacion = this.n; 
+      this.Categoria = true;
+       
       alert.present();
       this.navCtrl.setRoot(ListPage);
     }
@@ -135,7 +135,7 @@ siguiente() {
 saveData()
   {
     this.storage.set('NUMEROS', this.Categoria);
-    this.storage.set('NUMEROSP', this.Puntuacion);
+    
     
   }
 

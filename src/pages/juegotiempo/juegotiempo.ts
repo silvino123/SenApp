@@ -4,6 +4,7 @@ import { HttpClient} from '@angular/common/http';
 import { JuegoTiempo } from '../../app/models/Letras';
 import { AlertController } from 'ionic-angular';
 import{ListPage} from '../../pages/list/list';
+import { Storage } from '@ionic/storage';
 /**
  * Generated class for the JuegotiempoPage page.
  *
@@ -21,8 +22,9 @@ export class JuegotiempoPage implements OnInit {
   public activartiempo:JuegoTiempo;
   public n: number = 0;
   public vidas:number=3;
+  Categoria: Boolean;
    respuesta:any;
-  constructor(public navCtrl: NavController, public navParams: NavParams, public http:HttpClient, public alertCtrl:AlertController, public toastCtrl:ToastController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public http:HttpClient, public alertCtrl:AlertController, public toastCtrl:ToastController, private storage: Storage) {
     this.respuesta= false;
     
     this.activartiempo={
@@ -105,6 +107,8 @@ export class JuegotiempoPage implements OnInit {
           subTitle: '',
           buttons: ['OK']
         });
+        this.Categoria = true;
+
         alert.present();
         this.navCtrl.setRoot(ListPage);
       }
@@ -121,5 +125,10 @@ export class JuegotiempoPage implements OnInit {
   }
    
   }
-
+  saveData()
+  {
+    this.storage.set('TIEMPOS', this.Categoria);
+    
+    
+  }
 }
