@@ -5,6 +5,7 @@ import { JuegoLetras } from '../../app/models/Letras';
 //import {DOCUMENT}from '@angular/common';
 import { AlertController } from 'ionic-angular';
 import{ListPage} from '../../pages/list/list';
+import { Storage } from '@ionic/storage';
 //import { Observable } from 'rxjs';
 /**
  * Generated class for the JuegoAbcPage page.
@@ -24,9 +25,12 @@ public  LetrasArray:JuegoLetras[]=[];
  public n: number = 0;
  public vidas:number=3;
   respuesta:any;
+Categoria: string; 
+Puntuacion: number; 
 
  
-  constructor(public  alertCtrl:AlertController, public navCtrl: NavController, public navParams: NavParams,public toastCtrl: ToastController,private http:HttpClient) {
+ 
+  constructor(public  alertCtrl:AlertController, public navCtrl: NavController, public navParams: NavParams,public toastCtrl: ToastController,private http:HttpClient, private storage: Storage) {
   
     this.respuesta= false;
     
@@ -107,11 +111,19 @@ public  LetrasArray:JuegoLetras[]=[];
         this.activarLetras= this.LetrasArray[selectLetra];
       }
       if(this.n>10 && this.vidas!=0){
-        const alert = this.alertCtrl.create({
+       
+        this.Categoria = 'ABC';
+        this.Puntuacion = this.n; 
+
+         const alert = this.alertCtrl.create({
           title: 'Categoria Completada!',
           subTitle: '',
-          buttons: ['OK']
+          buttons: ['OK'],
+          
         });
+        
+        this.saveData(); 
+       
         alert.present();
         this.navCtrl.setRoot(ListPage,{n:this.n-1});
       }
@@ -128,5 +140,13 @@ public  LetrasArray:JuegoLetras[]=[];
   }
    
   }
+  saveData()
+  {
+    this.storage.set('ABC', this.Categoria);
+    this.storage.set('ABCP', this.Puntuacion);
+    
+  }
+
+  
 
 }

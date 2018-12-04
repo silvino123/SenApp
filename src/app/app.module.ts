@@ -35,7 +35,7 @@ import {JuegoSentimientosPage} from '../pages/juegosentimientos/juegosentimiento
 import {JuegoVerbosPage} from '../pages/juegoverbos/juegoverbos';
 import {JuegoSaludPage} from '../pages/juegosalud/juegosalud';
 import {AcercaPage} from '../pages/acerca/acerca';
-
+import { IonicStorageModule } from '@ionic/storage';
  
 
 
@@ -82,6 +82,7 @@ import {AcercaPage} from '../pages/acerca/acerca';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot(),
     HttpClientModule
     //AngularFireModule.initializeApp(config),
     //AngularFirestoreModule,

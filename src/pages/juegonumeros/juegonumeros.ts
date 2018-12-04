@@ -5,6 +5,8 @@ import { JuegoNumeros } from '../../app/models/Letras';
 //import {DOCUMENT}from '@angular/common';
 import { AlertController } from 'ionic-angular';
 import{ListPage} from '../../pages/list/list';
+import { Storage } from '@ionic/storage';
+
 /**
  * Generated class for the JuegonumerosPage page.
  *
@@ -23,7 +25,12 @@ export class JuegonumerosPage implements OnInit {
   public n: number = 0;
   public vidas:number=3;
    respuesta:any;
-  constructor(public  alertCtrl:AlertController,public navCtrl: NavController, public navParams: NavParams,public toastCtrl: ToastController,private http:HttpClient) {
+  
+
+  Categoria: string; 
+  Puntuacion: number; 
+
+  constructor(public  alertCtrl:AlertController,public navCtrl: NavController, public navParams: NavParams,public toastCtrl: ToastController,private http:HttpClient, private storage: Storage) {
     this.respuesta= false;
     
     this.activarNumeros={
@@ -106,6 +113,8 @@ siguiente() {
         subTitle: '',
         buttons: ['OK']
       });
+      this.Categoria = 'NUMEROS';
+      this.Puntuacion = this.n; 
       alert.present();
       this.navCtrl.setRoot(ListPage);
     }
@@ -122,6 +131,13 @@ siguiente() {
 }
  
 }
+
+saveData()
+  {
+    this.storage.set('NUMEROS', this.Categoria);
+    this.storage.set('NUMEROSP', this.Puntuacion);
+    
+  }
 
 
 }

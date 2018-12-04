@@ -11,6 +11,9 @@ import { JuegoFamiliaPage } from '../juego-familia/juego-familia';
 import { JuegoSentimientosPage } from '../juegosentimientos/juegosentimientos';
 import { JuegoVerbosPage } from '../juegoverbos/juegoverbos';
 import { JuegoSaludPage } from '../juegosalud/juegosalud';
+import { Storage } from '@ionic/storage';
+import { AlertController } from 'ionic-angular';
+
 //import { from } from 'rxjs';
 //import { NumerosPage } from '../numeros/numeros';
 @Component({
@@ -19,8 +22,9 @@ import { JuegoSaludPage } from '../juegosalud/juegosalud';
 })
 export class ListPage {
   public n: number=0;
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  ValidacionC: string; 
+  ValidacionP: number;
+  constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage,public  alertCtrl:AlertController) {
     this.n = navParams.get('n');
   }
 
@@ -34,7 +38,25 @@ export class ListPage {
     this.navCtrl.setRoot(JuegoAbcPage);
   }
   redirectJuegoNumeros(){
-    this.navCtrl.setRoot(JuegonumerosPage);
+    
+    this.loadData(); 
+
+    if(this.ValidacionC == 'ABC' && this.ValidacionP > 10)
+    {
+      
+      this.navCtrl.setRoot(JuegonumerosPage);
+    }
+    else
+    {
+      const alert = this.alertCtrl.create({
+        title: 'Categoria Bloqueada',
+        subTitle: '',
+        buttons: ['OK']
+      }); 
+      alert.present();
+    }
+
+   
   }
   redirectJuegoColores(){
     this.navCtrl.setRoot(JuegoColoresPage);
@@ -62,5 +84,15 @@ export class ListPage {
   }
   redirectJuegoSalud(){
     this.navCtrl.setRoot(JuegoSaludPage);
+  }
+  
+  loadData()
+  {
+    this.storage.get('ABC').then((val) => {
+      this.ValidacionC = val;
+    });
+    this.storage.get('ABCP').then((val) => {
+      this.ValidacionP = val;
+    });
   }
 }
