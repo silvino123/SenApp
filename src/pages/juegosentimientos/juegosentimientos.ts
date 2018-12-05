@@ -19,7 +19,7 @@ import{ListPage} from '../../pages/list/list';
 export class JuegoSentimientosPage implements OnInit {
   public  SentimientosArray:JuegoSentimientos[]=[];
   public activarSentimiento:JuegoSentimientos;
-  public n: number = 0;
+  public n8: number = 0;
   public vidas:number=3;
    respuesta:any;
   constructor(public navCtrl: NavController, public navParams: NavParams,public http:HttpClient, public alertCtrl:AlertController, public toastCtrl:ToastController) {
@@ -49,7 +49,7 @@ export class JuegoSentimientosPage implements OnInit {
         let selectSent= Math.floor(Math.random()* this.SentimientosArray.length);
        
        this.activarSentimiento= this.SentimientosArray[selectSent];
-       this.n  = this.n + 1;
+       this.n8  = this.n8 + 1;
        this.vidas  = this.vidas;
       
     }
@@ -82,7 +82,7 @@ export class JuegoSentimientosPage implements OnInit {
         
         this.activarSentimiento= this.SentimientosArray[selectSent];
         this.respuesta= false;
-        this.n  = this.n + 1;
+        this.n8  = this.n8 + 1;
       }
       else{
         const toast = this.toastCtrl.create({
@@ -98,14 +98,14 @@ export class JuegoSentimientosPage implements OnInit {
         
         this.activarSentimiento= this.SentimientosArray[selectSent];
       }
-      if(this.n>10 && this.vidas!=0){
+      if(this.n8>10 && this.vidas!=0){
         const alert = this.alertCtrl.create({
           title: 'Categoria Completada!',
           subTitle: '',
           buttons: ['OK']
         });
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n-1});
+        this.navCtrl.setRoot(ListPage,{n8:this.n8-1});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
@@ -114,7 +114,7 @@ export class JuegoSentimientosPage implements OnInit {
           buttons: ['OK']
         });
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n});
+        this.navCtrl.setRoot(ListPage,{n8:this.n8});
       }
     }
   }

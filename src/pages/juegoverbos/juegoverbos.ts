@@ -20,7 +20,7 @@ import { Storage } from '@ionic/storage';
 export class JuegoVerbosPage implements OnInit {
   public  VerbosArray:JuegoVerbos[]=[];
   public activarVerbos:JuegoVerbos;
-  public n: number = 0;
+  public n9: number = 0;
   public vidas:number=3;
    respuesta:any;
    Categoria: Boolean;
@@ -52,7 +52,7 @@ export class JuegoVerbosPage implements OnInit {
         let selectVerbo= Math.floor(Math.random()* this.VerbosArray.length);
        
        this.activarVerbos= this.VerbosArray[selectVerbo];
-       this.n  = this.n + 1;
+       this.n9  = this.n9 + 1;
        this.vidas  = this.vidas;
       
     }
@@ -85,7 +85,7 @@ export class JuegoVerbosPage implements OnInit {
         
         this.activarVerbos= this.VerbosArray[selectVerbo];
         this.respuesta= false;
-        this.n  = this.n + 1;
+        this.n9  = this.n9 + 1;
       }
       else{
         const toast = this.toastCtrl.create({
@@ -101,7 +101,7 @@ export class JuegoVerbosPage implements OnInit {
         
         this.activarVerbos= this.VerbosArray[selectVerbo];
       }
-      if(this.n>10 && this.vidas!=0){
+      if(this.n9>10 && this.vidas!=0){
         const alert = this.alertCtrl.create({
           title: 'Categoria Completada!',
           subTitle: '',
@@ -110,7 +110,7 @@ export class JuegoVerbosPage implements OnInit {
         
 this.Categoria = true;
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n-1});
+        this.navCtrl.setRoot(ListPage,{n9:this.n9-1});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
@@ -119,7 +119,7 @@ this.Categoria = true;
           buttons: ['OK']
         });
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n});
+        this.navCtrl.setRoot(ListPage,{n9:this.n9});
       }
     }
   }

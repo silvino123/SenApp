@@ -21,7 +21,7 @@ export class JuegosaludosPage implements OnInit {
 
   public  SaludosArray:JuegoSaludos[]=[];
   public activarSaludos:JuegoSaludos;
-  public n: number = 0;
+  public n4: number = 0;
   public vidas:number=3;
    respuesta:any;
    Categoria: Boolean;
@@ -51,7 +51,7 @@ export class JuegosaludosPage implements OnInit {
         let selectPro= Math.floor(Math.random()* this.SaludosArray.length);
        
        this.activarSaludos= this.SaludosArray[selectPro];
-       this.n  = this.n + 1;
+       this.n4  = this.n4 + 1;
        this.vidas  = this.vidas;
       
     }
@@ -84,7 +84,7 @@ export class JuegosaludosPage implements OnInit {
         
         this.activarSaludos= this.SaludosArray[selectPro];
         this.respuesta= false;
-        this.n  = this.n + 1;
+        this.n4  = this.n4 + 1;
       }
       else{
         const toast = this.toastCtrl.create({
@@ -100,7 +100,7 @@ export class JuegosaludosPage implements OnInit {
         
         this.activarSaludos= this.SaludosArray[selectPro];
       }
-      if(this.n>10 && this.vidas!=0){
+      if(this.n4>10 && this.vidas!=0){
         const alert = this.alertCtrl.create({
           title: 'Categoria Completada!',
           subTitle: '',
@@ -108,7 +108,7 @@ export class JuegosaludosPage implements OnInit {
         });
         this.Categoria = true;
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n-1});
+        this.navCtrl.setRoot(ListPage,{n4:this.n4-1});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
@@ -118,7 +118,7 @@ export class JuegosaludosPage implements OnInit {
         });
         alert.present();
         
-this.navCtrl.setRoot(ListPage,{n:this.n})
+this.navCtrl.setRoot(ListPage,{n4:this.n4})
       }
     }
   }

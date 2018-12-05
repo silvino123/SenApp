@@ -20,7 +20,7 @@ import{ListPage} from '../../pages/list/list';
 export class ExamenPage implements OnInit {
   public  ExamenArray:Examen[]=[];
   public activarPalabra:Examen;
-  public n: number = 0;
+  public n11: number = 0;
   public vidas:number=3;
    respuesta:any;
  
@@ -53,7 +53,7 @@ export class ExamenPage implements OnInit {
         let selectLetra= Math.floor(Math.random()* this.ExamenArray.length);
        
        this.activarPalabra= this.ExamenArray[selectLetra];
-       this.n  = this.n + 1;
+       this.n11  = this.n11 + 1;
        this.vidas  = this.vidas;
       
     }
@@ -86,7 +86,7 @@ export class ExamenPage implements OnInit {
         
         this.activarPalabra= this.ExamenArray[selectLetra];
         this.respuesta= false;
-        this.n  = this.n + 1;
+        this.n11  = this.n11 + 1;
       }
       else{
         const toast = this.toastCtrl.create({
@@ -102,14 +102,14 @@ export class ExamenPage implements OnInit {
         
         this.activarPalabra= this.ExamenArray[selectLetra];
       }
-      if(this.n>10 && this.vidas!=0){
+      if(this.n11>10 && this.vidas!=0){
         const alert = this.alertCtrl.create({
           title: 'Examen Completado!',
           subTitle: '',
           buttons: ['OK']
         });
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n-1});
+        this.navCtrl.setRoot(ListPage,{n11:this.n11-1});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
@@ -118,7 +118,7 @@ export class ExamenPage implements OnInit {
           buttons: ['OK']
         });
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n});
+        this.navCtrl.setRoot(ListPage,{n11:this.n11});
       }
     }
   }

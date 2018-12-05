@@ -20,7 +20,7 @@ import { Storage } from '@ionic/storage';
 export class JuegoFamiliaPage implements OnInit {
   public  FamiliaArray:JuegoFamilia[]=[];
   public activarFamilia:JuegoFamilia;
-  public n: number = 0;
+  public n5: number = 0;
   public vidas:number=3;
    respuesta:any;
    
@@ -52,7 +52,7 @@ Categoria: Boolean;
         let selectPro= Math.floor(Math.random()* this.FamiliaArray.length);
        
        this.activarFamilia= this.FamiliaArray[selectPro];
-       this.n  = this.n + 1;
+       this.n5  = this.n5 + 1;
        this.vidas  = this.vidas;
       
     }
@@ -85,7 +85,7 @@ Categoria: Boolean;
         
         this.activarFamilia= this.FamiliaArray[selectPro];
         this.respuesta= false;
-        this.n  = this.n + 1;
+        this.n5  = this.n5 + 1;
       }
       else{
         const toast = this.toastCtrl.create({
@@ -101,7 +101,7 @@ Categoria: Boolean;
         
         this.activarFamilia= this.FamiliaArray[selectPro];
       }
-      if(this.n>10 && this.vidas!=0){
+      if(this.n5>10 && this.vidas!=0){
         const alert = this.alertCtrl.create({
           title: 'Categoria Completada!',
           subTitle: '',
@@ -110,7 +110,7 @@ Categoria: Boolean;
         
 this.Categoria = true;
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n-1});
+        this.navCtrl.setRoot(ListPage,{n5:this.n5-1});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
@@ -119,7 +119,7 @@ this.Categoria = true;
           buttons: ['OK']
         });
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n});
+        this.navCtrl.setRoot(ListPage,{n5:this.n5});
       }
     }
   }

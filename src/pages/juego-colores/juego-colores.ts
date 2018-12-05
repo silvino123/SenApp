@@ -21,7 +21,7 @@ import { Storage } from '@ionic/storage';
 export class JuegoColoresPage  implements OnInit{
   public  ColoresArray:JuegoColores[]=[];
   public activarColor:JuegoColores;
-  public n: number = 0;
+  public n3: number = 0;
   public vidas:number=3;
    respuesta:any;
    Categoria: Boolean; 
@@ -53,7 +53,7 @@ export class JuegoColoresPage  implements OnInit{
        let selectColor= Math.floor(Math.random()* this.ColoresArray.length);
       
       this.activarColor= this.ColoresArray[selectColor];
-      this.n  = this.n + 1;
+      this.n3  = this.n3 + 1;
       this.vidas  = this.vidas;
      
    }
@@ -86,7 +86,7 @@ export class JuegoColoresPage  implements OnInit{
         
         this.activarColor= this.ColoresArray[selectLetra];
         this.respuesta= false;
-        this.n  = this.n + 1;
+        this.n3  = this.n3 + 1;
       }
       else{
         const toast = this.toastCtrl.create({
@@ -102,7 +102,7 @@ export class JuegoColoresPage  implements OnInit{
         
         this.activarColor= this.ColoresArray[selectLetra];
       }
-      if(this.n>10 && this.vidas!=0){
+      if(this.n3>10 && this.vidas!=0){
         const alert = this.alertCtrl.create({
           title: 'Categoria Completada!',
           subTitle: '',
@@ -110,7 +110,7 @@ export class JuegoColoresPage  implements OnInit{
         });
         this.Categoria = true;
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n-1});
+        this.navCtrl.setRoot(ListPage,{n3:this.n3-1});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
@@ -119,7 +119,7 @@ export class JuegoColoresPage  implements OnInit{
           buttons: ['OK']
         });
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n});
+        this.navCtrl.setRoot(ListPage,{n3:this.n3});
       }
     }
   }

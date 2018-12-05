@@ -21,7 +21,7 @@ import { Storage } from '@ionic/storage';
 export class JuegoSaludPage  implements OnInit{
   public  SaludArray:JuegoSalud[]=[];
   public activarSalud:JuegoSalud;
-  public n: number = 0;
+  public n10: number = 0;
   public vidas:number=3;
    respuesta:any;
    Categoria: Boolean;
@@ -53,7 +53,7 @@ export class JuegoSaludPage  implements OnInit{
        let selectSalud= Math.floor(Math.random()* this.SaludArray.length);
       
       this.activarSalud= this.SaludArray[selectSalud];
-      this.n  = this.n + 1;
+      this.n10  = this.n10 + 1;
       this.vidas  = this.vidas;
      
    }
@@ -86,7 +86,7 @@ export class JuegoSaludPage  implements OnInit{
         
         this.activarSalud= this.SaludArray[selectSalud];
         this.respuesta= false;
-        this.n  = this.n + 1;
+        this.n10  = this.n10 + 1;
       }
       else{
         const toast = this.toastCtrl.create({
@@ -102,7 +102,7 @@ export class JuegoSaludPage  implements OnInit{
         
         this.activarSalud= this.SaludArray[selectSalud];
       }
-      if(this.n>10 && this.vidas!=0){
+      if(this.n10>10 && this.vidas!=0){
         const alert = this.alertCtrl.create({
           title: 'Categoria Completada!',
           subTitle: '',
@@ -111,7 +111,7 @@ export class JuegoSaludPage  implements OnInit{
         
 this.Categoria = true;
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n-1});
+        this.navCtrl.setRoot(ListPage,{n10:this.n10-1});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
@@ -120,7 +120,7 @@ this.Categoria = true;
           buttons: ['OK']
         });
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n});
+        this.navCtrl.setRoot(ListPage,{n10:this.n10});
       }
     }
   }

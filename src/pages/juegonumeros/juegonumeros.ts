@@ -22,7 +22,7 @@ import { Storage } from '@ionic/storage';
 export class JuegonumerosPage implements OnInit {
   public  NumerosArray:JuegoNumeros[]=[];
   public activarNumeros:JuegoNumeros;
-  public n: number = 0;
+  public n2: number = 0;
   public vidas:number=3;
    respuesta:any;
   
@@ -58,7 +58,7 @@ export class JuegonumerosPage implements OnInit {
         let selectNumero= Math.floor(Math.random()* this.NumerosArray.length);
        
        this.activarNumeros= this.NumerosArray[selectNumero];
-       this.n  = this.n + 1;
+       this.n2  = this.n2 + 1;
        this.vidas  = this.vidas;
       
     }
@@ -91,7 +91,7 @@ siguiente() {
       
       this.activarNumeros= this.NumerosArray[selectNumero];
       this.respuesta= false;
-      this.n  = this.n + 1;
+      this.n2  = this.n2 + 1;
     }
     else{
       const toast = this.toastCtrl.create({
@@ -107,7 +107,7 @@ siguiente() {
       
       this.activarNumeros= this.NumerosArray[selectNumero];
     }
-    if(this.n>10 && this.vidas!=0){
+    if(this.n2>10 && this.vidas!=0){
       const alert = this.alertCtrl.create({
         title: 'Categoria Completada!',
         subTitle: '',
@@ -116,7 +116,7 @@ siguiente() {
       this.Categoria = true;
        
       alert.present();
-      this.navCtrl.setRoot(ListPage,{n:this.n-1});
+      this.navCtrl.setRoot(ListPage,{n2:this.n2-1});
     }
     if(this.vidas==0){
       const alert = this.alertCtrl.create({
@@ -125,7 +125,7 @@ siguiente() {
         buttons: ['OK']
       });
       alert.present();
-      this.navCtrl.setRoot(ListPage,{n:this.n});
+      this.navCtrl.setRoot(ListPage,{n2:this.n2});
     }
   }
 }

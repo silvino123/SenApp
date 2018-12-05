@@ -20,7 +20,7 @@ import { Storage } from '@ionic/storage';
 export class JuegoprofesionesPage implements OnInit {
   public  ProfesionArray:JuegoProfesion[]=[];
   public activarProfesion:JuegoProfesion;
-  public n: number = 0;
+  public n7: number = 0;
   public vidas:number=3;
    respuesta:any;
    Categoria: Boolean;
@@ -52,7 +52,7 @@ export class JuegoprofesionesPage implements OnInit {
         let selectPro= Math.floor(Math.random()* this.ProfesionArray.length);
        
        this.activarProfesion= this.ProfesionArray[selectPro];
-       this.n  = this.n + 1;
+       this.n7  = this.n7 + 1;
        this.vidas  = this.vidas;
       
     }
@@ -85,7 +85,7 @@ export class JuegoprofesionesPage implements OnInit {
         
         this.activarProfesion= this.ProfesionArray[selectPro];
         this.respuesta= false;
-        this.n  = this.n + 1;
+        this.n7  = this.n7 + 1;
       }
       else{
         const toast = this.toastCtrl.create({
@@ -101,7 +101,7 @@ export class JuegoprofesionesPage implements OnInit {
         
         this.activarProfesion= this.ProfesionArray[selectPro];
       }
-      if(this.n>10 && this.vidas!=0){
+      if(this.n7>10 && this.vidas!=0){
         const alert = this.alertCtrl.create({
           title: 'Categoria Completada!',
           subTitle: '',
@@ -109,7 +109,7 @@ export class JuegoprofesionesPage implements OnInit {
         });
         this.Categoria = true;
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n-1});
+        this.navCtrl.setRoot(ListPage,{n7:this.n7-1});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
@@ -118,7 +118,7 @@ export class JuegoprofesionesPage implements OnInit {
           buttons: ['OK']
         });
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n});
+        this.navCtrl.setRoot(ListPage,{n7:this.n7});
       }
     }
   }

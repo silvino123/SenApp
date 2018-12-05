@@ -23,10 +23,30 @@ import { ToastController } from 'ionic-angular';
 })
 export class ListPage {
   public n: number=0;
+  public n2: number=0;
+  public n3: number=0;
+  public n4: number=0;
+  public n5: number=0;
+  public n6: number=0;
+  public n7: number=0;
+  public n8: number=0;
+  public n9: number=0;
+  public n10: number=0;
+  public n11: number=0;
   ValidacionC: boolean = false; 
   
   constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage,public  alertCtrl:AlertController,public toastCtrl: ToastController) {
     this.n = navParams.get('n');
+    this.n2 = navParams.get('n2');
+    this.n3 = navParams.get('n3');
+    this.n4 = navParams.get('n4');
+    this.n5 = navParams.get('n5');
+    this.n6 = navParams.get('n6');
+    this.n7 = navParams.get('n7');
+    this.n8 = navParams.get('n8');
+    this.n9 = navParams.get('n9');
+    this.n10 = navParams.get('n10');
+    this.n11 = navParams.get('n11');
   }
 
   itemTapped(event, item) {

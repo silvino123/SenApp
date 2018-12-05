@@ -20,7 +20,7 @@ import { Storage } from '@ionic/storage';
 export class JuegotiempoPage implements OnInit {
   public  tiemposArray:JuegoTiempo[]=[];
   public activartiempo:JuegoTiempo;
-  public n: number = 0;
+  public n6: number = 0;
   public vidas:number=3;
   Categoria: Boolean;
    respuesta:any;
@@ -52,7 +52,7 @@ export class JuegotiempoPage implements OnInit {
         let selectiempo= Math.floor(Math.random()* this.tiemposArray.length);
        
        this.activartiempo= this.tiemposArray[selectiempo];
-       this.n  = this.n + 1;
+       this.n6  = this.n6 + 1;
        this.vidas  = this.vidas;
       
     }
@@ -85,7 +85,7 @@ export class JuegotiempoPage implements OnInit {
         
         this.activartiempo= this.tiemposArray[selectiempo];
         this.respuesta= false;
-        this.n  = this.n + 1;
+        this.n6  = this.n6 + 1;
       }
       else{
         const toast = this.toastCtrl.create({
@@ -101,7 +101,7 @@ export class JuegotiempoPage implements OnInit {
         
         this.activartiempo= this.tiemposArray[selectiempo];
       }
-      if(this.n>10 && this.vidas!=0){
+      if(this.n6>10 && this.vidas!=0){
         const alert = this.alertCtrl.create({
           title: 'Categoria Completada!',
           subTitle: '',
@@ -110,7 +110,7 @@ export class JuegotiempoPage implements OnInit {
         this.Categoria = true;
 
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n:this.n-1});
+        this.navCtrl.setRoot(ListPage,{n6:this.n6-1});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
@@ -120,7 +120,7 @@ export class JuegotiempoPage implements OnInit {
         });
         alert.present();
         
-this.navCtrl.setRoot(ListPage,{n:this.n});
+this.navCtrl.setRoot(ListPage,{n6:this.n6});
       }
     }
   }
