@@ -107,6 +107,7 @@ export class JuegosaludosPage implements OnInit {
           buttons: ['OK']
         });
         this.Categoria = true;
+        this.saveData(); 
         alert.present();
         this.navCtrl.setRoot(ListPage,{n4:this.n4-1});
       }

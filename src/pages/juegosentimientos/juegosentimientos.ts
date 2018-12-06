@@ -22,7 +22,8 @@ export class JuegoSentimientosPage implements OnInit {
   public n8: number = 0;
   public vidas:number=3;
    respuesta:any;
-  constructor(public navCtrl: NavController, public navParams: NavParams,public http:HttpClient, public alertCtrl:AlertController, public toastCtrl:ToastController) {
+   Categoria: Boolean;
+  constructor(public navCtrl: NavController, public navParams: NavParams,public http:HttpClient, public alertCtrl:AlertController, public toastCtrl:ToastController, private storage: Storage) {
     this.respuesta= false;
     
     this.activarSentimiento={
@@ -104,6 +105,8 @@ export class JuegoSentimientosPage implements OnInit {
           subTitle: '',
           buttons: ['OK']
         });
+        this.Categoria = true; 
+        this.saveData(); 
         alert.present();
         this.navCtrl.setRoot(ListPage,{n8:this.n8-1});
       }
@@ -119,6 +122,12 @@ export class JuegoSentimientosPage implements OnInit {
     }
   }
    
+  }
+  saveData()
+  {
+    this.storage.set('SENTIMIENTOS', this.Categoria);
+    
+    
   }
  
 }

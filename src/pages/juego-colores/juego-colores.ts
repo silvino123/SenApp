@@ -109,6 +109,7 @@ export class JuegoColoresPage  implements OnInit{
           buttons: ['OK']
         });
         this.Categoria = true;
+        this.saveData(); 
         alert.present();
         this.navCtrl.setRoot(ListPage,{n3:this.n3-1});
       }

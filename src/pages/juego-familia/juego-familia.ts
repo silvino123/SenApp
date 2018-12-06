@@ -109,6 +109,7 @@ Categoria: Boolean;
         });
         
 this.Categoria = true;
+this.saveData();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n5:this.n5-1});
       }

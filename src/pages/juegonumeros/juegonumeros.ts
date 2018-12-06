@@ -114,7 +114,7 @@ siguiente() {
         buttons: ['OK']
       });
       this.Categoria = true;
-       
+      this.saveData(); 
       alert.present();
       this.navCtrl.setRoot(ListPage,{n2:this.n2-1});
     }

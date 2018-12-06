@@ -108,7 +108,7 @@ export class JuegotiempoPage implements OnInit {
           buttons: ['OK']
         });
         this.Categoria = true;
-
+        this.saveData(); 
         alert.present();
         this.navCtrl.setRoot(ListPage,{n6:this.n6-1});
       }

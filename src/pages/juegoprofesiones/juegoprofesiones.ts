@@ -108,6 +108,7 @@ export class JuegoprofesionesPage implements OnInit {
           buttons: ['OK']
         });
         this.Categoria = true;
+        this.saveData(); 
         alert.present();
         this.navCtrl.setRoot(ListPage,{n7:this.n7-1});
       }
