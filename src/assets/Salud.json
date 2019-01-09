@@ -22,7 +22,7 @@
         
     },
     {
-        "salud":"BuenaAlimentacion",
+        "salud":"Buena Alimentacion",
         "imagen":"BuenaAlimentacion.gif"
         
     },
@@ -82,12 +82,12 @@
         
     },
     {
-        "salud":"DolorDeCabeza",
+        "salud":"Dolor De Cabeza",
         "imagen":"DolorDeCabeza.gif"
         
     },
     {
-        "salud":"DolorDeEstomago",
+        "salud":"Dolor De Estomago",
         "imagen":"DolorDeEstomago.gif"
         
     },
@@ -187,7 +187,7 @@
         
     },
     {
-        "salud":"SillaDeRuedas",
+        "salud":"Silla De Ruedas",
         "imagen":"SillaDeRuedas.gif"
         
     },

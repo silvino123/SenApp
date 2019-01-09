@@ -103,22 +103,22 @@
         
     },
     {
-        "verbo":"NoPuedo",
+        "verbo":"No Puedo",
         "imagen":"NoPuedo.gif"
         
     },
     {
-        "verbo":"NoQuiero",
+        "verbo":"No Quiero",
         "imagen":"NoQuiero.gif"
         
     },
     {
-        "verbo":"NoSe",
+        "verbo":"No Se",
         "imagen":"NoSe.gif"
         
     },
     {
-        "verbo":"NoTengo",
+        "verbo":"No Tengo",
         "imagen":"NoTengo.gif"
         
     },
