@@ -80,7 +80,7 @@ Categoria: boolean;
     else{
     if(this.LetrasArray.length>0){
       
-   
+      this.storage.clear();
      
       this.vidas  = this.vidas;
       if(this.respuesta==this.activarLetras.letra){
@@ -142,6 +142,7 @@ Categoria: boolean;
   }
   saveData()
   {
+    
     this.storage.set('ABC', this.Categoria);
   }
 
