@@ -4,6 +4,7 @@ import { HttpClient} from '@angular/common/http';
 import { JuegoSentimientos } from '../../app/models/Letras';
 import { AlertController } from 'ionic-angular';
 import{ListPage} from '../../pages/list/list';
+import { Storage } from '@ionic/storage';
 /**
  * Generated class for the JuegoprofesionesPage page.
  *
@@ -31,7 +32,7 @@ export class JuegoSentimientosPage implements OnInit {
     "imagen":"",
     "respuesta1":"",
     "respuesta2":"",
-    "respuesta3":""
+    "respuesta3":"" 
 
    }
   }

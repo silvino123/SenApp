@@ -36,17 +36,19 @@ export class ListPage {
   ValidacionC: boolean = false; 
   
   constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage,public  alertCtrl:AlertController,public toastCtrl: ToastController) {
-    this.n = navParams.get('n');
-    this.n2 = navParams.get('n2');
-    this.n3 = navParams.get('n3');
-    this.n4 = navParams.get('n4');
-    this.n5 = navParams.get('n5');
-    this.n6 = navParams.get('n6');
-    this.n7 = navParams.get('n7');
-    this.n8 = navParams.get('n8');
-    this.n9 = navParams.get('n9');
-    this.n10 = navParams.get('n10');
-    this.n11 = navParams.get('n11');
+    // this.n = navParams.get('n');
+    // this.n2 = navParams.get('n2');
+    // this.n3 = navParams.get('n3');
+    // this.n4 = navParams.get('n4');
+    // this.n5 = navParams.get('n5');
+    // this.n6 = navParams.get('n6');
+    // this.n7 = navParams.get('n7');
+    // this.n8 = navParams.get('n8');
+    // this.n9 = navParams.get('n9');
+    // this.n10 = navParams.get('n10');
+    // this.n11 = navParams.get('n11');
+    console.log(this.n7);
+    this.storagesdata()
   }
 
   itemTapped(event, item) {
@@ -116,7 +118,7 @@ export class ListPage {
     
   }
   redirectJuegoTiempo(){
-    this.storage.get('FAMILIA').then((val) => {
+    this.storage.get('FAMILIAS').then((val) => {
       this.ValidacionC = val;
       if(this.ValidacionC == true )
       {  
@@ -315,6 +317,13 @@ export class ListPage {
 
     
     
+  }
+
+  storagesdata()
+  {
+    this.storage.get('IntentosP').then((val) => {
+      this.n7 = val; 
+    });
   }
   
  

@@ -21,7 +21,7 @@ export class JuegoprofesionesPage implements OnInit {
   public  ProfesionArray:JuegoProfesion[]=[];
   public activarProfesion:JuegoProfesion;
   public n7: number = 0;
-  public vidas:number=3;
+  public vidas:number=3; 
    respuesta:any;
    Categoria: Boolean;
   constructor(public navCtrl: NavController, public navParams: NavParams,public http:HttpClient, public alertCtrl:AlertController, public toastCtrl:ToastController
@@ -109,6 +109,7 @@ export class JuegoprofesionesPage implements OnInit {
         });
         this.Categoria = true;
         this.saveData(); 
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n7:this.n7-1});
       }
@@ -118,6 +119,7 @@ export class JuegoprofesionesPage implements OnInit {
           subTitle: 'Categoria no completada',
           buttons: ['OK']
         });
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n7:this.n7});
       }
@@ -128,6 +130,12 @@ export class JuegoprofesionesPage implements OnInit {
   saveData()
   {
     this.storage.set('PROFESIONES', this.Categoria);
+    
+    
+  }
+  intentos()
+  {
+    this.storage.set('IntentosP', this.n7);
     
     
   }

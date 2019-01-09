@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import {ExamenPage} from '../pages/examen/examen';
 import {AcercaPage} from '../pages/acerca/acerca';
+//import { JuegoSentimientosPage } from '../pages/juegosentimientos/juegosentimientos';
 
  
 
