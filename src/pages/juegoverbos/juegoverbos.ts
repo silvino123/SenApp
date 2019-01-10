@@ -110,6 +110,7 @@ export class JuegoVerbosPage implements OnInit {
         
 this.Categoria = true;
         this.saveData(); 
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n9:this.n9-1});
       }
@@ -119,6 +120,7 @@ this.Categoria = true;
           subTitle: 'Categoria no completada',
           buttons: ['OK']
         });
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n9:this.n9});
       }
@@ -129,6 +131,12 @@ this.Categoria = true;
   saveData()
   {
     this.storage.set('VERBOS', this.Categoria);
+    
+    
+  }
+  intentos()
+  {
+    this.storage.set('IntentosVer', this.n9);
     
     
   }

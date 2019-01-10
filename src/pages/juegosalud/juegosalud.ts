@@ -110,7 +110,8 @@ export class JuegoSaludPage  implements OnInit{
         });
         
 this.Categoria = true;
-this.saveData(); 
+this.saveData();
+this.intentos(); 
         alert.present();
         this.navCtrl.setRoot(ListPage,{n10:this.n10-1});
       }
@@ -120,6 +121,7 @@ this.saveData();
           subTitle: 'Categoria no completada',
           buttons: ['OK']
         });
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n10:this.n10});
       }
@@ -130,6 +132,12 @@ this.saveData();
   saveData()
   {
     this.storage.set('SALUD', this.Categoria); 
+  }
+  intentos()
+  {
+    this.storage.set('IntentosSalud', this.n10);
+    
+    
   }
 
 }

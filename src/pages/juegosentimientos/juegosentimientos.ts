@@ -107,7 +107,8 @@ export class JuegoSentimientosPage implements OnInit {
           buttons: ['OK']
         });
         this.Categoria = true; 
-        this.saveData(); 
+        this.saveData();
+        this.intentos(); 
         alert.present();
         this.navCtrl.setRoot(ListPage,{n8:this.n8-1});
       }
@@ -117,6 +118,7 @@ export class JuegoSentimientosPage implements OnInit {
           subTitle: 'Categoria no completada',
           buttons: ['OK']
         });
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n8:this.n8});
       }
@@ -130,5 +132,12 @@ export class JuegoSentimientosPage implements OnInit {
     
     
   }
+  intentos()
+  {
+    this.storage.set('IntentosSen', this.n8);
+    
+    
+  }
+
  
 }

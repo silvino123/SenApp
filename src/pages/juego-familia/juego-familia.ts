@@ -110,6 +110,7 @@ Categoria: Boolean;
         
 this.Categoria = true;
 this.saveData();
+this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n5:this.n5-1});
       }
@@ -119,6 +120,7 @@ this.saveData();
           subTitle: 'Categoria no completada',
           buttons: ['OK']
         });
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n5:this.n5});
       }
@@ -129,6 +131,12 @@ this.saveData();
   saveData()
   {
     this.storage.set('FAMILIAS', this.Categoria);
+  }
+  intentos()
+  {
+    this.storage.set('IntentosFam', this.n5);
+    
+    
   }
 }
 

@@ -109,7 +109,8 @@ export class JuegoColoresPage  implements OnInit{
           buttons: ['OK']
         });
         this.Categoria = true;
-        this.saveData(); 
+        this.saveData();
+        this.intentos(); 
         alert.present();
         this.navCtrl.setRoot(ListPage,{n3:this.n3-1});
       }
@@ -119,6 +120,7 @@ export class JuegoColoresPage  implements OnInit{
           subTitle: 'Categoria no completada',
           buttons: ['OK']
         });
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n3:this.n3});
       }
@@ -132,5 +134,10 @@ export class JuegoColoresPage  implements OnInit{
     
     
   }
-
+  intentos()
+  {
+    this.storage.set('IntentosCol', this.n3);
+    
+    
+  }
 }

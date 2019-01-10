@@ -108,7 +108,8 @@ export class JuegotiempoPage implements OnInit {
           buttons: ['OK']
         });
         this.Categoria = true;
-        this.saveData(); 
+        this.saveData();
+        this.intentos(); 
         alert.present();
         this.navCtrl.setRoot(ListPage,{n6:this.n6-1});
       }
@@ -118,6 +119,7 @@ export class JuegotiempoPage implements OnInit {
           subTitle: 'Categoria no completada',
           buttons: ['OK']
         });
+        this.intentos();
         alert.present();
         
 this.navCtrl.setRoot(ListPage,{n6:this.n6});
@@ -129,6 +131,12 @@ this.navCtrl.setRoot(ListPage,{n6:this.n6});
   saveData()
   {
     this.storage.set('TIEMPOS', this.Categoria);
+    
+    
+  }
+  intentos()
+  {
+    this.storage.set('IntentosTiem', this.n6);
     
     
   }

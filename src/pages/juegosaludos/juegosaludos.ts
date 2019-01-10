@@ -108,6 +108,7 @@ export class JuegosaludosPage implements OnInit {
         });
         this.Categoria = true;
         this.saveData(); 
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n4:this.n4-1});
       }
@@ -117,6 +118,7 @@ export class JuegosaludosPage implements OnInit {
           subTitle: 'Categoria no completada',
           buttons: ['OK']
         });
+        this.intentos();
         alert.present();
         
 this.navCtrl.setRoot(ListPage,{n4:this.n4})
@@ -131,7 +133,12 @@ this.navCtrl.setRoot(ListPage,{n4:this.n4})
     
     
   }
-
+  intentos()
+  {
+    this.storage.set('IntentosSal', this.n4);
+    
+    
+  }
 }
 
 

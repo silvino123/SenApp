@@ -114,7 +114,8 @@ siguiente() {
         buttons: ['OK']
       });
       this.Categoria = true;
-      this.saveData(); 
+      this.saveData();
+      this.intentos(); 
       alert.present();
       this.navCtrl.setRoot(ListPage,{n2:this.n2-1});
     }
@@ -124,6 +125,7 @@ siguiente() {
         subTitle: 'Categoria no completada',
         buttons: ['OK']
       });
+      this.intentos();
       alert.present();
       this.navCtrl.setRoot(ListPage,{n2:this.n2});
     }
@@ -138,6 +140,11 @@ saveData()
     
     
   }
-
+  intentos()
+  {
+    this.storage.set('IntentosNum', this.n2);
+    
+    
+  }
 
 }

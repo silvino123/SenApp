@@ -123,7 +123,7 @@ Categoria: boolean;
         });
         
         this.saveData(); 
-       
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n:this.n-1});
       }
@@ -133,6 +133,7 @@ Categoria: boolean;
           subTitle: 'Categoria no completada',
           buttons: ['OK']
         });
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n:this.n});
       }
@@ -146,6 +147,11 @@ Categoria: boolean;
     this.storage.set('ABC', this.Categoria);
   }
 
-  
+  intentos()
+  {
+    this.storage.set('IntentosAbc', this.n);
+    
+    
+  }
 
 }

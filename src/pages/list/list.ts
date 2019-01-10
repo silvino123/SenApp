@@ -321,8 +321,38 @@ export class ListPage {
 
   storagesdata()
   {
+    this.storage.get('IntentosAbc').then((val) => {
+      this.n = val; 
+    });
+    this.storage.get('IntentosNum').then((val) => {
+      this.n2 = val; 
+    });
+    this.storage.get('IntentosCol').then((val) => {
+      this.n3 = val; 
+    });
+    this.storage.get('IntentosSal').then((val) => {
+      this.n4 = val; 
+    });
+    this.storage.get('IntentosFam').then((val) => {
+      this.n5 = val; 
+    });
+    this.storage.get('IntentosTiem').then((val) => {
+      this.n6 = val; 
+    });
     this.storage.get('IntentosP').then((val) => {
       this.n7 = val; 
+    });
+    this.storage.get('IntentosSen').then((val) => {
+      this.n8= val; 
+    });
+    this.storage.get('IntentosVer').then((val) => {
+      this.n9= val; 
+    });
+    this.storage.get('IntentosSalud').then((val) => {
+      this.n10= val; 
+    });
+    this.storage.get('IntentosExa').then((val) => {
+      this.n11= val; 
     });
   }
   

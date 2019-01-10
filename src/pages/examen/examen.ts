@@ -5,6 +5,7 @@ import { Examen } from '../../app/models/Letras';
 //import {DOCUMENT}from '@angular/common';
 import { AlertController } from 'ionic-angular';
 import{ListPage} from '../../pages/list/list';
+import { Storage } from '@ionic/storage';
 /**
  * Generated class for the ExamenPage page.
  *
@@ -24,7 +25,7 @@ export class ExamenPage implements OnInit {
   public vidas:number=3;
    respuesta:any;
  
-  constructor(public navCtrl: NavController, public navParams: NavParams,public  alertCtrl:AlertController,public toastCtrl: ToastController,private http:HttpClient) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,public  alertCtrl:AlertController,public toastCtrl: ToastController,private http:HttpClient,private storage: Storage) {
     this.respuesta= false;
     
     this.activarPalabra={
@@ -108,6 +109,7 @@ export class ExamenPage implements OnInit {
           subTitle: '',
           buttons: ['OK']
         });
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n11:this.n11-1});
       }
@@ -117,6 +119,7 @@ export class ExamenPage implements OnInit {
           subTitle: 'Examen no Completado',
           buttons: ['OK']
         });
+        this.intentos();
         alert.present();
         this.navCtrl.setRoot(ListPage,{n11:this.n11});
       }
@@ -124,5 +127,10 @@ export class ExamenPage implements OnInit {
   }
    
   }
-
+  intentos()
+  {
+    this.storage.set('IntentosExa', this.n11);
+    
+    
+  }
 }
