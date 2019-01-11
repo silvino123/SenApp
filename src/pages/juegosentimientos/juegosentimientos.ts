@@ -107,10 +107,11 @@ export class JuegoSentimientosPage implements OnInit {
           buttons: ['OK']
         });
         this.Categoria = true; 
+        this.n8 = this.n8-1;
         this.saveData();
         this.intentos(); 
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n8:this.n8-1});
+        this.navCtrl.setRoot(ListPage,{n8:this.n8});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({

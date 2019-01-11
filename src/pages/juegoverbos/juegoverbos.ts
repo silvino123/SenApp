@@ -109,10 +109,11 @@ export class JuegoVerbosPage implements OnInit {
         });
         
 this.Categoria = true;
+this.n9 = this.n9-1;
         this.saveData(); 
         this.intentos();
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n9:this.n9-1});
+        this.navCtrl.setRoot(ListPage,{n9:this.n9});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({

@@ -109,9 +109,10 @@ export class ExamenPage implements OnInit {
           subTitle: '',
           buttons: ['OK']
         });
+        this.n11 = this.n11-1;
         this.intentos();
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n11:this.n11-1});
+        this.navCtrl.setRoot(ListPage,{n11:this.n11});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({

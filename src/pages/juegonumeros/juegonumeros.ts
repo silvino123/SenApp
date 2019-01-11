@@ -114,10 +114,11 @@ siguiente() {
         buttons: ['OK']
       });
       this.Categoria = true;
+      this.n2 = this.n2-1;
       this.saveData();
       this.intentos(); 
       alert.present();
-      this.navCtrl.setRoot(ListPage,{n2:this.n2-1});
+      this.navCtrl.setRoot(ListPage,{n2:this.n2});
     }
     if(this.vidas==0){
       const alert = this.alertCtrl.create({

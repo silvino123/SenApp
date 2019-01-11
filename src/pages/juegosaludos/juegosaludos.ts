@@ -107,10 +107,11 @@ export class JuegosaludosPage implements OnInit {
           buttons: ['OK']
         });
         this.Categoria = true;
+        this.n4 = this.n4-1;
         this.saveData(); 
         this.intentos();
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n4:this.n4-1});
+        this.navCtrl.setRoot(ListPage,{n4:this.n4});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({

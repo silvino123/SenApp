@@ -110,10 +110,11 @@ export class JuegoSaludPage  implements OnInit{
         });
         
 this.Categoria = true;
+this.n10 = this.n10-1;
 this.saveData();
 this.intentos(); 
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n10:this.n10-1});
+        this.navCtrl.setRoot(ListPage,{n10:this.n10});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({

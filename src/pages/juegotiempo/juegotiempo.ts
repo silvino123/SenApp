@@ -108,10 +108,11 @@ export class JuegotiempoPage implements OnInit {
           buttons: ['OK']
         });
         this.Categoria = true;
+        this.n6 = this.n6-1;
         this.saveData();
         this.intentos(); 
         alert.present();
-        this.navCtrl.setRoot(ListPage,{n6:this.n6-1});
+        this.navCtrl.setRoot(ListPage,{n6:this.n6});
       }
       if(this.vidas==0){
         const alert = this.alertCtrl.create({
