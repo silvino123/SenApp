@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="mx.com.sycsoft.LSM" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>LSM</name>
     <description>App de lenguaje de señas mexicano</description>
     <author email="sycsoftcontacto@gmail.com" href="https://www.sycsoft.com.mx/">Team Sycsoft</author>
