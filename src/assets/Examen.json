@@ -3,7 +3,7 @@
     "ExamenArray":[
     {
         "palabra":"A",
-        "imagen":"A.gif",
+        "imagen":"a.gif",
         "respuesta1":"A",
         "respuesta2":"R",
         "respuesta3":"M",
@@ -13,7 +13,7 @@
     
     {
         "palabra":"L",
-        "imagen":"L.gif",
+        "imagen":"l.gif",
         "respuesta1":"V",
         "respuesta2":"L",
         "respuesta3":"P",
@@ -21,7 +21,7 @@
     },
     {
         "palabra":"B",
-        "imagen":"B.gif",
+        "imagen":"b.gif",
         "respuesta1":"R",
         "respuesta2":"V",
         "respuesta3":"B",
@@ -30,7 +30,7 @@
     },
     {
         "palabra":"M",
-        "imagen":"M.gif",
+        "imagen":"m.gif",
         "respuesta1":"C",
         "respuesta2":"M",
         "respuesta3":"G",
@@ -40,7 +40,7 @@
     
     {
         "palabra":"D",
-        "imagen":"D.gif",
+        "imagen":"d.gif",
         "respuesta1":"D",
         "respuesta2":"N",
         "respuesta3":"O",

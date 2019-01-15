@@ -68,6 +68,7 @@ Categoria: boolean;
 
   }
   siguiente() {
+    
     if(this.respuesta== false){
       const alert = this.alertCtrl.create({
         title: 'Seleccina una opcion!',
@@ -80,7 +81,7 @@ Categoria: boolean;
     else{
     if(this.LetrasArray.length>0){
       
-      this.storage.clear();
+      //this.storage.clear();
      
       this.vidas  = this.vidas;
       if(this.respuesta==this.activarLetras.letra){
