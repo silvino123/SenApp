@@ -55,6 +55,8 @@ Categoria: boolean;
  
   }
   load(){
+          this.storage.clear();
+
    if(this.LetrasArray.length>0){
       
     

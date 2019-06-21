@@ -1,7 +1,14 @@
 {
 
     "NumerosArray":[
-    {
+        {
+            "numero":"0",
+            "imagen":"0.gif",
+            "respuesta1":"2",
+            "respuesta2":"0",
+            "respuesta3":"1"
+        },
+        {
         "numero":"1",
         "imagen":"1.gif",
         "respuesta1":"2",
@@ -222,6 +229,24 @@
         "respuesta1":"100",
         "respuesta2":"8",
         "respuesta3":"2"
+        
+    }
+    ,
+    {
+        "numero":"1000",
+        "imagen":"1000.gif",
+        "respuesta1":"1000",
+        "respuesta2":"10",
+        "respuesta3":"100"
+        
+    }
+    ,
+    {
+        "numero":"1000000",
+        "imagen":"1000000.gif",
+        "respuesta1":"20",
+        "respuesta2":"5",
+        "respuesta3":"1000000"
         
     }
     ]

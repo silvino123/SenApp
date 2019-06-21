@@ -2,6 +2,10 @@
 
     "NumerosArray":[
     {
+        "numero":"0",
+        "imagen":"0.gif"
+    },
+        {
         "numero":"1",
         "imagen":"1.gif"
         
@@ -140,6 +144,16 @@
     {
         "numero":"100",
         "imagen":"100.gif"
+        
+    },
+    {
+        "numero":"1000",
+        "imagen":"1000.gif"
+        
+    },
+    {
+        "numero":"1000000",
+        "imagen":"1000000.gif"
         
     }
     

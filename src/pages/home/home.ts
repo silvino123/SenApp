@@ -23,6 +23,7 @@ export class HomePage {
   }
   redirectabc(){
    this.navCtrl.setRoot(AbcPage);
+   
   }
   redirectnumeros(){
     this.navCtrl.setRoot(NumerosPage);
